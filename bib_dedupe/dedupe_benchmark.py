@@ -408,25 +408,25 @@ class DedupeBenchmarker:
                 results[FN] += nr_in_merged_df - 1
                 results[TP] += len(true_merged_id_set) - nr_in_merged_df
 
-        results[FP_RATE] = results[FP] / (results[FP] + results[TN])
+        # 防止除零错误：统一用安全除法
 
-        results[SPECIFICITY] = results[TN] / (results[TN] + results[FP])
-        if results[TP] + results[FN] > 0:
-            results[SENSITIVITY] = results[TP] / (results[TP] + results[FN])
-        else:
-            results[SENSITIVITY] = 0
-        if (results[TP] + results[FP]) > 0:
-            results[PRECISION] = results[TP] / (results[TP] + results[FP])
-        else:
-            results[PRECISION] = 0.0
-        if (results[PRECISION] + results[SENSITIVITY]) > 0:
-            results[F1] = (
-                2
-                * (results[PRECISION] * results[SENSITIVITY])
-                / (results[PRECISION] + results[SENSITIVITY])
-            )
-        else:
-            results[F1] = 0.0
+        def _safe_div(numerator: float, denominator: float) -> float:
+            try:
+                denom = float(denominator)
+                if denom == 0.0:
+                    return 0.0
+                return float(numerator) / denom
+            except Exception:
+                return 0.0
+
+        results[FP_RATE] = _safe_div(results[FP], results[FP] + results[TN])
+        results[SPECIFICITY] = _safe_div(results[TN], results[TN] + results[FP])
+        results[SENSITIVITY] = _safe_div(results[TP], results[TP] + results[FN])
+        results[PRECISION] = _safe_div(results[TP], results[TP] + results[FP])
+
+        precision = results[PRECISION]
+        recall = results[SENSITIVITY]
+        results[F1] = _safe_div(2 * precision * recall, precision + recall)
 
         results["dataset"] = Path(self.benchmark_path).name
 

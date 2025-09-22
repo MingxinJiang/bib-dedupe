@@ -56,6 +56,7 @@ def evaluate(subset: str):
         itertools.combinations(tc, 2) for tc in bench.true_merged_ids
     ))
     fp_pairs = pred_pairs - true_pairs
+    tp_pairs = pred_pairs & true_pairs
     print(f"{datetime.now()}  Found {len(fp_pairs)} false positive pairs, exporting...")
 
     df_idx = records_df.set_index(FIELD_ID)
@@ -78,6 +79,28 @@ def evaluate(subset: str):
     out_fp = subset_dir / "false_positives.csv"
     fp_df.to_csv(out_fp, index=False, encoding="utf-8")
     print(f"{datetime.now()}  False positives saved to {out_fp}")
+
+    # 新增：输出TP
+    rows_tp = []
+    for cid, pair in enumerate(tp_pairs):
+        id1, id2 = sorted(pair)
+        r1, r2 = df_idx.loc[id1], df_idx.loc[id2]
+        rows_tp.append({
+            "cluster_id": cid,
+            "id1": id1,
+            "title1": r1.get(TITLE, ""),
+            "author1": r1.get(AUTHOR, ""),
+            "doi1": r1.get(DOI, ""),
+            "id2": id2,
+            "title2": r2.get(TITLE, ""),
+            "author2": r2.get(AUTHOR, ""),
+            "doi2": r2.get(DOI, ""), 
+        })
+    tp_df = pd.DataFrame(rows_tp)
+    out_tp = subset_dir / "true_positives.csv"
+    tp_df.to_csv(out_tp, index=False, encoding="utf-8")
+    print(f"{datetime.now()}  True positives saved to {out_tp}")
+
 
 def main():
     for ds in DATASETS:

@@ -1,0 +1,37 @@
+cluster_id,id,title,author,doi,file
+0,P_0000000164,Sponsorship and IT vendor management of projects,"Liu, Li and Yetton, Philip",10.1057/JIT.2009.2,data/pdfs/24_1/LiuYetton2009.pdf
+0,P_0000000673,Sponsorship and IT vendor management of projects,"Liu, Li and Yetton, Philip",10.1057/JIT.2008.23,data/pdfs/25_1/LiuYetton2010.pdf
+1,P_0000000132,AIT annual report 1991,"Leeming, Anne",,data/pdfs/6_3/LeemingAnne1991.pdf
+1,P_001114,AIT annual report 1991,"Leeming, Anne",,data/pdfs/6/3-4/Leeming1991d.pdf
+2,P_0000000720,Book reviews,"Griffiths, Catherine",,data/pdfs/11_4/Griffiths1996.pdf
+2,P_0000000752,Book reviews,"Subrata, Das K.",,data/pdfs/11_4/Das1996.pdf
+2,P_0000000770,Book reviews,"Anderton, Matthew",,data/pdfs/11_4/Anderton1996.pdf
+3,P_0000000009,"Maybe not the king, but an invaluable subordinate: a commentary on Avison and Malaurent's advocacy of 'theory light' IS research","Markus, M. Lynne",10.1057/JIT.2015.4,data/pdfs/30_1/Markus2015.pdf
+3,P_0000000729,"Maybe not the king, but an invaluable subordinate: a commentary on Avison and Malaurent's advocacy of 'theory light' IS research","Markus, M. Lynne",10.1057/JIT.2014.19,data/pdfs/29_4/Markus2014.pdf
+4,P_0000000883,Book reviews Process Innovation,"Davenport, T. H and Harvard",,data/pdfs/9_4/DavenportHarvard1994.pdf
+4,P_001139,Book reviews Process Innovation,"Davenport, T. H and Harvard",,data/pdfs/9/4/Smith1994.pdf
+5,P_0000000476,and the Organization,"Holtham, Clive and Harvard, Richard Walton",,data/pdfs/6_3-4/HolthamHarvard1991.pdf
+5,P_0000000694,The evolution of interorganizational systems,"Meier, Johannes and Spraguejr, Ralph H",,data/pdfs/6_3-4/MeierSprague1991.pdf
+6,P_0000000981,Strategic Value Analysis a Modern Approach to Systems and Data Planning by,,,data/pdfs/2_1/SutherlandEwa1987.pdf
+6,P_001119,Strategic Value Analysis a Modern Approach to Systems and Data Planning by,,,data/pdfs/2/1/Sutherland1987.pdf
+7,P_0000000147,Book review Object-oriented analysis,"Coad, Peter and Yourdon, Edward",,data/pdfs/8_3/Smith1993a.pdf
+7,P_0000000875,Book review Information Strategies in Public Administration,"Frissen, P. H A and Th, I. M and Snellen",,data/pdfs/8_3/Davies1993.pdf
+7,P_0000000961,Book review,,,data/pdfs/8_3/Margetts1993a.pdf
+8,P_001112,Shorter notices Office Information Systems. Management Issues and Methods,"Irving, Richard H and Wiley, Christopher A Higgins",,data/pdfs/6/3-4/Willcocks1991f.pdf
+8,P_001115,Shorter notices Office Information Systems. Management Issues and Methods,"Irving, Richard H and Wiley, Christopher A Higgins",,data/pdfs/6/3-4/Willcocks1991c.pdf
+9,P_0000000467,Heritage Sites: Strategies for Marketing and Development,"Herbert, David T and Prentice, Richard C and Thomas, Colin J",,data/pdfs/6_3/PatmoreAllan1991.pdf
+9,P_001117,Heritage Sites: Strategies for Marketing and Development,"Herbert, David T and Prentice, Richard C and Thomas, Colin J",,data/pdfs/6/3-4/Patmore1991a.pdf
+10,P_0000000377,IS research methods: inclusive or exclusive?,"Lee, Allen S",10.1057/JIT.2012.2,data/pdfs/27_2/Lee2012a.pdf
+10,P_0000000529,IS research methods: inclusive or exclusive?,"Lee, Allen S",10.1057/JIT.2011.24,data/pdfs/26_4/Lee2011.pdf
+11,P_0000000070,On being 'systematic' in literature reviews in IS,"Boell, Sebastian K and Cecez-Kecmanovic, Dubravka",10.1057/JIT.2014.26,data/pdfs/30_2/BoellCecezKecmanovic2015.pdf
+11,P_0000000194,"Debating systematic literature reviews (SLR) and their ramifications for IS: a rejoinder to Mike Chiasson, Briony Oates, Ulrike Schultze, and Richard Watson","Boell, Sebastian K and Cecez-Kecmanovic, Dubravka",10.1057/JIT.2015.15,data/pdfs/30_2/BoellCecezKecmanovic2015a.pdf
+12,P_001157,Author(s)' Response to Commentaries on Debates and Perspectives,"Grover, Varun and Lyytinen, Kalle",10.1177/02683962231156622,data/pdfs/38_1/02683962231156622.pdf
+12,P_001159,Author(s)' Response to Commentaries on Debates and Perspectives,"Grover, Varun and Lyytinen, Kalle",10.1177/02683962221126729,data/pdfs/38_1/02683962221126729.pdf
+13,P_0000000218,The formulation and implementation of strategic information systems -case studies,"Remenyi, D. S ]",,data/pdfs/5_1/UnknownUNKNOWNl.pdf
+13,P_001122,The formulation and implementation of strategic information systems -case studies,"Remenyi, D. S ]",,data/pdfs/5/1/Harris1990b.pdf
+14,P_001120,Computing technologies new directions and new applications,"Salenicks, Peter and Ellis, Horwood and Ltd",,data/pdfs/5/2/Anonymous1990a.pdf
+14,P_001121,Computing technologies new directions and new applications,"Salenicks, Peter and Ellis, Horwood and Ltd",,data/pdfs/5/2/Holtham1990.pdf
+15,P_0000000797,The Video Education Magazine,,,data/pdfs/1_3/AleksanderIgor1986a.pdf
+15,P_001136,The Video Education Magazine,,,data/pdfs/1/3/Aleksander1986i.pdf
+16,P_001110,Shorter notices Computer Systems Development,"Friedman, Andrew L and John, Dominic S Cornford",,data/pdfs/6/2/Leeming1991a.pdf
+16,P_001111,Shorter notices Computer Systems Development,"Friedman, Andrew L and John, Dominic S Cornford",,data/pdfs/6/2/Leeming1991b.pdf
