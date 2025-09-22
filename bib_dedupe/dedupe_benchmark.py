@@ -408,7 +408,7 @@ class DedupeBenchmarker:
                 results[FN] += nr_in_merged_df - 1
                 results[TP] += len(true_merged_id_set) - nr_in_merged_df
 
-        # 防止除零错误：统一用安全除法
+        # Preventing zero division errors: Standardize the use of safe division
 
         def _safe_div(numerator: float, denominator: float) -> float:
             try:

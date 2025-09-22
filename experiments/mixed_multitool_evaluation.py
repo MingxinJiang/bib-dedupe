@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
 """
-PDF-only 数据集双工具评估（ASReview vs Bib_dedupe）
-- 仅使用 PDF-only 子集（subset=pdf_only），需要 records_pre_merged.csv 与 merged_record_ids.csv（用于评估真值）
-- FP 原始字段来源：优先从数据集根下的 data/search/pdfs.bib 读取（按 P_ 前缀映射），找不到再兜底当前 records_df
+Mixed dataset dual-tool evaluation (ASReview vs Bib_dedupe)
 
-使用方法：
-    python pdf_multitool_evaluation.py [dataset_root]
-示例：
-    python pdf_multitool_evaluation.py           # 默认 exp_mis
-    python pdf_multitool_evaluation.py exp_jmis  # 指定 exp_jmis
+Usage:
+    python mixed_multitool_evaluation.py [dataset_root]
+    
+Example:
+    python mixed_multitool_evaluation.py            # default exp_mis
+    python mixed_multitool_evaluation.py exp_jmis   # specify exp_jmis
 
-输出：
-- evaluation.csv、current_results.md、false_positive_multitools.csv
-- 输出目录：/Users/jiangmingxin/Desktop/bib-dedupe/experiments_output/output_<dataset>_multiTool/pdf_only/
+Output:
+- evaluation.csv, current_results.md, false_positive_multitools.csv
+- Output dir: /Users/jiangmingxin/Desktop/bib-dedupe/experiments_output/output_<dataset>_multiTool/mixed/
 """
 
 import sys
@@ -25,7 +24,7 @@ import bibtexparser
 
 warnings.filterwarnings("ignore")
 
-# 项目根目录
+# Project root directory
 REPO_ROOT = Path("/Users/jiangmingxin/Desktop/bib-dedupe").resolve()
 BASE = REPO_ROOT / "experiments"
 
@@ -34,7 +33,8 @@ sys.path.append(str(REPO_ROOT))
 from bib_dedupe.bib_dedupe import prep, block, match, cluster, merge
 from bib_dedupe.dedupe_benchmark import DedupeBenchmarker
 from bib_dedupe.constants.fields import ID
-from bib_dedupe.constants.fields import TITLE, AUTHOR, YEAR, DOI, PAGES, NUMBER, VOLUME, CONTAINER_TITLE, ABSTRACT
+from bib_dedupe.constants.fields import TITLE, AUTHOR, YEAR, DOI, PAGES, NUMBER, VOLUME, CONTAINER_TITLE
+from bib_dedupe.constants.fields import ABSTRACT
 
 
 def _ensure_output_dir(dataset_root: str) -> Path:
@@ -43,26 +43,31 @@ def _ensure_output_dir(dataset_root: str) -> Path:
     ds_name = dataset_root.replace("exp_", "") if dataset_root.startswith("exp_") else dataset_root
     out_parent = out_root / f"output_{ds_name}_multiTool"
     out_parent.mkdir(exist_ok=True)
-    out_dir = out_parent / "pdf_only"
+    out_dir = out_parent / "mixed"
     out_dir.mkdir(exist_ok=True)
     return out_dir
 
 
 def _resolve_subset_dir(dataset_root: str) -> Path:
-    return (BASE / dataset_root / "pdf_only").resolve()
+    return (BASE / dataset_root / "mixed").resolve()
 
 
 def _load_dataset(ds_dir: Path) -> pd.DataFrame:
     records_path = ds_dir / "records_pre_merged.csv"
     merged_ids_path = ds_dir / "merged_record_ids.csv"
     if not records_path.exists() or not merged_ids_path.exists():
-        raise FileNotFoundError(f"缺少 PDF-only 数据集文件: {records_path} 或 {merged_ids_path}")
+        raise FileNotFoundError(f"Missing MIX dataset files: {records_path} or {merged_ids_path}")
     bench = DedupeBenchmarker(benchmark_path=ds_dir)
     records_df = bench.get_records_for_dedupe()
     return records_df
 
 
 def _coerce_text_fields(records_df: pd.DataFrame) -> pd.DataFrame:
+    # Ensure ASReview key columns exist
+    if TITLE not in records_df.columns:
+        records_df.loc[:, TITLE] = ""
+    if ABSTRACT not in records_df.columns:
+        records_df.loc[:, ABSTRACT] = ""
     text_cols = [TITLE, AUTHOR, DOI, PAGES, NUMBER, VOLUME, YEAR, CONTAINER_TITLE, ABSTRACT]
     for col in text_cols:
         if col in records_df.columns:
@@ -112,12 +117,10 @@ def _export_false_positive(out_dir: Path, dataset_root: str, records_df: pd.Data
                     "title": get_any(entry, ["title", "Title"]),
                     "author": get_any(entry, ["author", "Author"]),
                     "doi": get_any(entry, ["doi", "DOI"]),
-                    "file": get_any(entry, ["file", "File", "FILE"]),
                 }
         r = df_idx.loc[rid]
-        return {"title": r.get(TITLE, ""), "author": r.get(AUTHOR, ""), "doi": r.get(DOI, ""), "file": r.get("file", "")}
+        return {"title": r.get(TITLE, ""), "author": r.get(AUTHOR, ""), "doi": r.get(DOI, "")}
 
-    # 聚合为 clusters
     fp_clusters: dict[int, set[str]] = {}
     for pair in fp_pairs:
         id1, id2 = sorted(pair)
@@ -136,15 +139,13 @@ def _export_false_positive(out_dir: Path, dataset_root: str, records_df: pd.Data
     for cid, ids in fp_clusters.items():
         for rid in sorted(ids):
             orig = _from_pdfs_bib(rid)
-            row = {
+            rows.append({
                 "cluster_id": cid,
                 "id": rid,
                 "title": orig.get("title", ""),
                 "author": orig.get("author", ""),
                 "doi": orig.get("doi", ""),
-            }
-            row["file"] = orig.get("file", "")
-            rows.append(row)
+            })
 
     pd.DataFrame(rows).to_csv(out_dir / "false_positive_multitools.csv", index=False, encoding="utf-8")
 
@@ -249,15 +250,15 @@ def _write_current_results(out_dir: Path, dataset_label: str, bib_result: dict, 
     ], columns=["TP", "FP", "FN", "TN", "runtime", "false_positive_rate", "specificity", "sensitivity", "precision", "f1", "dataset", "tool"])
 
     md_lines = []
-    md_lines.append(f"## {dataset_label} PDF数据集评估报告")
+    md_lines.append(f"## {dataset_label} PDF Dataset Evaluation Report")
     md_lines.append("")
-    md_lines.append(f"生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    md_lines.append(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     md_lines.append("")
-    md_lines.append("## 工具性能对比")
+    md_lines.append("## Tool Performance Comparison")
     md_lines.append("")
     md_lines.append(summary_df.to_markdown(index=False))
     md_lines.append("")
-    md_lines.append("## 详细结果")
+    md_lines.append("## Detailed Results")
     md_lines.append("")
     md_lines.append(detail_df.to_markdown(index=False))
 
@@ -272,15 +273,15 @@ def main():
     records_df = _load_dataset(ds_dir)
 
     bib_result = _evaluate_bib_dedupe(records_df, ds_dir, out_dir, dataset_root)
-    _append_evaluation_csv(out_dir, "bib-dedupe", "pdf_only", bib_result)
+    _append_evaluation_csv(out_dir, "bib-dedupe", "mixed", bib_result)
 
     asr_result = _evaluate_asreview(records_df, ds_dir)
     if "error" not in asr_result:
-        _append_evaluation_csv(out_dir, "asreview", "pdf_only", asr_result)
+        _append_evaluation_csv(out_dir, "asreview", "mixed", asr_result)
 
-    _write_current_results(out_dir, f"{dataset_root}/pdf_only", bib_result, asr_result)
+    _write_current_results(out_dir, f"{dataset_root}/mixed", bib_result, asr_result)
 
-    print(f"完成。结果已写入: {out_dir}")
+    print(f"Complete. Results written to: {out_dir}")
 
 
 if __name__ == "__main__":

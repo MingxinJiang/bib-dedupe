@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
+Low-quality dataset evaluation script
 
-使用方法：
-python universal_evaluation.py <dataset_path> [subset]
+Usage:
+python low_quality_ds_evaluation.py <dataset_path> [subset]
 
-示例：
-python universal_evaluation.py mis-quarterly
-python universal_evaluation.py mis-quarterly pdf_only
+Example:
+python low_quality_ds_evaluation.py mis-quarterly
+python low_quality_ds_evaluation.py mis-quarterly pdf_only
 """
 
 import warnings
@@ -29,7 +30,7 @@ warnings.filterwarnings("ignore", category=pd.errors.SettingWithCopyWarning)
 
 BASE = Path(__file__).parent
 
-# 源文件映射 - 可以根据不同数据集调整
+# Source file mapping - adjust for different datasets
 DEFAULT_SRC_MAP = {
     "CROSSREF.bib": ("C", "crossref"),
     "DBLP.bib": ("D", "dblp"), 
@@ -51,7 +52,7 @@ class UniversalEvaluator:
         self.src_map = src_map or DEFAULT_SRC_MAP
         self.prefix_map = prefix_map or DEFAULT_PREFIX
         
-        # 确保目录存在
+        # Ensure directory exists
         if not self.search_dir.exists():
             raise FileNotFoundError(f"Search directory not found: {self.search_dir}")
         
@@ -59,14 +60,14 @@ class UniversalEvaluator:
         print(f"Search directory: {self.search_dir}")
         print(f"Available .bib files: {list(self.search_dir.glob('*.bib'))}")
 
-        # 源 .bib 条目缓存（按源名 -> {orig_ID: entry}）
+        # Source .bib entry cache (by source name -> {orig_ID: entry})
         self.source_entries = {}
 
     def _load_source_bibs(self):
-        """将 search/ 下的 .bib 文件加载为按源名索引的字典，键统一为去空格的字符串 ID。"""
+        """Load .bib files from search/ as dictionary indexed by source name, with normalized string IDs."""
         if self.source_entries:
             return
-        # 例如：{'pdf': 'pdfs.bib', 'crossref': 'CROSSREF.bib', 'dblp': 'DBLP.bib'}
+        # e.g.: {'pdf': 'pdfs.bib', 'crossref': 'CROSSREF.bib', 'dblp': 'DBLP.bib'}
         src_to_file = {v[1]: k for k, v in self.src_map.items()}
         for src_name, fname in src_to_file.items():
             path = self.search_dir / fname
@@ -74,17 +75,17 @@ class UniversalEvaluator:
                 continue
             with path.open(encoding="utf-8") as f:
                 db = bibtexparser.load(f)
-            # 统一成字符串键，避免数字/大小写导致 miss
+            # Normalize to string keys to avoid misses from numeric/case differences
             self.source_entries[src_name] = {
                 str(e.get("ID", "")).strip(): e for e in db.entries
             }
 
     def _get_original_fields(self, rec_row: pd.Series, subset: str) -> dict:
-        """优先从源 bib（pdfs.bib / CROSSREF.bib / DBLP.bib）取“原始”字段；
-           若缺失 orig_* 列，则从 ID 的前缀 P_/C_/D_ 反推来源与原始 ID。"""
+        """Get original fields preferentially from source bib files (pdfs.bib / CROSSREF.bib / DBLP.bib);
+           If orig_* columns are missing, infer source and original ID from ID prefix P_/C_/D_."""
         self._load_source_bibs()
 
-        # 1) 先尝试用 orig_*；否则从 ID 前缀反推
+        # 1) Try using orig_* first; otherwise infer from ID prefix
         orig_id = str(rec_row.get("orig_ID", "") or "").strip()
         orig_src = str(rec_row.get("orig_source", "") or "").strip()
         if not orig_id or not orig_src:
@@ -106,12 +107,12 @@ class UniversalEvaluator:
                     return d[k]
             return ""
 
-        if entry:  # 命中源 bib —— 返回“原始值”
+        if entry:  # Hit source bib - return "original values"
             title = get_any(entry, ["title", "Title"])
             author = get_any(entry, ["author", "Author"])
             doi = get_any(entry, ["doi", "DOI"])
             file_field = get_any(entry, ["file", "File", "FILE"]) if subset == "pdf_only" else ""
-        else:      # 兜底（尽量保持当前 df 的原貌）
+        else:      # Fallback (preserve current df as much as possible)
             title = rec_row.get(TITLE, "")
             author = rec_row.get(AUTHOR, "")
             doi = rec_row.get(DOI, "")
@@ -130,7 +131,7 @@ class UniversalEvaluator:
               .rename(columns={"index": "ID"}))
         df = df.reset_index(drop=True)
         
-        # 去除重复列（只保留第一个）
+        # Remove duplicate columns (keep only the first)
         df = df.loc[:, ~df.columns.duplicated()]
         
         return df
@@ -138,40 +139,40 @@ class UniversalEvaluator:
     def create_csv_datasets(self):
         print("=== create csv ===")
         
-        # 获取所有bib文件
+        # Get all bib files
         bib_files = list(self.search_dir.glob("*.bib"))
         if not bib_files:
-            raise FileNotFoundError(f"在 {self.search_dir} bib files not found.")
+            raise FileNotFoundError(f"No bib files found in {self.search_dir}.")
         
-        # 读取所有bib文件
+        # Read all bib files
         dataframes = {}
         for bib_file in bib_files:
             df = self.bib_to_df(bib_file)
             dataframes[bib_file.name] = df
             print(f"read {bib_file.name}: {len(df)} records")
         
-        # 创建不同的数据集组合
+        # Create different dataset combinations
         datasets = {}
         
-        # 如果有CROSSREF和DBLP，创建baseline
+        # If CROSSREF and DBLP exist, create baseline
         if "CROSSREF.bib" in dataframes and "DBLP.bib" in dataframes:
             df_baseline = pd.concat([dataframes["CROSSREF.bib"], dataframes["DBLP.bib"]], ignore_index=True)
             datasets["baseline"] = df_baseline
             print(f"created baseline: {len(df_baseline)} records")
         
-        # 如果有pdfs，创建pdf_only
+        # If pdfs exist, create pdf_only
         if "pdfs.bib" in dataframes:
             datasets["pdf_only"] = dataframes["pdfs.bib"]
             print(f"created pdf_only: {len(dataframes['pdfs.bib'])} records")
         
-        # 创建mixed（所有文件）
+        # Create mixed (all files)
         all_dfs = list(dataframes.values())
         if len(all_dfs) > 1:
             df_mixed = pd.concat(all_dfs, ignore_index=True)
             datasets["mixed"] = df_mixed
             print(f"created mixed: {len(df_mixed)} records")
         
-        # 保存CSV文件
+        # Save CSV files
         for name, df in datasets.items():
             csv_path = BASE / f"{name}.csv"
             df.to_csv(csv_path, index=False)
@@ -182,7 +183,7 @@ class UniversalEvaluator:
     def filter_records(self):
         print("=== Filtering record ===")
         
-        # 读取原始记录
+        # Read original records
         src_path = self.data_dir / "records.bib"
         if not src_path.exists():
             print(f"Warning: {src_path} does not exist, skipping filtering step")
@@ -200,7 +201,7 @@ class UniversalEvaluator:
                 bibtexparser.dump(out, f)
             print(f"created {name}/records.bib: {len(out.entries)} entries")
 
-        # 创建各个子集
+        # Create subsets
         write_subset("baseline",
                      lambda origin: "CROSSREF.bib" in origin or "DBLP.bib" in origin)
         write_subset("pdf_only",
@@ -209,7 +210,7 @@ class UniversalEvaluator:
                      lambda origin: True)
 
     def generate_merged_record_ids(self, subset):
-        """生成合并记录ID"""
+        """Generate merged record IDs"""
         print(f"=== Generating merged record IDs for {subset} ===")
         
         subset_dir = BASE / subset
@@ -224,9 +225,9 @@ class UniversalEvaluator:
             db = bibtexparser.load(bibfile)
 
         pattern = re.compile(r"([^;{}\s]+\.bib)/([^;{}\s]+)")
-        clusters = {}  # map: 原簇 key -> set of prefixed IDs
+        clusters = {}  # map: original cluster key -> set of prefixed IDs
 
-        # 确定当前子集允许的前缀
+        # Determine allowed prefixes for current subset
         if subset == "baseline":
             allowed_prefixes = {"C", "D"}
         elif subset == "pdf_only":
@@ -266,7 +267,7 @@ class UniversalEvaluator:
         print(f"created {out_path}: {len(clusters)} clusters")
 
     def generate_records_pre_merged(self, subset):
-        """生成预处理记录"""
+        """Generate pre-merged records"""
         print(f"=== Generating pre-merged records for {subset} ===")
         
         subset_dir = BASE / subset
@@ -314,7 +315,7 @@ class UniversalEvaluator:
         print(f"created {out_path}: {len(full)} records")
 
     def evaluate_subset(self, subset):
-        """评估指定子集"""
+        """Evaluate specified subset"""
         print(f"\n=== Evaluating {subset} ===")
         subset_dir = BASE / subset
 
@@ -360,7 +361,7 @@ class UniversalEvaluator:
         print(f"  Specificity   = {result['specificity']:.4f}")
         print(f"  F1 score      = {result['f1']:.4f}")
 
-        # 生成假阳性和真阳性对
+        # Generate false positive and true positive pairs
         pred_pairs = set(itertools.chain.from_iterable(
             itertools.combinations(cluster, 2) for cluster in dup_sets
         ))
@@ -373,17 +374,17 @@ class UniversalEvaluator:
 
         df_idx = records_df.set_index(FIELD_ID, drop=False)
 
-        # 直接读 subset 目录下的 “原始字段快照”
+        # Read "original field snapshot" from subset directory
         pre_path = subset_dir / "records_pre_merged.csv"
-        pre_df = pd.read_csv(pre_path, dtype=str)  # 全部读成字符串，避免 001 被转成 1
-        pre_df.columns = [c.lower() for c in pre_df.columns]  # 统一小写列名
-        # 确保 'id' 列存在（records_pre_merged.csv 里就是你生成的带前缀的 ID）
+        pre_df = pd.read_csv(pre_path, dtype=str)  # Read all as strings to avoid 001 -> 1
+        pre_df.columns = [c.lower() for c in pre_df.columns]  # Normalize column names to lowercase
+        # Ensure 'id' column exists (records_pre_merged.csv contains generated prefixed IDs)
         if "id" not in pre_df.columns:
-            raise RuntimeError(f"{pre_path} 缺少 'id' 列")
+            raise RuntimeError(f"{pre_path} missing 'id' column")
         pre_df = pre_df.set_index("id", drop=False)
 
         def _orig_from_premerged(rid: str):
-            """优先从 records_pre_merged.csv 取原始字段；找不到再兜底 _get_original_fields。"""
+            """Get original fields preferentially from records_pre_merged.csv; fallback to _get_original_fields if not found."""
             if rid in pre_df.index:
                 row = pre_df.loc[rid]
                 return {
@@ -392,7 +393,7 @@ class UniversalEvaluator:
                     "doi": row.get("doi", "") or "",
                     "file": (row.get("file", "") or "") if subset == "pdf_only" else "",
                 }
-            # 兜底（极少数 miss）：走你已有的回溯逻辑
+            # Fallback (rare misses): use existing backtracking logic
             return self._get_original_fields(df_idx.loc[rid], subset)
 
 
@@ -401,15 +402,15 @@ class UniversalEvaluator:
             if not probe.empty:
                 test = self._get_original_fields(probe.iloc[0], subset)
                 assert test["title"] or test["author"], (
-                    f"未从源 bib 取到原始字段；"
+                    f"Failed to get original fields from source bib; "
                     f"id={probe.iloc[0][FIELD_ID]}, "
                     f"orig_ID={probe.iloc[0].get('orig_ID','')}, "
                     f"orig_source={probe.iloc[0].get('orig_source','')}"
                 )
         
-        # 导出假阳性（按集群逐条输出，保留原始字段）
+        # Export false positives (output by cluster with original fields)
         if fp_pairs:
-            # 将 pairs 聚合为 clusters（连通分量近似：用简单合并规则）
+            # Aggregate pairs into clusters (connected components approximation: simple merge rules)
             fp_clusters = {}
             for pair in fp_pairs:
                 id1, id2 = sorted(pair)
@@ -477,12 +478,12 @@ class UniversalEvaluator:
             tp_df = pd.DataFrame(rows_tp)
             out_tp = subset_dir / "true_positives.csv"
             tp_df.to_csv(out_tp, index=False, encoding="utf-8")
-            print(f"{datetime.now()} 真阳性已保存到 {out_tp}")
+            print(f"{datetime.now()} True positives saved to {out_tp}")
 
     def run_evaluation(self, subsets=None):
-        """运行完整的评估流程"""
+        """Run complete evaluation pipeline"""
         if subsets is None:
-            # 根据可用的bib文件确定子集
+            # Determine subsets based on available bib files
             available_files = [f.name for f in self.search_dir.glob("*.bib")]
             subsets = []
             
@@ -495,25 +496,25 @@ class UniversalEvaluator:
         
         print(f"Subsets to be processed: {', '.join(subsets)}")
         
-        # 步骤1: 创建CSV数据集
+        # Step 1: Create CSV datasets
         self.create_csv_datasets()
         
-        # 步骤2: 过滤记录
+        # Step 2: Filter records
         self.filter_records()
         
-        # 步骤3-5: 为每个子集生成必要文件并评估
+        # Steps 3-5: Generate necessary files and evaluate for each subset
         for subset in subsets:
             print(f"\n{'='*50}")
             print(f"Processing subset: {subset}")
             print(f"{'='*50}")
             
-            # 步骤3: 生成合并记录ID
+            # Step 3: Generate merged record IDs
             self.generate_merged_record_ids(subset)
             
-            # 步骤4: 生成预处理记录
+            # Step 4: Generate pre-merged records
             self.generate_records_pre_merged(subset)
             
-            # 步骤5: 评估
+            # Step 5: Evaluate
             self.evaluate_subset(subset)
         
         print(f"\n{'='*50}")
@@ -521,9 +522,9 @@ class UniversalEvaluator:
         print(f"{'='*50}")
 
 def main():
-    """主函数"""
+    """Main function"""
     if len(sys.argv) < 2:
-        print("python universal_evaluation.py <dataset_path> [subset]")
+        print("python low_quality_ds_evaluation.py <dataset_path> [subset]")
         sys.exit(1)
     
     dataset_path = sys.argv[1]
