@@ -11,8 +11,10 @@ import pandas as pd
 from bib_dedupe import verbose_print
 from bib_dedupe.constants.fields import ABSTRACT
 from bib_dedupe.constants.fields import AUTHOR
+from bib_dedupe.constants.fields import AUTHOR_FIRST
 from bib_dedupe.constants.fields import BOOKTITLE
 from bib_dedupe.constants.fields import CONTAINER_TITLE
+from bib_dedupe.constants.fields import CONTAINER_TITLE_SHORT
 from bib_dedupe.constants.fields import DOI
 from bib_dedupe.constants.fields import ENTRYTYPE
 from bib_dedupe.constants.fields import ID
@@ -22,6 +24,7 @@ from bib_dedupe.constants.fields import PAGES
 from bib_dedupe.constants.fields import SEARCH_SET
 from bib_dedupe.constants.fields import SERIES
 from bib_dedupe.constants.fields import TITLE
+from bib_dedupe.constants.fields import TITLE_SHORT
 from bib_dedupe.constants.fields import VOLUME
 from bib_dedupe.constants.fields import YEAR
 from bib_dedupe.prep_abstract import prep_abstract
@@ -138,11 +141,6 @@ def __general_prep(records_df: pd.DataFrame) -> pd.DataFrame:
         records_df[column] = records_df[column].replace(
             ["#NAME?", "UNKNOWN", ""], np.nan
         )
-    if records_df[TITLE].isnull().any():
-        verbose_print.print(
-            "Warning: Some records have empty title field. These records will not be considered."
-        )
-        records_df = records_df.dropna(subset=[TITLE])
 
     # if columns are of type float, we need to avoid casting "3.0" to "30"
     for col in records_df.columns:
@@ -209,18 +207,22 @@ def prep(records_df: pd.DataFrame, *, cpu: int = -1) -> pd.DataFrame:
 
     if 0 == records_df.shape[0]:
         verbose_print.print("No records to prepare")
-        return {}
+        cols = ALL_FIELDS + [AUTHOR_FIRST, TITLE_SHORT, CONTAINER_TITLE_SHORT]
+        return pd.DataFrame({c: pd.Series(dtype="string") for c in cols})
 
     records_df = __general_prep(records_df)
     cpu = determine_cpu_count(cpu, records_df.shape[0])
     if cpu == 1:
         records_df = prepare_df_split(records_df)
     else:
-        index_chunks = np.array_split(records_df.index, cpu)
-        df_split = [records_df.loc[idx] for idx in index_chunks]
+        n = len(records_df)
+        bounds = np.linspace(0, n, num=cpu + 1, dtype=int)
+        df_split = [records_df.iloc[s:e] for s, e in zip(bounds[:-1], bounds[1:])]
+
         with concurrent.futures.ProcessPoolExecutor(max_workers=cpu) as executor:
             results = executor.map(prepare_df_split, df_split)
         records_df = pd.concat(list(results))
+
     records_df = records_df.assign(
         author_first=records_df[AUTHOR].str.split().str[0],
         title_short=records_df[TITLE].apply(lambda x: " ".join(x.split()[:10])),

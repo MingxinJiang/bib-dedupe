@@ -13,7 +13,6 @@ import bib_dedupe.match
 import bib_dedupe.maybe_cases
 import bib_dedupe.merge
 import bib_dedupe.prep
-import bib_dedupe.sim
 from bib_dedupe import verbose_print
 
 
@@ -165,7 +164,7 @@ def merge(
     if verbosity_level is not None:
         verbose_print.verbosity_level = verbosity_level
 
-    if matched_df:
+    if matched_df is not None:
         duplicate_id_sets = bib_dedupe.cluster.get_connected_components(matched_df)
 
     if not duplicate_id_sets:
