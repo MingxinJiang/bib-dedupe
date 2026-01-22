@@ -1,3 +1,0 @@
-*.csv diff=daff-csv
-*.csv merge=daff-csv
-*.pdf binary
