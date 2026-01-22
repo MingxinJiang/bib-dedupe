@@ -9,7 +9,10 @@ from pathlib import Path
 
 import evaluation
 import pandas as pd
-from asreview.data import ASReviewData
+try:
+    from asreview.data import ASReviewData
+except Exception:
+    ASReviewData = None
 
 from bib_dedupe.bib_dedupe import block
 from bib_dedupe.bib_dedupe import cluster
@@ -336,13 +339,16 @@ if __name__ == "__main__":
         )
 
         # ASReview
-        timestamp = datetime.now()
-        asdata = ASReviewData(records_df)
-        merged_df = asdata.drop_duplicates()
-        result = dedupe_benchmark.compare_dedupe_id(
-            records_df=records_df, merged_df=merged_df, timestamp=timestamp
-        )
-        evaluation.append_to_output(result, package_name="asreview")
+        if ASReviewData is None:
+            print("ASReview skipped: ASReviewData not available in this environment")
+        else:
+            timestamp = datetime.now()
+            asdata = ASReviewData(records_df)
+            merged_df = asdata.drop_duplicates()
+            result = dedupe_benchmark.compare_dedupe_id(
+                records_df=records_df, merged_df=merged_df, timestamp=timestamp
+            )
+            evaluation.append_to_output(result, package_name="asreview")
 
         # ASySD (R)
         # temporarily skip (need to combine part1/2)

@@ -3,11 +3,11 @@
 Low-quality dataset evaluation script
 
 Usage:
-python low_quality_ds_evaluation.py <dataset_path> [subset]
+python experiments/low_quality_ds_evaluation.py <dataset_root> [subset]
 
-Example:
-python low_quality_ds_evaluation.py mis-quarterly
-python low_quality_ds_evaluation.py mis-quarterly pdf_only
+Examples (run from repo root):
+python experiments/low_quality_ds_evaluation.py exp_mis/mis-quarterly
+python experiments/low_quality_ds_evaluation.py experiments/exp_jsis/the-journal-of-strategic-information-systems-main
 """
 
 import warnings
@@ -18,6 +18,11 @@ from pathlib import Path
 from datetime import datetime
 import itertools
 
+BASE = Path(__file__).parent
+REPO_ROOT = BASE.parent
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
 import pandas as pd
 import bibtexparser
 from colrev.loader import load_utils
@@ -27,8 +32,6 @@ from bib_dedupe.constants.fields import ID as FIELD_ID, AUTHOR, TITLE, DOI
 
 warnings.filterwarnings("ignore", category=FutureWarning)
 warnings.filterwarnings("ignore", category=pd.errors.SettingWithCopyWarning)
-
-BASE = Path(__file__).parent
 
 # Source file mapping - adjust for different datasets
 DEFAULT_SRC_MAP = {
@@ -45,9 +48,30 @@ DEFAULT_PREFIX = {
 
 class UniversalEvaluator:
     def __init__(self, dataset_path: str, src_map=None, prefix_map=None):
-        self.dataset_path = Path(dataset_path)
-        self.data_dir = BASE / dataset_path / "data"
-        self.search_dir = self.data_dir / "search"
+        raw_path = Path(dataset_path)
+        if raw_path.is_absolute():
+            resolved_root = raw_path
+        elif raw_path.parts and raw_path.parts[0] == "experiments":
+            resolved_root = (BASE.parent / raw_path).resolve()
+        else:
+            resolved_root = (BASE / raw_path).resolve()
+
+        # Accept dataset root, data/ directory, or data/search directory.
+        if resolved_root.name == "search" and resolved_root.parent.name == "data":
+            self.data_dir = resolved_root.parent
+            self.search_dir = resolved_root
+        elif (resolved_root / "data" / "search").exists():
+            self.data_dir = resolved_root / "data"
+            self.search_dir = self.data_dir / "search"
+        elif (resolved_root / "search").exists() and resolved_root.name == "data":
+            self.data_dir = resolved_root
+            self.search_dir = resolved_root / "search"
+        else:
+            self.data_dir = resolved_root / "data"
+            self.search_dir = self.data_dir / "search"
+
+        self.dataset_path = resolved_root
+        self.dataset_root = self.data_dir.parent
         
         self.src_map = src_map or DEFAULT_SRC_MAP
         self.prefix_map = prefix_map or DEFAULT_PREFIX
@@ -56,7 +80,7 @@ class UniversalEvaluator:
         if not self.search_dir.exists():
             raise FileNotFoundError(f"Search directory not found: {self.search_dir}")
         
-        print(f"Evaluator initialized. Dataset: {dataset_path}")
+        print(f"Evaluator initialized. Dataset: {self.dataset_root}")
         print(f"Search directory: {self.search_dir}")
         print(f"Available .bib files: {list(self.search_dir.glob('*.bib'))}")
 
@@ -174,7 +198,7 @@ class UniversalEvaluator:
         
         # Save CSV files
         for name, df in datasets.items():
-            csv_path = BASE / f"{name}.csv"
+            csv_path = self.dataset_root / f"{name}.csv"
             df.to_csv(csv_path, index=False)
             print(f"saved {csv_path}")
         
@@ -195,7 +219,7 @@ class UniversalEvaluator:
         def write_subset(name, keep_fn):
             out = bibtexparser.bibdatabase.BibDatabase()
             out.entries = [e for e in db.entries if keep_fn(e.get("colrev_origin", ""))]
-            path = BASE / Path(name) / "records.bib"
+            path = self.dataset_root / Path(name) / "records.bib"
             path.parent.mkdir(exist_ok=True)
             with path.open("w", encoding="utf-8") as f:
                 bibtexparser.dump(out, f)
@@ -213,7 +237,7 @@ class UniversalEvaluator:
         """Generate merged record IDs"""
         print(f"=== Generating merged record IDs for {subset} ===")
         
-        subset_dir = BASE / subset
+        subset_dir = self.dataset_root / subset
         rec_path = subset_dir / "records.bib"
         out_path = subset_dir / "merged_record_ids.csv"
         
@@ -270,7 +294,7 @@ class UniversalEvaluator:
         """Generate pre-merged records"""
         print(f"=== Generating pre-merged records for {subset} ===")
         
-        subset_dir = BASE / subset
+        subset_dir = self.dataset_root / subset
         out_path = subset_dir / "records_pre_merged.csv"
 
         if subset == "baseline":
@@ -317,7 +341,7 @@ class UniversalEvaluator:
     def evaluate_subset(self, subset):
         """Evaluate specified subset"""
         print(f"\n=== Evaluating {subset} ===")
-        subset_dir = BASE / subset
+        subset_dir = self.dataset_root / subset
 
         try:
             bench = DedupeBenchmarker(benchmark_path=subset_dir)

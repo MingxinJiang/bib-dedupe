@@ -1,17 +1,17 @@
-## exp_mis/pdf_only PDF数据集评估报告
+## exp_mis/pdf_only PDF Dataset Evaluation Report
 
-生成时间: 2025-09-16 14:51:53
+Generated: 2026-01-21 16:14:24
 
-## PDF
+## Tool Performance Comparison
 
-| tool       |   FP |   TP |   FN |   TN |   false_positive_rate |   sensitivity |   precision |   f1 |
-|:-----------|-----:|-----:|-----:|-----:|----------------------:|--------------:|------------:|-----:|
-| bib-dedupe |   16 |    0 |    1 | 1870 |                0.0085 |             0 |           0 |    0 |
-| asreview   |   48 |    0 |    1 | 1838 |                0.0255 |             0 |           0 |    0 |
+| tool       | FP   | TP   | FN   | TN   | false_positive_rate   | sensitivity   | precision   | f1   |
+|:-----------|:-----|:-----|:-----|:-----|:----------------------|:--------------|:------------|:-----|
+| bib-dedupe | 16   | 0    | 1    | 1870 | 0.0085                | 0.0           | 0.0         | 0.0  |
+| asreview   | -    | -    | -    | -    | -                     | -             | -           | -    |
 
-## 详细结果
+## Detailed Results
 
-|   TP |   FP |   FN |   TN | runtime   |   false_positive_rate |   specificity |   sensitivity |   precision |   f1 | dataset          | tool       |
-|-----:|-----:|-----:|-----:|:----------|----------------------:|--------------:|--------------:|------------:|-----:|:-----------------|:-----------|
-|    0 |   16 |    1 | 1870 | 0:00:28   |              0.008484 |      0.991516 |             0 |           0 |    0 | exp_mis/pdf_only | bib-dedupe |
-|    0 |   48 |    1 | 1838 | 0:00:00   |              0.025451 |      0.974549 |             0 |           0 |    0 | exp_mis/pdf_only | asreview   |
+| TP   | FP   | FN   | TN   | runtime   | false_positive_rate   | specificity   | sensitivity   | precision   | f1   | dataset          | tool       |
+|:-----|:-----|:-----|:-----|:----------|:----------------------|:--------------|:--------------|:------------|:-----|:-----------------|:-----------|
+| 0    | 16   | 1    | 1870 | 0:00:03   | 0.008484              | 0.991516      | 0.0           | 0.0         | 0.0  | exp_mis/pdf_only | bib-dedupe |
+| -    | -    | -    | -    | -         | -                     | -             | -             | -           | -    | exp_mis/pdf_only | asreview   |

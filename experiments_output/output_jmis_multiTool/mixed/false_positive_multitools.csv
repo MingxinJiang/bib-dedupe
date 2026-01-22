@@ -1,32 +1,32 @@
 cluster_id,id,title,author,doi
 0,C_000040,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1996.11518120
-0,C_000149,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.2753/MIS0742-1222260201
-0,C_000272,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1991.11517918
-0,C_000279,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.2753/MIS0742-1222270301
-0,C_000288,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1994.11518037
-0,C_000572,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1990.11517886
-0,C_000606,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1993.11517997
-0,C_000782,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1995.11518078
-0,C_000823,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.2753/MIS0742-1222230201
+0,C_000149,"Special Section: Competitive Strategy, Economics, and Information Systems","Clemons, Eric K. and Kauffman, Robert J. and Weber, Thomas A.",10.2753/MIS0742-1222260201
+0,C_000272,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K.",10.1080/07421222.1991.11517918
+0,C_000279,"Special Section: Competitive Strategy, Economics, and Information Systems","Clemons, Eric K. and Kauffman, Robert J. and Weber, Thomas A.",10.2753/MIS0742-1222270301
+0,C_000288,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Row, Michael C.",10.1080/07421222.1994.11518037
+0,C_000572,Special Section: Competitive and Strategic Value of Information Technology,"Clemons, Eric K.",10.1080/07421222.1990.11517886
+0,C_000606,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Row, Michael C.",10.1080/07421222.1993.11517997
+0,C_000782,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Row, Michael C.",10.1080/07421222.1995.11518078
+0,C_000823,Special Section: Digital Economy and Information Technology Value,"Clemons, Eric K. and Dewan, Rajiv M. and Kauffman, Robert J.",10.2753/MIS0742-1222230201
 0,C_000856,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1997.11518162
 0,C_001103,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1999.11518242
-0,C_001158,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1992.11517955
-0,C_001334,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1998.11518205
-0,C_001380,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.2004.11045808
-0,D_000175,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-0,D_000202,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-0,D_000234,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-0,D_000272,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-0,D_000317,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-0,D_000351,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-0,D_000386,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-0,D_000427,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-0,D_000470,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-0,D_000511,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-0,D_000702,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-0,D_000796,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-0,D_000932,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-0,D_001020,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
+0,C_001158,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Row, Michael C.",10.1080/07421222.1992.11517955
+0,C_001334,Special Section: Strategic Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1998.11518205
+0,C_001380,"Special Issue: Competitive Strategy, Economics, and Information Systems","CLEMONS, ERIC K. and DEWAN, RAJIV M. and KAUFFMAN, ROBERT J. and Editors, Guest",10.1080/07421222.2004.11045808
+0,D_000175,Special Section - Competitive and Strategic Value of Information Technology,"Clemons, Eric K.",
+0,D_000202,Special Section - Strategic and Competitive Information Systems,"Clemons, Eric K.",
+0,D_000234,Special Section - Strategic and Competitive Information Systems,"Clemons, Eric K. and Row, Michael C.",
+0,D_000272,Special Section - Strategic and Competitive Information Systems,"Clemons, Eric K. and Row, Michael C.",
+0,D_000317,Special Section - Strategic and Competitive Information Systems,"Clemons, Eric K. and Row, Michael C.",
+0,D_000351,Special Section - Strategic and Competitive Information Systems,"Clemons, Eric K. and Row, Michael C.",
+0,D_000386,Special Section - Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
+0,D_000427,Special Section - Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
+0,D_000470,Special Section - Strategic Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
+0,D_000511,Special Section - Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
+0,D_000702,"Special Issue - Competitive Strategy, Economics, and Information Systems","Clemons, Eric K. and Dewan, Rajiv M. and Kauffman, Robert J.",
+0,D_000796,Special Section - Digital Economy and Information Technology Value,"Clemons, Eric K. and Dewan, Rajiv M. and Kauffman, Robert J.",
+0,D_000932,"Special Section - Competitive Strategy, Economics, and Information Systems","Clemons, Eric K. and Kauffman, Robert J. and Weber, Thomas A.",
+0,D_001020,"Special Section - Competitive Strategy, Economics, and Information Systems","Clemons, Eric K. and Kauffman, Robert J. and Weber, Thomas A.",
 0,P_0000000147,Special Section: Strategic Information Systems,"Clemons, Eric K and Weber, Bruce W",
 0,P_0000000148,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",
 0,P_0000000255,"Special Section: Competitive Strategy, Economics, and Information Systems","Clemons, Eric K and Kauffman, Robert J and Weber",10.2753/MIS0742-1222270301
@@ -41,375 +41,397 @@ cluster_id,id,title,author,doi
 0,P_0000001458,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",
 0,P_0000001493,"Special Section: Competitive Strategy, Economics, and Information Systems","Clemons, Eric K and Kauffman, Robert J and Weber",10.2753/MIS0742-1222260201
 0,P_0000001549,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",
-1,C_001103,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1999.11518242
-1,C_001334,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1998.11518205
-1,D_000386,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-1,D_000511,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-1,P_0000001351,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",
-2,C_000836,Special Issue: Neuroscience in Information Systems Research,"Liang, Ting-Peng and vom Brocke, Jan",10.2753/MIS0742-1222300401
-2,C_001119,Special Issue: Neuroscience in Information Systems Research,"Liang, Ting-Peng and vom Brocke, Jan",10.2753/MIS0742-1222300408
-2,D_001161,Special Issue: Neuroscience in Information Systems Research,"Liang, Ting-Peng and vom Brocke, Jan",
-2,D_001165,Special Issue: Neuroscience in Information Systems Research,"Liang, Ting-Peng and vom Brocke, Jan",
-2,P_0000000017,"Special Issue: Neuroscience in Information Systems Research TINg-PENg LIANg AND JAN VOM BrOckE, guEST EDITOrS","Liang, Ting-Peng",10.2753/MIS0742-1222300401
-2,P_0000000944,Guidelines for Neuroscience Studies in Information Systems Research,"Brocke, Jan Vom and Liang, Ting-Peng",10.2753/MIS0742-1222300408
-3,C_001617,Editorial Introduction,"Zwass, Vladimir",10.1080/07421222.2023.2172766
-3,D_001610,Editorial Introduction,"Zwass, Vladimir",
-3,P_001645,Editorial Introduction,,10.1080/07421222.2023.2172766
-4,C_000572,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1990.11517886
-4,D_000932,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-4,P_0000000370,"Special Section: Competitive and Strategic Value of Information Technology ERIC K, CLEMONS Guest Editor","Clemons, Eric K",
-5,C_000272,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1991.11517918
-5,D_000175,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-5,D_000470,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-5,P_0000000514,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",
-6,C_001103,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1999.11518242
-6,C_001334,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1998.11518205
-6,D_000702,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-6,P_0000000255,"Special Section: Competitive Strategy, Economics, and Information Systems","Clemons, Eric K and Kauffman, Robert J and Weber",10.2753/MIS0742-1222270301
-6,P_0000000731,Special Section: Digital Economy and Information Technology Value,"Clemons, Eric K and Dewan, Rajiv M and Kauffman, Robert J",10.2753/MIS0742-1222230201
-7,D_000796,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-7,P_0000000148,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",
-7,P_0000001458,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",
-8,C_001614,"User Comments in Social Media Firestorms: A Mixed-Method Study of Purpose, Tone, and Motivation","Matook, Sabine and Dennis, Alan R. and Wang, Yazhu Maggie",10.1080/07421222.2022.2096546
-8,D_001587,"User Comments in Social Media Firestorms: A Mixed-Method Study of Purpose, Tone, and Motivation","Matook, Sabine and Dennis, Alan R. and Wang, Yazhu Maggie",
-8,P_001568,"User Comments in Social Media Firestorms: A Mixed-Method Study of Purpose, Tone, and Motivation","Matook, Sabine and Dennis, Alan R and Wang, Yazhu Maggie",10.1080/07421222.2022.2096546
-8,P_001627,"User Comments in Social Media Firestorms: A Mixed-Method Study of Purpose, Tone, and Motivation","Matook, Sabine and Dennis, Alan R and Wang, Yazhu Maggie",10.1080/07421222.2022.2096546
-9,C_001597,Editorial Introduction,"Zwass, Vladimir",10.1080/07421222.2022.2096540
-9,D_001597,Editorial Introduction,"Zwass, Vladimir",
-9,P_001626,Editorial Introduction,,10.1080/07421222.2022.2096540
-10,C_000040,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1996.11518120
-10,C_000606,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1993.11517997
-10,C_000782,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1995.11518078
-10,D_000351,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-10,P_0000000835,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",
-11,C_000135,Positivist Information Systems Action Research: Methodological Issues,"Kock, Ned and Avison, David and Malaurent, Julien",10.1080/07421222.2017.1373007
-11,D_001322,Positivist Information Systems Action Research: Methodological Issues,"Kock, Ned and Avison, David and Malaurent, Julien",
-11,P_001579,Positivist Information Systems Action Research: Methodological Issues,"Kock, Ned and Avison, David",10.1080/07421222.2017.1373007
-11,P_001611,Positivist Information Systems Action Research: Methodological Issues,"Kock, Ned and Avison, David",10.1080/07421222.2017.1373007
-12,D_000234,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-12,P_0000000147,Special Section: Strategic Information Systems,"Clemons, Eric K and Weber, Bruce W",
-12,P_0000000892,"Special Issue: Competitive Strategy, Economics, and Information Systems","Clemons, Eric K and Dewan, Rajiv M and Kaufeman, Robert J and Kauffman, Robert J",
-13,C_000823,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.2753/MIS0742-1222230201
-13,C_000856,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1997.11518162
-13,D_000351,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
-13,P_0000001549,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",
-14,C_001225,A Data-Mining Approach to Identification of Risk Factors in Safety Management Systems,"Shi, Donghui and Guan, Jian and Zurada, Jozef and Manikas, Andrew",10.1080/07421222.2017.1394056
-14,D_001326,A Data-Mining Approach to Identification of Risk Factors in Safety Management Systems,"Shi, Donghui and Guan, Jian and Zurada, Jozef and Manikas, Andrew",
-14,P_001602,"A Data-Mining Approach to Identification of Risk Factors in Safety Management Systems DONGHUI SHI, JIAN GUAN, JOZEF ZURADA, AND ANDREW MANIKAS","Shi, Donghui",10.1080/07421222.2017.1394056
-14,P_001621,"A Data-Mining Approach to Identification of Risk Factors in Safety Management Systems DONGHUI SHI, JIAN GUAN, JOZEF ZURADA, AND ANDREW MANIKAS","Shi, Donghui",10.1080/07421222.2017.1394056
-15,C_001596,Assessing and Enhancing Adversarial Robustness of Predictive Analytics: An Empirically Tested Design Framework,"Li, Weifeng and Chai, Yidong",10.1080/07421222.2022.2063549
-15,D_001586,Assessing and Enhancing Adversarial Robustness of Predictive Analytics: An Empirically Tested Design Framework,"Li, Weifeng and Chai, Yidong",
-15,P_0000001328,Assessing and Enhancing Adversarial Robustness of Predictive Analytics: An Empirically Tested Design Framework,"Li, Weifeng and Chai, Yidong",10.1080/07421222.2022.2063549
-16,C_001616,The Road to Open News: A Theory of Social Signaling in an Open News Production Community,"O’Riordan, Sheila and Emerson, Bill and Feller, Joseph and Kiely, Gaye",10.1080/07421222.2023.2172777
-16,D_001605,The Road to Open News: A Theory of Social Signaling in an Open News Production Community,"O’Riordan, Sheila and Emerson, Bill and Feller, Joseph and Kiely, Gaye",
-16,P_001640,The Road to Open News: A Theory of Social Signaling in an Open News Production Community,"O'riordan, Sheila and Emerson, Bill and Feller, Joseph and Kiely, Gaye",10.1080/07421222.2023.2172777
-17,C_000743,A Video-Based Screening System for Automated Risk Assessment Using Nuanced Facial Features,"Pentland, Steven J. and Twyman, Nathan W. and Burgoon, Judee K. and Nunamaker, Jay F. and Diller, Christopher B.R.",10.1080/07421222.2017.1393304
-17,D_001323,A Video-Based Screening System for Automated Risk Assessment Using Nuanced Facial Features,"Pentland, Steven J. and Twyman, Nathan W. and Burgoon, Judee K. and Nunamaker, Jay F. and Diller, Christopher B.R.",
-17,P_0000000675,A Video-Based Screening System for Automated Risk Assessment Using Nuanced Facial Features,"Pentland, Steven J and Twyman, Nathan W and Burgoon, Judee K and Nunamaker, Jay F and Diller, Christopher B R",10.1080/07421222.2017.1393304
-17,P_001604,"""A Video-Based Screening System for Automated Risk Assessment Using Nuanced Facial Features""","Pentland, Steven J and Twyman, Nathan W and Burgoon, Judee K and Nunamaker, Jay F and Diller, Christopher B R",10.1080/07421222.2017.1393304
-18,D_001558,Managing Digital Platforms with Robust Multi-Sided Recommender Systems,"Malgonde, Onkar and Zhang, He and Padmanabhan, Balaji and Limayem, Moez",
-18,P_001595,Managing Digital Platforms with Robust Multi-Sided Recommender Systems,"Malgonde, Onkar S and Zhang, He and Padmanabhan, Balaji and Limayem, Moez",10.1080/07421222.2022.2127440
-19,C_001626,"Design Concerns for Multiorganizational, Multistakeholder Collaboration: A Study in the Healthcare Industry","Thiebes, Scott and Gao, Fangjian and Briggs, Robert O. and Schmidt-Kraepelin, Manuel and Sunyaev, Ali",10.1080/07421222.2023.2172771
-19,D_001609,"Design Concerns for Multiorganizational, Multistakeholder Collaboration: A Study in the Healthcare Industry","Thiebes, Scott and Gao, Fangjian and Briggs, Robert O. and Schmidt-Kraepelin, Manuel and Sunyaev, Ali",
-19,P_001638,"Design Concerns for Multiorganizational, Multistakeholder Collaboration: A Study in the Healthcare Industry","Thiebes, Scott and Gao, Fangjian and Briggs, Robert O and Schmidt-Kraepelin, Manuel and Sunyaev, Ali",10.1080/07421222.2023.2172771
-20,D_001577,Businessperson or Technologist: Stock Market Reaction to the Alignment between CIO Background and Firm Strategy,"Banker, Rajiv D. and Feng, Cecilia and Pavlou, Paul A.",
-20,P_001593,Businessperson or Technologist: Stock Market Reaction to the Alignment between CIO Background and Firm Strategy,"Banker, Rajiv D and Feng, Qian and Pavlou, Paul A",10.1080/07421222.2022.2127442
-21,C_000202,Beyond Brainstorming: Exploring Convergence in Teams,"Seeber, Isabella and de Vreede, Gert-Jan and Maier, Ronald and Weber, Barbara",10.1080/07421222.2017.1393303
-21,D_001357,Beyond Brainstorming: Exploring Convergence in Teams,"Seeber, Isabella and de Vreede, Gert-Jan and Maier, Ronald and Weber, Barbara",
-21,P_001603,Beyond Brainstorming: Exploring Convergence in Teams,"Seeber, Isabella and De Vreede, Gert-Jan and Maier, Ronald and Weber, Barbara",10.1080/07421222.2017.1393303
-21,P_001622,Beyond Brainstorming: Exploring Convergence in Teams,"Seeber, Isabella and De Vreede, Gert-Jan and Maier, Ronald and Weber, Barbara",10.1080/07421222.2017.1393303
-22,P_0000000902,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K",
-22,P_0000001458,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",
-23,C_001598,Is College Education Less Necessary with AI? Evidence from Firm-Level Labor Structure Changes,"Xue, Mei and Cao, Xing and Feng, Xu and Gu, Bin and Zhang, Yongjie",10.1080/07421222.2022.2096542
-23,D_001591,Is College Education Less Necessary with AI? Evidence from Firm-Level Labor Structure Changes,"Xue, Mei and Cao, Xing and Feng, Xu and Gu, Bin and Zhang, Yongjie",
-23,P_001577,Is College Education Less Necessary with AI? Evidence from Firm-Level Labor Structure Changes,"Xue, Mei and Cao, Xing and Feng, Xu and Zhang, Yongjie",10.1080/07421222.2022.2096542
-23,P_001625,Is College Education Less Necessary with AI? Evidence from Firm-Level Labor Structure Changes,"Xue, Mei and Cao, Xing and Feng, Xu and Zhang, Yongjie",10.1080/07421222.2022.2096542
-24,C_001602,Algorithmic versus Human Advice: Does Presenting Prediction Performance Matter for Algorithm Appreciation?,"You, Sangseok and Yang, Cathy Liu and Li, Xitong",10.1080/07421222.2022.2063553
-24,D_001593,Algorithmic versus Human Advice: Does Presenting Prediction Performance Matter for Algorithm Appreciation?,"You, Sangseok and Yang, Cathy Liu and Li, Xitong",
-24,P_0000000593,Algorithmic versus Human Advice: Does Presenting Prediction Performance Matter for Algorithm Appreciation?,"You, Sangseok and Liu, Cathy and Li, Xitong",10.1080/07421222.2022.2063553
-25,C_000993,Investment in Enterprise Resource Planning: Business Impact and Productivity Measures,,10.1080/07421222.2002.11045718
-25,C_001262,Investment in Enterprise Resource Planning: Business Impact and Productivity Measures,,10.1080/07421222.2002.11045716
-25,D_000630,Investment in Enterprise Resource Planning: Business Impact and Productivity Measures,,
-25,D_000657,Investment in Enterprise Resource Planning: Business Impact and Productivity Measures,,
-25,P_0000000256,Investment in Enterprise Resource Planning: Business Impact and Productivity Measures,"Hitt, Lorin M and Wu, D. J and Zhou, Xiaoge",
-25,P_0000000634,"Special Section: Enterprise Resource Planning ARIK RAGOWSKY AND TONI M. SOMERS, Guest Editors","Ragowsky, Arik and Somers, Tonim",
-26,C_000622,A Rigidity Detection System for Automated Credibility Assessment,"Twyman, Nathan W. and Elkins, Aaron C. and Burgoon, Judee K. and Nunamaker, Jay F.",10.2753/MIS0742-1222310108
-26,D_001173,A Rigidity Detection System for Automated Credibility Assessment,"Twyman, Nathan W. and Elkins, Aaron C. and Burgoon, Judee K. and Nunamaker, Jay F.",
-26,P_001601,A Rigidity Detection System for Automated Credibility Assessment,"Twyman, Nathan W and Elkins, Aaron C and Burgoon, Judee K and Nunamaker, Jay F",10.2753/MIS0742-1222310108
-26,P_001620,A Rigidity Detection System for Automated Credibility Assessment,"Twyman, Nathan W and Elkins, Aaron C and Burgoon, Judee K and Nunamaker, Jay F",10.2753/MIS0742-1222310108
-27,C_001612,"Peer-To-Peer Rentals, Regulatory Policies, And Hosts’ Cost Pass-Throughs","Müller, Michelle and Neumann, Jürgen and Kundisch, Dennis",10.1080/07421222.2022.2096541
-27,D_001567,"Peer-To-Peer Rentals, Regulatory Policies, And Hosts’ Cost Pass-Throughs","Müller, Michelle and Neumann, Jürgen and Kundisch, Dennis",
-27,P_001567,"Peer-To-Peer Rentals, Regulatory Policies, And Hosts' Cost Pass-Throughs","Müller, Michelle and Neumann, Jürgen and Kundisch, Dennis",10.1080/07421222.2022.2096541
-27,P_001629,"Peer-To-Peer Rentals, Regulatory Policies, And Hosts' Cost Pass-Throughs","Müller, Michelle and Neumann, Jürgen and Kundisch, Dennis",10.1080/07421222.2022.2096541
-28,C_000036,Special Section: Information Technology and IT Organizational Impact,"Nunamaker, Jay F. and Sprague, Ralph H.",10.1080/07421222.1994.11518047
-28,C_000111,Special Section: Information Technology and IT Organizational Impact,"Nunamaker, Jay F. and Sprague, Ralph H.",10.1080/07421222.1995.11518087
-28,D_000357,Special Section: Information Technology and IT Organizational Impact,"Nunamaker, Jay F. and Sprague, Ralph H.",
-28,D_000393,Special Section: Information Technology and IT Organizational Impact,"Nunamaker, Jay F. and Sprague, Ralph H.",
-28,P_0000000857,Special Section: Information Technology and IT Organizational Impact,"Nunamaker, Jay F and Sprague, Ralph H",
-28,P_0000001510,Special Issue: Information Technology and Its Organizational Impact,"Nunamaker, Jay F and Sprague, Ralph H",
-29,C_000360,Knowledge-Based Support for Combining Qualitative and Quantitative Judgments in Resource Allocation Decisions,"Agarwal, Ritu and Tanniru, Mohan R. and Dacruz, Marcos",10.1080/07421222.1992.11517952
-29,D_000250,Knowledge-Based Support for Combining Qualitative and Quantitative Judgments in Resource Allocation Decisions,"Agarwal, Ritu and Tanniru, Mohan R. and Dacruz, Marcos",
-29,P_001605,Knowledge-Based Support for Combining Qualitative and Quantitative Judgments in Resource Allocation Decisions,"Agarwal, Ritu and Tanniru, Mohan R and Dacruz, Marcos and Agarwal, Rrru and Anniru, Mohan R T",
-29,P_001635,Knowledge-Based Support for Combining Qualitative and Quantitative Judgments in Resource Allocation Decisions,"Agarwal, Ritu and Tanniru, Mohan R and Dacruz, Marcos and Agarwal, Rrru and Anniru, Mohan R T",10.1080/07421222.1992.11517952
-30,C_000035,Special Issue: Designing Tools to Answer Great Information Systems Research Questions,"Giboney, Justin Scott and Briggs, Robert O. and Nunamaker, Jay F.",10.1080/07421222.2016.1267512
-30,C_001139,Special Issue: Designing Tools to Answer Great Information Systems Research Questions,"Giboney, Justin Scott and Briggs, Robert O. and Nunamaker, Jay F.",10.2753/MIS0742-1222220401
-30,D_000795,Special Issue: Designing Tools to Answer Great Information Systems Research Questions,"Giboney, Justin Scott and Briggs, Robert O. and Nunamaker, Jay F.",
-30,D_001277,Special Issue: Designing Tools to Answer Great Information Systems Research Questions,"Giboney, Justin Scott and Briggs, Robert O. and Nunamaker, Jay F.",
-30,P_0000000107,Special Issue: Crossing Boundaries in Information Systems Research,"Briggs, Robert O and Nunamaker, Jay F and Sprague, Ralph H",
-30,P_0000000276,Special Issue: Designing Tools to Answer Great Information Systems Research Questions,"Briggs, Robert O",10.1080/07421222.2016.1267512
-31,C_000337,Editorial Introduction,"Zwass, Vladimir",10.1080/07421222.2005.11045854
-31,D_000787,Editorial Introduction,"Zwass, Vladimir",
-31,P_001619,Editorial Introduction,debra,10.1080/07421222.2005.11045854
-32,C_001625,Formation and Action of a Learning Community with Collaborative Learning Software,"Eryilmaz, Evren and Thoms, Brian and Ahmed, Zafor and Lee, Howard",10.1080/07421222.2023.2172774
-32,D_001607,Formation and Action of a Learning Community with Collaborative Learning Software,"Eryilmaz, Evren and Thoms, Brian and Ahmed, Zafor and Lee, Howard",
-32,P_001642,Formation and Action of a Learning Community with Collaborative Learning Software,"Eryilmaz, Evren and Thoms, Brian and Ahmed, Zafor and Lee, Howard",10.1080/07421222.2023.2172774
-33,C_001603,Rethinking Project Escalation: An Institutional Perspective on the Persistence of Failing Large-Scale Information System Projects,"Berente, Nicholas and Salge, Carolina Alves de Lima and Mallampalli, Venkata K.P. and Park, Ken",10.1080/07421222.2022.2096545
-33,D_001554,Rethinking Project Escalation: An Institutional Perspective on the Persistence of Failing Large-Scale Information System Projects,"Berente, Nicholas and Salge, Carolina Alves de Lima and Mallampalli, Venkata K.P. and Park, Ken",
-33,P_001575,Rethinking Project Escalation: An Institutional Perspective on the Persistence of Failing Large-Scale Information System Projects,"Berente, Nicholas and Alves De Lima Salge, Carolina and Mallampalli, Venkata K P and Park, Ken",10.1080/07421222.2022.2096545
-33,P_001628,Rethinking Project Escalation: An Institutional Perspective on the Persistence of Failing Large-Scale Information System Projects,"Berente, Nicholas and Alves De Lima Salge, Carolina and Mallampalli, Venkata K P and Park, Ken",10.1080/07421222.2022.2096545
-34,C_001015,Leveraging Information Technology Infrastructure to Facilitate a Firm's Customer Agility and Competitive Activity: An Empirical Investigation,"Roberts, Nicholas and Grover, Varun",10.2753/MIS0742-1222280409
-34,D_001074,Leveraging Information Technology Infrastructure to Facilitate a Firm's Customer Agility and Competitive Activity: An Empirical Investigation,"Roberts, Nicholas and Grover, Varun",
-34,P_001583,Leveraging Information Technology Infrastructure to Facilitate a Firm's Customer Agility and Competitive Activity: An Empirical Investigation,"Roberts, Nicholas and Grover, Varun",10.2753/MIS0742-1222280409
-35,C_001416,Special Issue: Decision Support and Knowledge-Based Systems,"Stohr, Edward A.",10.1080/07421222.1987.11517774
-35,C_001419,Special Issue: Decision Support and Knowledge-Based Systems,"Stohr, Edward A.",10.1080/07421222.1986.11517742
-35,D_000057,Special Issue: Decision Support and Knowledge-Based Systems,"Stohr, Edward A.",
-35,D_000088,Special Issue: Decision Support and Knowledge-Based Systems,"Stohr, Edward A.",
-35,P_0000000506,Decision Support and Knowledge-Based Systems: A Special Issue,"Stohr, Edward A",
-35,P_0000000954,special Issue: Decision Support and Knowledge-Based Systems,"Stohr, Edward A",
-36,C_000627,The Impact of Influence Tactics in Information System Development Projects: A Control-Loss Perspective,"Narayanaswamy, Ravi and Grover, Varun and Henry, Raymond M.",10.2753/MIS0742-1222300106
-36,D_001113,The Impact of Influence Tactics in Information System Development Projects: A Control-Loss Perspective,"Narayanaswamy, Ravi and Grover, Varun and Henry, Raymond M.",
-36,P_001599,The Impact of Influence Tactics in Information System Development Projects: A Control-Loss Perspective,"Narayanaswamy, Ravi and Grover, Varun and Henry, Raymond M",10.2753/MIS0742-1222300106
-36,P_001618,The Impact of Influence Tactics in Information System Development Projects: A Control-Loss Perspective,"Narayanaswamy, Ravi and Grover, Varun and Henry, Raymond M",10.2753/MIS0742-1222300106
-37,C_001642,How Do Shared IT Applications Influence Agility? Theory and Evidence of a Convex Relationship,"Queiroz, Magno and Tallon, Paul P. and Coltman, Tim",10.1080/07421222.2022.2127452
-37,D_001559,How Do Shared IT Applications Influence Agility? Theory and Evidence of a Convex Relationship,"Queiroz, Magno and Tallon, Paul P. and Coltman, Tim",
-37,P_001592,How Do Shared IT Applications Influence Agility? Theory and Evidence of a Convex Relationship,"Queiroz, Magno and Tallon, Paul P and Coltman, Tim",10.1080/07421222.2022.2127452
-38,D_001598,Editorial Introduction,"Zwass, Vladimir",
-38,P_001596,Editorial Introduction,,10.1080/07421222.2022.2127439
-39,C_001608,Deriving Execution Effectiveness of Crowdfunding Projects from the Fundraiser Network,"Kao, Ta-Wei (Daniel) and Hsiao, Shih-Hui (Steven) and Su, Hung-Chung and Ku, Chih-Hao (Justin)",10.1080/07421222.2021.2023404
-39,D_001566,Deriving Execution Effectiveness of Crowdfunding Projects from the Fundraiser Network,"Kao, Ta-Wei (Daniel) and Hsiao, Shih-Hui (Steven) and Su, Hung-Chung and Ku, Chih-Hao (Justin)",
-39,P_0000001161,Deriving Execution Effectiveness of Crowdfunding Projects from the Fundraiser Network,"Kao, Daniel and Hsiao, Steven and Su, Hung-Chung and Ku, Justin and Kao, T.-W and Hsiao, S.-H",10.1080/07421222.2021.2023404
-40,C_001632,"Do Risk Preferences Shape the Effect of Online Trading on Trading Frequency, Volume, and Portfolio Performance?","Pan, Yang and Mithas, Sunil and Po-An Hsieh, J.J. and Liu, Che-Wei",10.1080/07421222.2023.2196777
-40,D_001611,"Do Risk Preferences Shape the Effect of Online Trading on Trading Frequency, Volume, and Portfolio Performance?","Pan, Yang and Mithas, Sunil and Po-An Hsieh, J.J. and Liu, Che-Wei",
-41,C_001585,Impact of an Enterprise System Implementation on Job Outcomes: Challenging the Linearity Assumption,"Venkatesh, Viswanath and Goyal, Sandeep",10.1080/07421222.2021.2023405
-41,D_001575,Impact of an Enterprise System Implementation on Job Outcomes: Challenging the Linearity Assumption,"Venkatesh, Viswanath and Goyal, Sandeep",
-41,P_0000000587,Impact of an Enterprise System Implementation on Job Outcomes: Challenging the Linearity Assumption,"Venkatesh, Viswanath and Goyal, Sandeep",10.1080/07421222.2021.2023405
-42,C_001607,Special Section: Reevaluating Markets for Information,"Kauffman, Robert J. and Weber, Thomas A.",10.1080/07421222.2022.2096552
-42,D_001555,Special Section: Reevaluating Markets for Information,"Kauffman, Robert J. and Weber, Thomas A.",
-42,P_001572,Special Section: Reevaluating Markets for Information,"Kauffman, Robert J and Weber, Thomas A",10.1080/07421222.2022.2096552
-42,P_001633,Special Section: Reevaluating Markets for Information,"Kauffman, Robert J and Weber, Thomas A",10.1080/07421222.2022.2096552
-43,C_000354,A Research Agenda for Trust in Online Environments,"Gefen, David and Benbasat, Izak and Pavlou, Paula",10.2753/MIS0742-1222240411
-43,C_000793,A Research Agenda for Trust in Online Environments,"Gefen, David and Benbasat, Izak and Pavlou, Paula",10.2753/MIS0742-1222240400
-43,D_000914,A Research Agenda for Trust in Online Environments,"Gefen, David and Benbasat, Izak and Pavlou, Paula",
-43,D_000920,A Research Agenda for Trust in Online Environments,"Gefen, David and Benbasat, Izak and Pavlou, Paula",
-43,P_0000000041,A Research Agenda for Trust in Online Environments,"Gefen, David and Benbasat, Izak and Pavlou, Paul A",10.2753/MIS0742-1222240411
-43,P_0000001306,"Special Issue: Trust in Online Environments IZAK BENBASAT, DAVID GEFEN, AND PAUL A. PAVLOU, GUEST EDITORS","Benbasat, Izak and Gefen, David and Pavlou, Paul A",10.2753/MIS0742-1222240400
-44,C_001594,The Effects of Information Nudges on Consumer Usage of Digital Services under Three-Part Tariffs,"Xiao, Ping and Chen, Yuanyuan and Bharadwaj, Anandhi and Bao, Weining",10.1080/07421222.2021.2023409
-44,D_001576,The Effects of Information Nudges on Consumer Usage of Digital Services under Three-Part Tariffs,"Xiao, Ping and Chen, Yuanyuan and Bharadwaj, Anandhi and Bao, Weining",
-44,P_0000001363,The Effects of Information Nudges on Consumer Usage of Digital Services under Three-Part Tariffs,"Xiao, Ping and Chen, Yuanyuan and Bharadwaj, Anandhi and Bao, Weining",10.1080/07421222.2021.2023409
-45,C_001604,Location-Based Mobile Gaming and Local Depression Trends: A Study of Pokémon Go,"Cheng, Zhi (Aaron) and Greenwood, Brad N. and Pavlou, Paul A.",10.1080/07421222.2021.2023407
-45,D_001581,Location-Based Mobile Gaming and Local Depression Trends: A Study of Pokémon Go,"Cheng, Zhi (Aaron) and Greenwood, Brad N. and Pavlou, Paul A.",
-45,P_0000000287,Location-Based Mobile Gaming and Local Depression Trends: A Study of Pokémon Go,"Cheng, Aaron and Greenwood, Brad N and Pavlou, Paul A",10.1080/07421222.2021.2023407
-46,C_001593,Do Social Dominance-Based Faultlines Help or Hurt Team Performance in Crowdsourcing Tournaments?,"Cao, Fang and Wang, Weiquan and Lim, Eric and Liu, Xinmei and Tan, Chee-Wee",10.1080/07421222.2021.2023403
-46,D_001579,Do Social Dominance-Based Faultlines Help or Hurt Team Performance in Crowdsourcing Tournaments?,"Cao, Fang and Wang, Weiquan and Lim, Eric and Liu, Xinmei and Tan, Chee-Wee",
-46,P_0000000672,Do Social Dominance-Based Faultlines Help or Hurt Team Performance in Crowdsourcing Tournaments?,"Cao, Fang and Wang, Weiquan and Lim, Eric and Liu, Xinmei and Tan, Chee-Wee",10.1080/07421222.2021.2023403
-47,C_001580,The Power of Introverts: Personality and Intelligence in Virtual Teams,"Dennis, Alexander S. and Barlow, Jordan B. and Dennis, Alan R.",10.1080/07421222.2021.2023408
-47,D_001563,The Power of Introverts: Personality and Intelligence in Virtual Teams,"Dennis, Alexander S. and Barlow, Jordan B. and Dennis, Alan R.",
-47,P_0000001304,The Power of Introverts: Personality and Intelligence in Virtual Teams,"Dennis, Alexander S and Barlow, Jordan B and Dennis, Alan R and Dennis, Alan R",10.1080/07421222.2021.2023408
-48,C_001641,Approaching IT Security & Avoiding Threats in the Smart Home Context,"Nehme, Alaa and George, Joey F.",10.1080/07421222.2022.2127449
-48,D_001569,Approaching IT Security & Avoiding Threats in the Smart Home Context,"Nehme, Alaa and George, Joey F.",
-48,P_001590,Approaching IT Security & Avoiding Threats in the Smart Home Context,"Nehme, Alaa and George, Joey F",10.1080/07421222.2022.2127449
-49,D_000914,A Research Agenda for Trust in Online Environments,"Gefen, David and Benbasat, Izak and Pavlou, Paula",
-49,D_000920,A Research Agenda for Trust in Online Environments,"Gefen, David and Benbasat, Izak and Pavlou, Paula",
-50,C_000209,Team Cognition: Development and Evolution in Software Project Teams,"He, Jun and Butler, Brian S. and King, William R.",10.2753/MIS0742-1222240210
-50,D_000857,Team Cognition: Development and Evolution in Software Project Teams,"He, Jun and Butler, Brian S. and King, William R.",
-50,P_001607,"Team Cognition: Development and Evolution in Software Project Teams JUN HE, BRIAN S. BUTLER, AND WILLIAM R. KING","He, Jun and Butler, Brian S",10.2753/MIS0742-1222240210
-50,P_001648,"Team Cognition: Development and Evolution in Software Project Teams JUN HE, BRIAN S. BUTLER, AND WILLIAM R. KING","He, Jun and Butler, Brian S",10.2753/MIS0742-1222240210
-51,D_001594,Servitization for the Environment? The Impact of Data-Centric Product-Service Models,"Zhang, Xin and Guo, Xiaolong and Yue, Wei Thoo and Yu, Yugang",
-51,P_001589,Servitization for the Environment? The Impact of Data-Centric Product-Service Models,"Zhang, Xin and Guo, Xiaolong and Yue, Wei Thoo and Yu, Yugang",10.1080/07421222.2022.2127454
-52,C_001627,Blood and Water: Information Technology Investment and Control in Family-owned Businesses,"Kathuria, Abhishek and Karhade, Prasanna P. and (Nancy) Ning, Xue and Konsynski, Benn R.",10.1080/07421222.2023.2172770
-52,D_001604,Blood and Water: Information Technology Investment and Control in Family-owned Businesses,"Kathuria, Abhishek and Karhade, Prasanna P. and (Nancy) Ning, Xue and Konsynski, Benn R.",
-52,P_001636,Blood and Water: Information Technology Investment and Control in Family-owned Businesses,"Kathuria, Abhishek and Karhade, Prasanna P and Konsynski, Benn R and Ning, Nancy",10.1080/07421222.2023.2172770
-53,C_000234,Managing the Risks Associated with End-User Computing,"Alavi, Maryam and Weiss, Ira R.",10.1080/07421222.1985.11517734
-53,C_000629,Managing the Risks Associated with End-User Computing,"Alavi, Maryam and Weiss, Ira R.",10.1080/07421222.1985.11517736
-53,D_000041,Managing the Risks Associated with End-User Computing,"Alavi, Maryam and Weiss, Ira R.",
-53,D_000049,Managing the Risks Associated with End-User Computing,"Alavi, Maryam and Weiss, Ira R.",
-53,P_0000000719,Managing the Risks Associated with End-User Computing,"Alavi, Maryam and Weiss, Ira R",
-53,P_0000001354,EN,,
-53,P_0000001526,Effect of Organizational Maturity on End-Users' Satisfaction with Information Systems,"Mahmood, Mo A and Becker, Jack D",
-54,C_000458,An Agile Methodology for the Disaster Recovery of Information Systems Under Catastrophic Scenarios,"Baham, Corey and Hirschheim, Rudy and Calderon, Andres A. and Kisekka, Victoria",10.1080/07421222.2017.1372996
-54,D_001328,An Agile Methodology for the Disaster Recovery of Information Systems Under Catastrophic Scenarios,"Baham, Corey and Hirschheim, Rudy and Calderon, Andres A. and Kisekka, Victoria",
-54,P_001580,An Agile Methodology for the Disaster Recovery of Information Systems Under Catastrophic Scenarios,"Baham, Corey and Hirschheim, Rudy and Calderon, Andres A and Kisekka, Victoria",10.1080/07421222.2017.1372996
-54,P_001609,An Agile Methodology for the Disaster Recovery of Information Systems Under Catastrophic Scenarios,"Baham, Corey and Hirschheim, Rudy and Calderon, Andres A and Kisekka, Victoria",10.1080/07421222.2017.1372996
-55,C_001618,Leveraging Low Code Development of Smart Personal Assistants: An Integrated Design Approach with the SPADE Method,"Elshan, Edona and Ebel, Philipp and Söllner, Matthias and Leimeister, Jan Marco",10.1080/07421222.2023.2172776
-55,D_001602,Leveraging Low Code Development of Smart Personal Assistants: An Integrated Design Approach with the SPADE Method,"Elshan, Edona and Ebel, Philipp and Söllner, Matthias and Leimeister, Jan Marco",
-55,P_001643,Leveraging Low Code Development of Smart Personal Assistants: An Integrated Design Approach with the SPADE Method,"Elshan, Edona and Ebel, Philipp and Söllner, Matthias and Leimeister, Jan Marco",10.1080/07421222.2023.2172776
-56,C_001600,Post-Story: Influence of Introducing Story Feature on Social Media Posts,"Alibakhshi, Reza and Srivastava, Shirish C.",10.1080/07421222.2022.2063550
-56,D_001556,Post-Story: Influence of Introducing Story Feature on Social Media Posts,"Alibakhshi, Reza and Srivastava, Shirish C.",
-56,P_0000000015,Post-Story: Influence of Introducing Story Feature on Social Media Posts,"Alibakhshi, Reza and Srivastava, Shirish C",10.1080/07421222.2022.2063550
-57,C_001631,Maximizing Online Revisiting and Purchasing: A Clickstream-Based Approach to Enhancing Customer Lifetime Value,"Jabr, Wael and Ghoshal, Abhijeet and Cheng, Yichen and Pavlou, Paul",10.1080/07421222.2023.2196778
-57,D_001614,Maximizing Online Revisiting and Purchasing: A Clickstream-Based Approach to Enhancing Customer Lifetime Value,"Jabr, Wael and Ghoshal, Abhijeet and Cheng, Yichen and Pavlou, Paul",
-58,C_000567,Special Issue: Creating Social Value with Information,"Giboney, Justin Scott and Briggs, Robert O. and Nunamaker Jr, Jay F.",10.1080/07421222.2017.1393302
-58,C_001346,Special Issue: Creating Social Value with Information,"Giboney, Justin Scott and Briggs, Robert O. and Nunamaker Jr, Jay F.",10.2753/MIS0742-1222280401
-58,D_001070,Special Issue: Creating Social Value with Information,"Giboney, Justin Scott and Briggs, Robert O. and Nunamaker Jr, Jay F.",
-58,D_001333,Special Issue: Creating Social Value with Information,"Giboney, Justin Scott and Briggs, Robert O. and Nunamaker Jr, Jay F.",
-58,P_0000000341,Special Issue: Creating Social Value with Information,"Briggs, Robert O",10.1080/07421222.2017.1393302
-58,P_0000000786,Special Section: Creating Value with Information,"Briggs, Robert O and Nunamaker, Jay F",10.2753/MIS0742-1222280401
-59,C_001639,Deep Learning-Based Imputation Method to Enhance Crowdsourced Data on Online Business Directory Platforms for Improved Services,"Xu, Da and Hu, Paul Jen-Hwa and Fang, Xiao",10.1080/07421222.2023.2196770
-59,D_001617,Deep Learning-Based Imputation Method to Enhance Crowdsourced Data on Online Business Directory Platforms for Improved Services,"Xu, Da and Hu, Paul Jen-Hwa and Fang, Xiao",
-60,C_001581,Platform Policies and Sellers’ Competition in Agency Selling in the Presence of Online Quality Misrepresentation,"Pu, Jingchuan and Nian, Tingting and Qiu, Liangfei and Cheng, Hsing Kenneth",10.1080/07421222.2021.2023410
-60,D_001571,Platform Policies and Sellers’ Competition in Agency Selling in the Presence of Online Quality Misrepresentation,"Pu, Jingchuan and Nian, Tingting and Qiu, Liangfei and Cheng, Hsing Kenneth",
-60,P_0000000264,Platform Policies and Sellers' Competition in Agency Selling in the Presence of Online Quality Misrepresentation,"Pu, Jingchuan and Nian, Tingting and Qiu, Liangfei and Cheng, Hsing Kenneth",10.1080/07421222.2021.2023410
-61,C_001609,Leveraging Platform Boundary Resources: The Role of Distributed Sensemaking,"Soh, Franck and Grover, Varun",10.1080/07421222.2022.2063554
-61,D_001589,Leveraging Platform Boundary Resources: The Role of Distributed Sensemaking,"Soh, Franck and Grover, Varun",
-61,P_0000001325,Leveraging Platform Boundary Resources: The Role of Distributed Sensemaking,"Soh, Franck and Grover, Varun",10.1080/07421222.2022.2063554
-62,C_000024,Using IT Design to Prevent Cyberbullying,"Lowry, Paul Benjamin and Moody, Gregory D. and Chatterjee, Sutirtha",10.1080/07421222.2017.1373012
-62,D_001353,Using IT Design to Prevent Cyberbullying,"Lowry, Paul Benjamin and Moody, Gregory D. and Chatterjee, Sutirtha",
-62,P_001581,Using IT Design to Prevent Cyberbullying,"Lowry, Paul Benjamin and Moody, Gregory D and Lowry, Benjamin",10.1080/07421222.2017.1373012
-62,P_001610,Using IT Design to Prevent Cyberbullying,"Lowry, Paul Benjamin and Moody, Gregory D and Lowry, Benjamin",10.1080/07421222.2017.1373012
-63,C_001613,Improving Phishing Reporting Using Security Gamification,"Jensen, Matthew L. and Wright, Ryan T. and Durcikova, Alexandra and Karumbaiah, Shamya",10.1080/07421222.2022.2096551
-63,D_001565,Improving Phishing Reporting Using Security Gamification,"Jensen, Matthew L. and Wright, Ryan T. and Durcikova, Alexandra and Karumbaiah, Shamya",
-63,P_001571,Improving Phishing Reporting Using Security Gamification,"Jensen, Matthew L and Wright, Ryan T and Durcikova, Alexandra and Karumbaiah, Shamya",10.1080/07421222.2022.2096551
-63,P_001624,Improving Phishing Reporting Using Security Gamification,"Jensen, Matthew L and Wright, Ryan T and Durcikova, Alexandra and Karumbaiah, Shamya",10.1080/07421222.2022.2096551
-64,C_000539,The Role of Information Technology in Organization Design,"Baroudi, Jack and Lucas, Henry C.",10.1080/07421222.1994.11518018
-64,C_001328,The Role of Information Technology in Organization Design,"Baroudi, Jack and Lucas, Henry C.",10.1080/07421222.1994.11518017
-64,D_000306,The Role of Information Technology in Organization Design,"Baroudi, Jack and Lucas, Henry C.",
-64,D_000308,The Role of Information Technology in Organization Design,"Baroudi, Jack and Lucas, Henry C.",
-64,P_0000000702,Special Section: Information Technology and Organization Design,"Baroudi, Jack and Lucas, Henry C",
-64,P_0000001559,The Role of Information Technology in Organization Design,"Lucas, Henry C and Baroudi, Jack",
-65,C_001416,Special Issue: Decision Support and Knowledge-Based Systems,"Stohr, Edward A.",10.1080/07421222.1987.11517774
-65,C_001419,Special Issue: Decision Support and Knowledge-Based Systems,"Stohr, Edward A.",10.1080/07421222.1986.11517742
-66,D_001574,How Appreciation and Attention Affect Contributions to Electronic Networks of Practice,"Tan, Xue and Jin, Fujie and Dennis, Alan R.",
-66,P_001591,How Appreciation and Attention Affect Contributions to Electronic Networks of Practice,"Tan, Jane and Jin, Fujie and Dennis, Alan R",10.1080/07421222.2022.2127443
-67,C_001587,The Empirical Reality of IT Project Cost Overruns: Discovering A Power-Law Distribution,"Flyvbjerg, Bent and Budzier, Alexander and Lee, Jong Seok and Keil, Mark and Lunn, Daniel and Bester, Dirk W.",10.1080/07421222.2022.2096544
-67,D_001564,The Empirical Reality of IT Project Cost Overruns: Discovering A Power-Law Distribution,"Flyvbjerg, Bent and Budzier, Alexander and Lee, Jong Seok and Keil, Mark and Lunn, Daniel and Bester, Dirk W.",
-67,P_001566,The Empirical Reality of IT Project Cost Overruns: Discovering A Power-Law Distribution,"Flyvbjerg, Bent and Budzier, Alexander and Lee, Jong Seok and Keil, Mark and Lunn, Daniel and Bester, Dirk W",10.1080/07421222.2022.2096544
-67,P_001632,The Empirical Reality of IT Project Cost Overruns: Discovering A Power-Law Distribution,"Flyvbjerg, Bent and Budzier, Alexander and Lee, Jong Seok and Keil, Mark and Lunn, Daniel and Bester, Dirk W",10.1080/07421222.2022.2096544
-68,C_001634,Who Should Own the Data? The Impact of Data Ownership Shift from the Service Provider to Consumers,"Li, Shilei and Liu, Yang and Feng, Juan",10.1080/07421222.2023.2196775
-68,D_001615,Who Should Own the Data? The Impact of Data Ownership Shift from the Service Provider to Consumers,"Li, Shilei and Liu, Yang and Feng, Juan",
-69,C_001628,Thinking Fast and Thinking Slow: Digital Devices’ Effects on Cognitive Reflection,"Figl, Kathrin and Remus, Ulrich",10.1080/07421222.2023.2196769
-69,D_001621,Thinking Fast and Thinking Slow: Digital Devices’ Effects on Cognitive Reflection,"Figl, Kathrin and Remus, Ulrich",
-70,C_001615,Motivating the Motivationally Diverse Crowd: Social Value Orientation and Reward Structure in Crowd Idea Generation,"Yan, Bei and Hollingshead, Andrea B.",10.1080/07421222.2022.2127451
-70,D_001592,Motivating the Motivationally Diverse Crowd: Social Value Orientation and Reward Structure in Crowd Idea Generation,"Yan, Bei and Hollingshead, Andrea B.",
-70,P_001587,Motivating the Motivationally Diverse Crowd: Social Value Orientation and Reward Structure in Crowd Idea Generation,"Yan, Bei and Hollingshead, Andrea B",10.1080/07421222.2022.2127451
-71,C_001635,Software-Vendor Diversification: A Source of Organizational Rigidity in Adversity?,"Gong, Jing and Liang, Yi and Ramasubbu, Narayan",10.1080/07421222.2023.2196774
-71,D_001613,Software-Vendor Diversification: A Source of Organizational Rigidity in Adversity?,"Gong, Jing and Liang, Yi and Ramasubbu, Narayan",
-72,C_001606,"The Good, the Bad, and the Social Media: Financial Implications of Social Media Reactions to Firm-Related News","Peng, Jing and Zhang, Juheng and Gopal, Ram",10.1080/07421222.2022.2096547
-72,D_001570,"The Good, the Bad, and the Social Media: Financial Implications of Social Media Reactions to Firm-Related News","Peng, Jing and Zhang, Juheng and Gopal, Ram",
-72,P_001570,"The Good, the Bad, and the Social Media: Financial Implications of Social Media Reactions to Firm-Related News","Peng, Jing and Zhang, Juheng and Gopal, Ram",10.1080/07421222.2022.2096547
-72,P_001631,"The Good, the Bad, and the Social Media: Financial Implications of Social Media Reactions to Firm-Related News","Peng, Jing and Zhang, Juheng and Gopal, Ram",10.1080/07421222.2022.2096547
-73,D_001568,Improving Imbalanced Machine Learning with Neighborhood-Informed Synthetic Sample Placement,"Nasir, Murtaza and Dag, Ali and Simsek, Serhat and Ivanov, Anton and Oztekin, Asil",
-73,P_001586,Improving Imbalanced Machine Learning with Neighborhood-Informed Synthetic Sample Placement,"Nasir, Murtaza and Dag, Ali and Simsek, Serhat and Ivanov, Anton and Oztekin, Asil",10.1080/07421222.2022.2127453
-74,C_001605,Examining the Impact of Algorithmic Control on Uber Drivers’ Technostress,"Cram, W. Alec and Wiener, Martin and Tarafdar, Monideepa and Benlian, Alexander",10.1080/07421222.2022.2063556
-74,D_001582,Examining the Impact of Algorithmic Control on Uber Drivers’ Technostress,"Cram, W. Alec and Wiener, Martin and Tarafdar, Monideepa and Benlian, Alexander",
-74,P_0000000681,Examining the Impact of Algorithmic Control on Uber Drivers' Technostress,"Cram, W. Alec and Wiener, Martin and Tarafdar, Monideepa and Benlian, Alexander",10.1080/07421222.2022.2063556
-75,C_001621,Moving Emergency Response Forward: Leveraging Machine-Learning Classification of Disaster-Related Images Posted on Social Media,"Johnson, Matthew and Murthy, Dhiraj and Robertson, Brett W. and Smith, William Roth and Stephens, Keri K.",10.1080/07421222.2023.2172778
-75,D_001603,Moving Emergency Response Forward: Leveraging Machine-Learning Classification of Disaster-Related Images Posted on Social Media,"Johnson, Matthew and Murthy, Dhiraj and Robertson, Brett W. and Smith, William Roth and Stephens, Keri K.",
-75,P_001637,Moving Emergency Response Forward: Leveraging Machine-Learning Classification of Disaster-Related Images Posted on Social Media,"Johnson, Matthew and Murthy, Dhiraj and Robertson, Brett W and Smith, William Roth and Stephens, Keri K",10.1080/07421222.2023.2172778
-76,C_001599,Piracy and Bundling of Information Goods,"Jin, Chen and Wu, Chenguang (Allen) and Lahiri, Atanu",10.1080/07421222.2022.2096543
-76,D_001557,Piracy and Bundling of Information Goods,"Jin, Chen and Wu, Chenguang (Allen) and Lahiri, Atanu",
-76,P_001569,Piracy and Bundling of Information Goods,"Jin, Chen and Wu, Allen and Lahiri, Atanu",10.1080/07421222.2022.2096543
-76,P_001634,Piracy and Bundling of Information Goods,"Jin, Chen and Wu, Allen and Lahiri, Atanu",10.1080/07421222.2022.2096543
-77,C_001587,The Empirical Reality of IT Project Cost Overruns: Discovering A Power-Law Distribution,"Flyvbjerg, Bent and Budzier, Alexander and Lee, Jong Seok and Keil, Mark and Lunn, Daniel and Bester, Dirk W.",10.1080/07421222.2022.2096544
-77,D_001564,The Empirical Reality of IT Project Cost Overruns: Discovering A Power-Law Distribution,"Flyvbjerg, Bent and Budzier, Alexander and Lee, Jong Seok and Keil, Mark and Lunn, Daniel and Bester, Dirk W.",
-78,C_000071,About This Issue,"Zwass, Vladimir",10.1080/07421222.1985.11517719
-78,C_001356,About This Issue,"Zwass, Vladimir",10.1080/07421222.1984.11517700
-78,C_001361,About This Issue,"Zwass, Vladimir",10.1080/07421222.1985.11517711
-78,D_000036,About This Issue,"Zwass, Vladimir",
+1,C_000149,"Special Section: Competitive Strategy, Economics, and Information Systems","Clemons, Eric K. and Kauffman, Robert J. and Weber, Thomas A.",10.2753/MIS0742-1222260201
+1,C_000272,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K.",10.1080/07421222.1991.11517918
+1,C_000572,Special Section: Competitive and Strategic Value of Information Technology,"Clemons, Eric K.",10.1080/07421222.1990.11517886
+1,C_000782,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Row, Michael C.",10.1080/07421222.1995.11518078
+1,C_000856,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1997.11518162
+1,C_001334,Special Section: Strategic Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1998.11518205
+1,D_000175,Special Section - Competitive and Strategic Value of Information Technology,"Clemons, Eric K.",
+1,D_000202,Special Section - Strategic and Competitive Information Systems,"Clemons, Eric K.",
+1,D_000234,Special Section - Strategic and Competitive Information Systems,"Clemons, Eric K. and Row, Michael C.",
+1,D_000272,Special Section - Strategic and Competitive Information Systems,"Clemons, Eric K. and Row, Michael C.",
+1,D_000470,Special Section - Strategic Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
+1,D_000511,Special Section - Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
+1,D_000932,"Special Section - Competitive Strategy, Economics, and Information Systems","Clemons, Eric K. and Kauffman, Robert J. and Weber, Thomas A.",
+1,P_0000000533,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",
+1,P_0000000835,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",
+1,P_0000000902,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K",
+2,C_001380,"Special Issue: Competitive Strategy, Economics, and Information Systems","CLEMONS, ERIC K. and DEWAN, RAJIV M. and KAUFFMAN, ROBERT J. and Editors, Guest",10.1080/07421222.2004.11045808
+2,D_000796,Special Section - Digital Economy and Information Technology Value,"Clemons, Eric K. and Dewan, Rajiv M. and Kauffman, Robert J.",
+2,P_0000000148,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",
+2,P_0000001493,"Special Section: Competitive Strategy, Economics, and Information Systems","Clemons, Eric K and Kauffman, Robert J and Weber",10.2753/MIS0742-1222260201
+3,C_001103,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1999.11518242
+3,C_001334,Special Section: Strategic Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1998.11518205
+3,P_0000000514,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",
+4,C_001637,Token Incentives in a Volatile Crypto Market: The Effects of Token Price Volatility on User Contribution,"Chen, Kun and Fan, Yifan and Liao, Shaoyi Stephen",10.1080/07421222.2023.2196772
+4,D_001619,Token Incentives in a Volatile Crypto Market: The Effects of Token Price Volatility on User Contribution,"Chen, Kun and Fan, Yifan and Liao, Stephen Shaoyi",
+5,C_001581,Platform Policies and Sellers’ Competition in Agency Selling in the Presence of Online Quality Misrepresentation,"Pu, Jingchuan and Nian, Tingting and Qiu, Liangfei and Cheng, Hsing Kenneth",10.1080/07421222.2021.2023410
+5,D_001571,Platform Policies and Sellers' Competition in Agency Selling in the Presence of Online Quality Misrepresentation,"Pu, Jingchuan and Nian, Tingting and Qiu, Liangfei and Cheng, Hsing Kenneth",
+5,P_0000000264,Platform Policies and Sellers' Competition in Agency Selling in the Presence of Online Quality Misrepresentation,"Pu, Jingchuan and Nian, Tingting and Qiu, Liangfei and Cheng, Hsing Kenneth",10.1080/07421222.2021.2023410
+6,C_000288,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Row, Michael C.",10.1080/07421222.1994.11518037
+6,D_000386,Special Section - Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",
+6,D_001020,"Special Section - Competitive Strategy, Economics, and Information Systems","Clemons, Eric K. and Kauffman, Robert J. and Weber, Thomas A.",
+7,C_000360,Knowledge-Based Support for Combining Qualitative and Quantitative Judgments in Resource Allocation Decisions,"Agarwal, Ritu and Tanniru, Mohan R. and Dacruz, Marcos",10.1080/07421222.1992.11517952
+7,D_000250,Knowledge-Based Support for Combining Qualitative and Quantitative Judgments in Resource Allocation Decisions,"Agarwal, Ritu and Tanniru, Mohan and Dacruz, Marcos",
+7,P_001605,Knowledge-Based Support for Combining Qualitative and Quantitative Judgments in Resource Allocation Decisions,"Agarwal, Ritu and Tanniru, Mohan R and Dacruz, Marcos and Agarwal, Rrru and Anniru, Mohan R T",
+7,P_001635,Knowledge-Based Support for Combining Qualitative and Quantitative Judgments in Resource Allocation Decisions,"Agarwal, Ritu and Tanniru, Mohan R and Dacruz, Marcos and Agarwal, Rrru and Anniru, Mohan R T",10.1080/07421222.1992.11517952
+8,D_000796,Special Section - Digital Economy and Information Technology Value,"Clemons, Eric K. and Dewan, Rajiv M. and Kauffman, Robert J.",
+8,P_0000000147,Special Section: Strategic Information Systems,"Clemons, Eric K and Weber, Bruce W",
+9,C_001616,The Road to Open News: A Theory of Social Signaling in an Open News Production Community,"O’Riordan, Sheila and Emerson, Bill and Feller, Joseph and Kiely, Gaye",10.1080/07421222.2023.2172777
+9,D_001605,The Road to Open News: A Theory of Social Signaling in an Open News Production Community,"O'Riordan, Sheila and Emerson, Bill and Feller, Joseph and Kiely, Gaye",
+9,P_001640,The Road to Open News: A Theory of Social Signaling in an Open News Production Community,"O'riordan, Sheila and Emerson, Bill and Feller, Joseph and Kiely, Gaye",10.1080/07421222.2023.2172777
+10,C_000782,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Row, Michael C.",10.1080/07421222.1995.11518078
+10,P_0000000533,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",
+11,C_000856,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Weber, Bruce W.",10.1080/07421222.1997.11518162
+11,D_000175,Special Section - Competitive and Strategic Value of Information Technology,"Clemons, Eric K.",
+11,D_000932,"Special Section - Competitive Strategy, Economics, and Information Systems","Clemons, Eric K. and Kauffman, Robert J. and Weber, Thomas A.",
+12,C_000823,Special Section: Digital Economy and Information Technology Value,"Clemons, Eric K. and Dewan, Rajiv M. and Kauffman, Robert J.",10.2753/MIS0742-1222230201
+12,D_000234,Special Section - Strategic and Competitive Information Systems,"Clemons, Eric K. and Row, Michael C.",
+13,C_000288,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K. and Row, Michael C.",10.1080/07421222.1994.11518037
+13,P_0000000731,Special Section: Digital Economy and Information Technology Value,"Clemons, Eric K and Dewan, Rajiv M and Kauffman, Robert J",10.2753/MIS0742-1222230201
+14,C_001586,Why do Family Members Reject AI in Health Care? Competing Effects of Emotions,"Park, Eun Hee and Werder, Karl and Cao, Lan and Ramesh, Balasubramaniam",10.1080/07421222.2022.2096550
+14,D_001588,Why do Family Members Reject AI in Health Care? Competing Effects of Emotions,"Park, Eun Hee and Werder, Karl and Cao, Lan and Ramesh, Balasubramaniam",
+14,P_001576,Why do Family Members Reject AI in Health Care? Competing Effects of Emotions,"Park, Eun Hee and Werder, Karl and Cao, Lan and Ramesh, Balasubramaniam",10.1080/07421222.2022.2096550
+14,P_001630,Why do Family Members Reject AI in Health Care? Competing Effects of Emotions,"Park, Eun Hee and Werder, Karl and Cao, Lan and Ramesh, Balasubramaniam",10.1080/07421222.2022.2096550
+15,C_000234,Managing the Risks Associated with End-User Computing,"Alavi, Maryam and Weiss, Ira R.",10.1080/07421222.1985.11517734
+15,C_000629,Effect of Organizational Maturity on End-Users’ Satisfaction with Information Systems,"Mahmood, Mo A. and Becker, Jack D.",10.1080/07421222.1985.11517736
+15,D_000041,Effect of Organizational Maturity on End-Users' Satisfaction with Information Systems,"Mahmood, Mo Adam and Becker, Jack D.",
+15,D_000049,Managing the Risks Associated with End-User Computing,"Alavi, Maryam and Weiss, Ira R.",
+15,P_0000000719,Managing the Risks Associated with End-User Computing,"Alavi, Maryam and Weiss, Ira R",
+15,P_0000001354,EN,,
+15,P_0000001526,Effect of Organizational Maturity on End-Users' Satisfaction with Information Systems,"Mahmood, Mo A and Becker, Jack D",
+16,C_001595,Effects of Online Crowds on Self-Disclosure Behaviors in Online Reviews: A Multidimensional Examination,"Choi, HanByeol Stella and Oh, Wonseok and Kwak, Chanhee and Lee, Junyeong and Lee, Heeseok",10.1080/07421222.2021.2023412
+16,D_001562,Effects of Online Crowds on Self-Disclosure Behaviors in Online Reviews: A Multidimensional Examination,"Choi, HanByeol Stella and Oh, Wonseok and Kwak, Chanhee and Lee, Junyeong and Lee, Heeseok",
+16,P_0000000028,Effects of Online Crowds on Self-Disclosure Behaviors in Online Reviews: A Multidimensional Examination,"Hanbyeol, Stella and Choi and Oh, Wonseok and Kwak, Chanhee and Lee, Junyeong and Lee, Heeseok",10.1080/07421222.2021.2023412
+17,D_000202,Special Section - Strategic and Competitive Information Systems,"Clemons, Eric K.",
+17,D_000351,Special Section - Strategic and Competitive Information Systems,"Clemons, Eric K. and Row, Michael C.",
+17,P_0000000370,"Special Section: Competitive and Strategic Value of Information Technology ERIC K, CLEMONS Guest Editor","Clemons, Eric K",
+17,P_0000001458,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",
+17,P_0000001549,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",
+18,C_000071,About This Issue,"Zwass, Vladimir",10.1080/07421222.1985.11517719
+18,C_001356,About This Issue,"Zwass, Vladimir",10.1080/07421222.1984.11517700
+18,C_001361,About This Issue,"Zwass, Vladimir",10.1080/07421222.1985.11517711
+18,D_000036,About This Issue,"Zwass, Vladimir",
+19,C_001380,"Special Issue: Competitive Strategy, Economics, and Information Systems","CLEMONS, ERIC K. and DEWAN, RAJIV M. and KAUFFMAN, ROBERT J. and Editors, Guest",10.1080/07421222.2004.11045808
+19,P_0000001351,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",
+20,C_000024,Using IT Design to Prevent Cyberbullying,"Lowry, Paul Benjamin and Moody, Gregory D. and Chatterjee, Sutirtha",10.1080/07421222.2017.1373012
+20,D_001353,Using IT Design to Prevent Cyberbullying,"Lowry, Paul Benjamin and Moody, Gregory D. and Chatterjee, Sutirtha",
+20,P_001581,Using IT Design to Prevent Cyberbullying,"Lowry, Paul Benjamin and Moody, Gregory D and Lowry, Benjamin",10.1080/07421222.2017.1373012
+20,P_001610,Using IT Design to Prevent Cyberbullying,"Lowry, Paul Benjamin and Moody, Gregory D and Lowry, Benjamin",10.1080/07421222.2017.1373012
+21,C_000743,A Video-Based Screening System for Automated Risk Assessment Using Nuanced Facial Features,"Pentland, Steven J. and Twyman, Nathan W. and Burgoon, Judee K. and Nunamaker, Jay F. and Diller, Christopher B.R.",10.1080/07421222.2017.1393304
+21,D_001323,A Video-Based Screening System for Automated Risk Assessment Using Nuanced Facial Features,"Pentland, Steven J. and Twyman, Nathan W. and Burgoon, Judee K. and Nunamaker Jr., Jay F. and Diller, Christopher B. R.",
+21,P_0000000675,A Video-Based Screening System for Automated Risk Assessment Using Nuanced Facial Features,"Pentland, Steven J and Twyman, Nathan W and Burgoon, Judee K and Nunamaker, Jay F and Diller, Christopher B R",10.1080/07421222.2017.1393304
+21,P_001604,"""A Video-Based Screening System for Automated Risk Assessment Using Nuanced Facial Features""","Pentland, Steven J and Twyman, Nathan W and Burgoon, Judee K and Nunamaker, Jay F and Diller, Christopher B R",10.1080/07421222.2017.1393304
+22,C_001626,"Design Concerns for Multiorganizational, Multistakeholder Collaboration: A Study in the Healthcare Industry","Thiebes, Scott and Gao, Fangjian and Briggs, Robert O. and Schmidt-Kraepelin, Manuel and Sunyaev, Ali",10.1080/07421222.2023.2172771
+22,D_001609,"Design Concerns for Multiorganizational, Multistakeholder Collaboration: A Study in the Healthcare Industry","Thiebes, Scott and Gao, Fangjian and Briggs, Robert O. and Schmidt-Kraepelin, Manuel and Sunyaev, Ali",
+22,P_001638,"Design Concerns for Multiorganizational, Multistakeholder Collaboration: A Study in the Healthcare Industry","Thiebes, Scott and Gao, Fangjian and Briggs, Robert O and Schmidt-Kraepelin, Manuel and Sunyaev, Ali",10.1080/07421222.2023.2172771
+23,C_000135,Positivist Information Systems Action Research: Methodological Issues,"Kock, Ned and Avison, David and Malaurent, Julien",10.1080/07421222.2017.1373007
+23,D_001322,Positivist Information Systems Action Research - Methodological Issues,"Kock, Ned and Avison, David E. and Malaurent, Julien",
+23,P_001579,Positivist Information Systems Action Research: Methodological Issues,"Kock, Ned and Avison, David",10.1080/07421222.2017.1373007
+23,P_001611,Positivist Information Systems Action Research: Methodological Issues,"Kock, Ned and Avison, David",10.1080/07421222.2017.1373007
+24,C_001614,"User Comments in Social Media Firestorms: A Mixed-Method Study of Purpose, Tone, and Motivation","Matook, Sabine and Dennis, Alan R. and Wang, Yazhu Maggie",10.1080/07421222.2022.2096546
+24,D_001587,"User Comments in Social Media Firestorms: A Mixed-Method Study of Purpose, Tone, and Motivation","Matook, Sabine and Dennis, Alan R. and Wang, Yazhu Maggie",
+24,P_001568,"User Comments in Social Media Firestorms: A Mixed-Method Study of Purpose, Tone, and Motivation","Matook, Sabine and Dennis, Alan R and Wang, Yazhu Maggie",10.1080/07421222.2022.2096546
+24,P_001627,"User Comments in Social Media Firestorms: A Mixed-Method Study of Purpose, Tone, and Motivation","Matook, Sabine and Dennis, Alan R and Wang, Yazhu Maggie",10.1080/07421222.2022.2096546
+25,C_001612,"Peer-To-Peer Rentals, Regulatory Policies, And Hosts’ Cost Pass-Throughs","Müller, Michelle and Neumann, Jürgen and Kundisch, Dennis",10.1080/07421222.2022.2096541
+25,D_001567,"Peer-To-Peer Rentals, Regulatory Policies, And Hosts' Cost Pass-Throughs","Müller, Michelle and Neumann, Jürgen and Kundisch, Dennis",
+25,P_001567,"Peer-To-Peer Rentals, Regulatory Policies, And Hosts' Cost Pass-Throughs","Müller, Michelle and Neumann, Jürgen and Kundisch, Dennis",10.1080/07421222.2022.2096541
+25,P_001629,"Peer-To-Peer Rentals, Regulatory Policies, And Hosts' Cost Pass-Throughs","Müller, Michelle and Neumann, Jürgen and Kundisch, Dennis",10.1080/07421222.2022.2096541
+26,C_001585,Impact of an Enterprise System Implementation on Job Outcomes: Challenging the Linearity Assumption,"Venkatesh, Viswanath and Goyal, Sandeep",10.1080/07421222.2021.2023405
+26,D_001575,Impact of an Enterprise System Implementation on Job Outcomes: Challenging the Linearity Assumption,"Venkatesh, Viswanath and Goyal, Sandeep",
+26,P_0000000587,Impact of an Enterprise System Implementation on Job Outcomes: Challenging the Linearity Assumption,"Venkatesh, Viswanath and Goyal, Sandeep",10.1080/07421222.2021.2023405
+27,P_001568,"User Comments in Social Media Firestorms: A Mixed-Method Study of Purpose, Tone, and Motivation","Matook, Sabine and Dennis, Alan R and Wang, Yazhu Maggie",10.1080/07421222.2022.2096546
+27,P_001627,"User Comments in Social Media Firestorms: A Mixed-Method Study of Purpose, Tone, and Motivation","Matook, Sabine and Dennis, Alan R and Wang, Yazhu Maggie",10.1080/07421222.2022.2096546
+28,C_001609,Leveraging Platform Boundary Resources: The Role of Distributed Sensemaking,"Soh, Franck and Grover, Varun",10.1080/07421222.2022.2063554
+28,D_001589,Leveraging Platform Boundary Resources: The Role of Distributed Sensemaking,"Soh, Franck and Grover, Varun",
+28,P_0000001325,Leveraging Platform Boundary Resources: The Role of Distributed Sensemaking,"Soh, Franck and Grover, Varun",10.1080/07421222.2022.2063554
+29,C_001598,Is College Education Less Necessary with AI? Evidence from Firm-Level Labor Structure Changes,"Xue, Mei and Cao, Xing and Feng, Xu and Gu, Bin and Zhang, Yongjie",10.1080/07421222.2022.2096542
+29,D_001591,Is College Education Less Necessary with AI? Evidence from Firm-Level Labor Structure Changes,"Xue, Mei and Cao, Xing and Feng, Xu and Gu, Bin and Zhang, Yongjie",
+29,P_001577,Is College Education Less Necessary with AI? Evidence from Firm-Level Labor Structure Changes,"Xue, Mei and Cao, Xing and Feng, Xu and Zhang, Yongjie",10.1080/07421222.2022.2096542
+29,P_001625,Is College Education Less Necessary with AI? Evidence from Firm-Level Labor Structure Changes,"Xue, Mei and Cao, Xing and Feng, Xu and Zhang, Yongjie",10.1080/07421222.2022.2096542
+30,C_001604,Location-Based Mobile Gaming and Local Depression Trends: A Study of Pokémon Go,"Cheng, Zhi (Aaron) and Greenwood, Brad N. and Pavlou, Paul A.",10.1080/07421222.2021.2023407
+30,D_001581,Location-Based Mobile Gaming and Local Depression Trends: A Study of Pokémon Go,"Cheng, Zhi and Greenwood, Brad N. and Pavlou, Paul A.",
+30,P_0000000287,Location-Based Mobile Gaming and Local Depression Trends: A Study of Pokémon Go,"Cheng, Aaron and Greenwood, Brad N and Pavlou, Paul A",10.1080/07421222.2021.2023407
+31,C_001599,Piracy and Bundling of Information Goods,"Jin, Chen and Wu, Chenguang (Allen) and Lahiri, Atanu",10.1080/07421222.2022.2096543
+31,D_001557,Piracy and Bundling of Information Goods,"Jin, Chen and Wu, Chenguang and Lahiri, Atanu",
+31,P_001569,Piracy and Bundling of Information Goods,"Jin, Chen and Wu, Allen and Lahiri, Atanu",10.1080/07421222.2022.2096543
+31,P_001634,Piracy and Bundling of Information Goods,"Jin, Chen and Wu, Allen and Lahiri, Atanu",10.1080/07421222.2022.2096543
+32,C_001603,Rethinking Project Escalation: An Institutional Perspective on the Persistence of Failing Large-Scale Information System Projects,"Berente, Nicholas and Salge, Carolina Alves de Lima and Mallampalli, Venkata K.P. and Park, Ken",10.1080/07421222.2022.2096545
+32,D_001554,Rethinking Project Escalation: An Institutional Perspective on the Persistence of Failing Large-Scale Information System Projects,"Berente, Nicholas and de Lima Salge, Carolina Alves and Mallampalli, Venkata K. P. and Park, Kenneth J.",
+32,P_001575,Rethinking Project Escalation: An Institutional Perspective on the Persistence of Failing Large-Scale Information System Projects,"Berente, Nicholas and Alves De Lima Salge, Carolina and Mallampalli, Venkata K P and Park, Ken",10.1080/07421222.2022.2096545
+32,P_001628,Rethinking Project Escalation: An Institutional Perspective on the Persistence of Failing Large-Scale Information System Projects,"Berente, Nicholas and Alves De Lima Salge, Carolina and Mallampalli, Venkata K P and Park, Ken",10.1080/07421222.2022.2096545
+33,C_001613,Improving Phishing Reporting Using Security Gamification,"Jensen, Matthew L. and Wright, Ryan T. and Durcikova, Alexandra and Karumbaiah, Shamya",10.1080/07421222.2022.2096551
+33,D_001565,Improving Phishing Reporting Using Security Gamification,"Jensen, Matthew L. and Wright, Ryan T. and Durcikova, Alexandra and Karumbaiah, Shamya",
+33,P_001571,Improving Phishing Reporting Using Security Gamification,"Jensen, Matthew L and Wright, Ryan T and Durcikova, Alexandra and Karumbaiah, Shamya",10.1080/07421222.2022.2096551
+33,P_001624,Improving Phishing Reporting Using Security Gamification,"Jensen, Matthew L and Wright, Ryan T and Durcikova, Alexandra and Karumbaiah, Shamya",10.1080/07421222.2022.2096551
+34,C_000627,The Impact of Influence Tactics in Information System Development Projects: A Control-Loss Perspective,"Narayanaswamy, Ravi and Grover, Varun and Henry, Raymond M.",10.2753/MIS0742-1222300106
+34,D_001113,The Impact of Influence Tactics in Information System Development Projects - A Control-Loss Perspective,"Narayanaswamy, Ravi and Grover, Varun and Henry, Raymond M.",
+34,P_001599,The Impact of Influence Tactics in Information System Development Projects: A Control-Loss Perspective,"Narayanaswamy, Ravi and Grover, Varun and Henry, Raymond M",10.2753/MIS0742-1222300106
+34,P_001618,The Impact of Influence Tactics in Information System Development Projects: A Control-Loss Perspective,"Narayanaswamy, Ravi and Grover, Varun and Henry, Raymond M",10.2753/MIS0742-1222300106
+35,C_001629,Editorial Introduction,"Zwass, Vladimir",10.1080/07421222.2023.2196768
+35,D_001623,Editorial Introduction,"Zwass, Vladimir",
+36,D_000041,Effect of Organizational Maturity on End-Users' Satisfaction with Information Systems,"Mahmood, Mo Adam and Becker, Jack D.",
+36,D_000049,Managing the Risks Associated with End-User Computing,"Alavi, Maryam and Weiss, Ira R.",
+36,P_0000000719,Managing the Risks Associated with End-User Computing,"Alavi, Maryam and Weiss, Ira R",
+37,C_001618,Leveraging Low Code Development of Smart Personal Assistants: An Integrated Design Approach with the SPADE Method,"Elshan, Edona and Ebel, Philipp and Söllner, Matthias and Leimeister, Jan Marco",10.1080/07421222.2023.2172776
+37,D_001602,Leveraging Low Code Development of Smart Personal Assistants: An Integrated Design Approach with the SPADE Method,"Elshan, Edona and Ebel, Philipp and Söllner, Matthias and Leimeister, Jan Marco",
+37,P_001643,Leveraging Low Code Development of Smart Personal Assistants: An Integrated Design Approach with the SPADE Method,"Elshan, Edona and Ebel, Philipp and Söllner, Matthias and Leimeister, Jan Marco",10.1080/07421222.2023.2172776
+38,C_001587,The Empirical Reality of IT Project Cost Overruns: Discovering A Power-Law Distribution,"Flyvbjerg, Bent and Budzier, Alexander and Lee, Jong Seok and Keil, Mark and Lunn, Daniel and Bester, Dirk W.",10.1080/07421222.2022.2096544
+38,D_001564,The Empirical Reality of IT Project Cost Overruns: Discovering A Power-Law Distribution,"Flyvbjerg, Bent and Budzier, Alexander and Lee, Jong Seok and Keil, Mark and Lunn, Daniel and Bester, Dirk W.",
+38,P_001566,The Empirical Reality of IT Project Cost Overruns: Discovering A Power-Law Distribution,"Flyvbjerg, Bent and Budzier, Alexander and Lee, Jong Seok and Keil, Mark and Lunn, Daniel and Bester, Dirk W",10.1080/07421222.2022.2096544
+38,P_001632,The Empirical Reality of IT Project Cost Overruns: Discovering A Power-Law Distribution,"Flyvbjerg, Bent and Budzier, Alexander and Lee, Jong Seok and Keil, Mark and Lunn, Daniel and Bester, Dirk W",10.1080/07421222.2022.2096544
+39,C_001588,The Impact of Trust and Recommendation Quality on Adopting Interactive and Non-Interactive Recommendation Agents: A Meta-Analysis,"Ebrahimi, Sepideh and Ghasemaghaei, Maryam and Benbasat, Izak",10.1080/07421222.2022.2096549
+39,D_001583,The Impact of Trust and Recommendation Quality on Adopting Interactive and Non-Interactive Recommendation Agents: A Meta-Analysis,"Ebrahimi, Sepideh and Ghasemaghaei, Maryam and Benbasat, Izak",
+39,P_001573,The Impact of Trust and Recommendation Quality on Adopting Interactive and Non-Interactive Recommendation Agents: A Meta-Analysis,"Ebrahimi, Sepideh and Ghasemaghaei, Maryam and Benbasat, Izak",10.1080/07421222.2022.2096549
+39,P_001623,The Impact of Trust and Recommendation Quality on Adopting Interactive and Non-Interactive Recommendation Agents: A Meta-Analysis,"Ebrahimi, Sepideh and Ghasemaghaei, Maryam and Benbasat, Izak",10.1080/07421222.2022.2096549
+40,C_000458,An Agile Methodology for the Disaster Recovery of Information Systems Under Catastrophic Scenarios,"Baham, Corey and Hirschheim, Rudy and Calderon, Andres A. and Kisekka, Victoria",10.1080/07421222.2017.1372996
+40,D_001328,An Agile Methodology for the Disaster Recovery of Information Systems Under Catastrophic Scenarios,"Baham, Corey and Hirschheim, Rudy and Calderon, Andres and Kisekka, Victoria",
+40,P_001580,An Agile Methodology for the Disaster Recovery of Information Systems Under Catastrophic Scenarios,"Baham, Corey and Hirschheim, Rudy and Calderon, Andres A and Kisekka, Victoria",10.1080/07421222.2017.1372996
+40,P_001609,An Agile Methodology for the Disaster Recovery of Information Systems Under Catastrophic Scenarios,"Baham, Corey and Hirschheim, Rudy and Calderon, Andres A and Kisekka, Victoria",10.1080/07421222.2017.1372996
+41,C_001583,Gaining Customer Loyalty with Tracking Information Quality in B2B Logistics,"Rai, Arun and Tang, Xinlin and Yin, Zhitao and Du, Steven",10.1080/07421222.2022.2063552
+41,D_001572,Gaining Customer Loyalty with Tracking Information Quality in B2B Logistics,"Rai, Arun and Tang, Xinlin and Yin, Zhitao and Du, Steven",
+41,P_0000000243,Gaining Customer Loyalty with Tracking Information Quality in B2B Logistics,"Rai, Arun and Tang, Xinlin and Yin, Zhitao and Du, Steven",10.1080/07421222.2022.2063552
+42,C_001624,Learning with Digital Agents: An Analysis based on the Activity Theory,"Dolata, Mateusz and Katsiuba, Dzmitry and Wellnhammer, Natalie and Schwabe, Gerhard",10.1080/07421222.2023.2172775
+42,D_001606,Learning with Digital Agents: An Analysis based on the Activity Theory,"Dolata, Mateusz and Katsiuba, Dzmitry and Wellnhammer, Natalie and Schwabe, Gerhard",
+42,P_001641,Learning with Digital Agents: An Analysis based on the Activity Theory,"Dolata, Mateusz and Katsiuba, Dzmitry and Wellnhammer, Natalie and Schwabe, Gerhard",10.1080/07421222.2023.2172775
+43,C_000209,Team Cognition: Development and Evolution in Software Project Teams,"He, Jun and Butler, Brian S. and King, William R.",10.2753/MIS0742-1222240210
+43,D_000857,Team Cognition - Development and Evolution in Software Project Teams,"He, Jun and Butler, Brian S. and King, William R.",
+43,P_001607,"Team Cognition: Development and Evolution in Software Project Teams JUN HE, BRIAN S. BUTLER, AND WILLIAM R. KING","He, Jun and Butler, Brian S",10.2753/MIS0742-1222240210
+43,P_001648,"Team Cognition: Development and Evolution in Software Project Teams JUN HE, BRIAN S. BUTLER, AND WILLIAM R. KING","He, Jun and Butler, Brian S",10.2753/MIS0742-1222240210
+44,C_000234,Managing the Risks Associated with End-User Computing,"Alavi, Maryam and Weiss, Ira R.",10.1080/07421222.1985.11517734
+44,C_000629,Effect of Organizational Maturity on End-Users’ Satisfaction with Information Systems,"Mahmood, Mo A. and Becker, Jack D.",10.1080/07421222.1985.11517736
+45,C_001632,"Do Risk Preferences Shape the Effect of Online Trading on Trading Frequency, Volume, and Portfolio Performance?","Pan, Yang and Mithas, Sunil and Po-An Hsieh, J.J. and Liu, Che-Wei",10.1080/07421222.2023.2196777
+45,D_001611,"Do Risk Preferences Shape the Effect of Online Trading on Trading Frequency, Volume, and Portfolio Performance?","Pan, Yang and Mithas, Sunil and Hsieh, JJ Po-An and Liu, Che-Wei",
+46,C_001615,Motivating the Motivationally Diverse Crowd: Social Value Orientation and Reward Structure in Crowd Idea Generation,"Yan, Bei and Hollingshead, Andrea B.",10.1080/07421222.2022.2127451
+46,D_001592,Motivating the Motivationally Diverse Crowd: Social Value Orientation and Reward Structure in Crowd Idea Generation,"Yan, Bei and Hollingshead, Andrea B.",
+46,P_001587,Motivating the Motivationally Diverse Crowd: Social Value Orientation and Reward Structure in Crowd Idea Generation,"Yan, Bei and Hollingshead, Andrea B",10.1080/07421222.2022.2127451
+47,C_001607,Special Section: Reevaluating Markets for Information,"Kauffman, Robert J. and Weber, Thomas A.",10.1080/07421222.2022.2096552
+47,D_001555,Special Section: Reevaluating Markets for Information,"Kauffman, Robert J. and Weber, Thomas A.",
+47,P_001572,Special Section: Reevaluating Markets for Information,"Kauffman, Robert J and Weber, Thomas A",10.1080/07421222.2022.2096552
+47,P_001633,Special Section: Reevaluating Markets for Information,"Kauffman, Robert J and Weber, Thomas A",10.1080/07421222.2022.2096552
+48,D_001577,Businessperson or Technologist: Stock Market Reaction to the Alignment between CIO Background and Firm Strategy,"Banker, Rajiv D. and Feng, Cecilia and Pavlou, Paul A.",
+48,P_001593,Businessperson or Technologist: Stock Market Reaction to the Alignment between CIO Background and Firm Strategy,"Banker, Rajiv D and Feng, Qian and Pavlou, Paul A",10.1080/07421222.2022.2127442
+49,C_001590,Repeated IT Interruption: Habituation and Sensitization of User Responses,"Weinert, Christoph and Maier, Christian and Laumer, Sven and Weitzel, Tim",10.1080/07421222.2021.2023411
+49,D_001590,Repeated IT Interruption: Habituation and Sensitization of User Responses,"Weinert, Christoph and Maier, Christian and Laumer, Sven and Weitzel, Tim",
+49,P_0000000910,Repeated IT Interruption: Habituation and Sensitization of User Responses,"Weinert, Christoph and Maier, Christian and Laumer, Sven and Weitzel, Tim",10.1080/07421222.2021.2023411
+50,C_000993,Enterprise Resource Planning,,10.1080/07421222.2002.11045718
+50,C_001262,Investment in Enterprise Resource Planning: Business Impact and Productivity Measures,"Hitt, Lorin M. and Wu, D.J. and Zhou, Xiaoge",10.1080/07421222.2002.11045716
+50,D_000630,Investment in Enterprise Resource Planning - Business Impact and Productivity Measures,"Hitt, Lorin M. and Wu, D. J. and Zhou, Xiaoge",
+50,D_000657,Special Section - Enterprise Resource Planning,"Ragowsky, Arik and Somers, Toni M.",
+50,P_0000000256,Investment in Enterprise Resource Planning: Business Impact and Productivity Measures,"Hitt, Lorin M and Wu, D. J and Zhou, Xiaoge",
+50,P_0000000634,"Special Section: Enterprise Resource Planning ARIK RAGOWSKY AND TONI M. SOMERS, Guest Editors","Ragowsky, Arik and Somers, Tonim",
+51,C_001589,Editorial Introduction,"Zwass, Vladimir",10.1080/07421222.2021.2023402
+51,D_001595,Editorial Introduction,"Zwass, Vladimir",
+52,C_000202,Beyond Brainstorming: Exploring Convergence in Teams,"Seeber, Isabella and de Vreede, Gert-Jan and Maier, Ronald and Weber, Barbara",10.1080/07421222.2017.1393303
+52,D_001357,Beyond Brainstorming - Exploring Convergence in Teams,"Seeber, Isabella and de Vreede, Gert-Jan and Maier, Ronald and Weber, Barbara",
+52,P_001603,Beyond Brainstorming: Exploring Convergence in Teams,"Seeber, Isabella and De Vreede, Gert-Jan and Maier, Ronald and Weber, Barbara",10.1080/07421222.2017.1393303
+52,P_001622,Beyond Brainstorming: Exploring Convergence in Teams,"Seeber, Isabella and De Vreede, Gert-Jan and Maier, Ronald and Weber, Barbara",10.1080/07421222.2017.1393303
+53,C_001641,Approaching IT Security & Avoiding Threats in the Smart Home Context,"Nehme, Alaa and George, Joey F.",10.1080/07421222.2022.2127449
+53,D_001569,Approaching IT Security & Avoiding Threats in the Smart Home Context,"Nehme, Alaa and George, Joey F.",
+53,P_001590,Approaching IT Security & Avoiding Threats in the Smart Home Context,"Nehme, Alaa and George, Joey F",10.1080/07421222.2022.2127449
+54,C_000993,Enterprise Resource Planning,,10.1080/07421222.2002.11045718
+54,D_000630,Investment in Enterprise Resource Planning - Business Impact and Productivity Measures,"Hitt, Lorin M. and Wu, D. J. and Zhou, Xiaoge",
+54,D_000657,Special Section - Enterprise Resource Planning,"Ragowsky, Arik and Somers, Toni M.",
+55,C_000354,A Research Agenda for Trust in Online Environments,"Gefen, David and Benbasat, Izak and Pavlou, Paula",10.2753/MIS0742-1222240411
+55,C_000793,Special Issue: Trust in Online Environments,"Benbasat, Izak and Gefen, David and Pavlou, Paul A.",10.2753/MIS0742-1222240400
+55,D_000914,Special Issue - Trust in Online Environments,"Benbasat, Izak and Gefen, David and Pavlou, Paul A.",
+55,D_000920,A Research Agenda for Trust in Online Environments,"Gefen, David and Benbasat, Izak and Pavlou, Paul A.",
+55,P_0000000041,A Research Agenda for Trust in Online Environments,"Gefen, David and Benbasat, Izak and Pavlou, Paul A",10.2753/MIS0742-1222240411
+55,P_0000001306,"Special Issue: Trust in Online Environments IZAK BENBASAT, DAVID GEFEN, AND PAUL A. PAVLOU, GUEST EDITORS","Benbasat, Izak and Gefen, David and Pavlou, Paul A",10.2753/MIS0742-1222240400
+56,D_001574,How Appreciation and Attention Affect Contributions to Electronic Networks of Practice,"Tan, Xue and Jin, Fujie and Dennis, Alan R.",
+56,P_001591,How Appreciation and Attention Affect Contributions to Electronic Networks of Practice,"Tan, Jane and Jin, Fujie and Dennis, Alan R",10.1080/07421222.2022.2127443
+57,C_000613,Online Consumer Search Depth: Theories and New Findings,"""Jennifer"" Zhang, Jie and Fang, Xiao and Liu Sheng, Olivia R.",10.2753/MIS0742-1222230304
+57,D_000865,Online Consumer Search Depth - Theories and New Findings,"Zhang, Jie Jennifer and Fang, Xiao and Sheng, Olivia R. Liu",
+57,P_001597,"Online Consumer Search Depth: Theories and New Findings JIE ""JENNIFER"" ZHANG, XIAO FANG, AND OLIVIA R. LIU SHENG","Zhang, Jennifer "" and Liu Sheng, Olivia R and Sheng",10.2753/MIS0742-1222230304
+57,P_001616,"Online Consumer Search Depth: Theories and New Findings JIE ""JENNIFER"" ZHANG, XIAO FANG, AND OLIVIA R. LIU SHENG","Zhang, Jennifer "" and Liu Sheng, Olivia R and Sheng",10.2753/MIS0742-1222230304
+58,C_001416,Special Issue: Decision Support and Knowledge-Based Systems,"Stohr, Edward A.",10.1080/07421222.1987.11517774
+58,C_001419,Decision Support and Knowledge-Based Systems: A Special Issue,"Stohr, Edward A.",10.1080/07421222.1986.11517742
+58,D_000057,Decision Support and Knowledge-Based Systems - A Special Issue,"Stohr, Edward A.",
+58,D_000088,Special Issue - Decision Support and Knowledge-Based Systems,"Stohr, Edward A.",
+58,P_0000000506,Decision Support and Knowledge-Based Systems: A Special Issue,"Stohr, Edward A",
+58,P_0000000954,special Issue: Decision Support and Knowledge-Based Systems,"Stohr, Edward A",
+59,C_001642,How Do Shared IT Applications Influence Agility? Theory and Evidence of a Convex Relationship,"Queiroz, Magno and Tallon, Paul P. and Coltman, Tim",10.1080/07421222.2022.2127452
+59,D_001559,How Do Shared IT Applications Influence Agility? Theory and Evidence of a Convex Relationship,"Queiroz, Magno and Tallon, Paul P. and Coltman, Tim",
+59,P_001592,How Do Shared IT Applications Influence Agility? Theory and Evidence of a Convex Relationship,"Queiroz, Magno and Tallon, Paul P and Coltman, Tim",10.1080/07421222.2022.2127452
+60,C_001635,Software-Vendor Diversification: A Source of Organizational Rigidity in Adversity?,"Gong, Jing and Liang, Yi and Ramasubbu, Narayan",10.1080/07421222.2023.2196774
+60,D_001613,Software-Vendor Diversification: A Source of Organizational Rigidity in Adversity?,"Gong, Jing and Liang, Yi and Ramasubbu, Narayan",
+61,C_000036,Special Section: Information Technology and IT Organizational Impact,"Nunamaker, Jay F. and Sprague, Ralph H.",10.1080/07421222.1994.11518047
+61,C_000111,Special Issue: Information Technology and Its Organizational Impact,"Nunamaker, Jay F. and Sprague, Ralph H.",10.1080/07421222.1995.11518087
+61,D_000357,Special Section - Information Technology and IT Organizational Impact,"Nunamaker Jr., Jay F. and Sprague Jr., Ralph H.",
+61,D_000393,Special Issue - Information Technology and Its Organizational Impact,"Nunamaker Jr., Jay F. and Sprague Jr., Ralph H.",
+61,P_0000000857,Special Section: Information Technology and IT Organizational Impact,"Nunamaker, Jay F and Sprague, Ralph H",
+61,P_0000001510,Special Issue: Information Technology and Its Organizational Impact,"Nunamaker, Jay F and Sprague, Ralph H",
+62,C_001619,Trust in Online Ride-Sharing Transactions: Impacts of Heterogeneous Order Features,"Cheng, Xusen and Fu, Shixuan and Sun, Jianshan and Zuo, Meiyun and Meng, Xiangsong",10.1080/07421222.2023.2172779
+62,D_001601,Trust in Online Ride-Sharing Transactions: Impacts of Heterogeneous Order Features,"Cheng, Xusen and Fu, Shixuan and Sun, Jianshan and Zuo, Meiyun and Meng, Xiangsong",
+62,P_001644,Trust in Online Ride-Sharing Transactions: Impacts of Heterogeneous Order Features,"Cheng, Xusen and Fu, Shixuan and Sun, Jianshan and Zuo, Meiyun and Meng, Xiangsong",10.1080/07421222.2023.2172779
+63,C_001625,Formation and Action of a Learning Community with Collaborative Learning Software,"Eryilmaz, Evren and Thoms, Brian and Ahmed, Zafor and Lee, Howard",10.1080/07421222.2023.2172774
+63,D_001607,Formation and Action of a Learning Community with Collaborative Learning Software,"Eryilmaz, Evren and Thoms, Brian and Ahmed, Zafor and Lee, Howard",
+63,P_001642,Formation and Action of a Learning Community with Collaborative Learning Software,"Eryilmaz, Evren and Thoms, Brian and Ahmed, Zafor and Lee, Howard",10.1080/07421222.2023.2172774
+64,C_001621,Moving Emergency Response Forward: Leveraging Machine-Learning Classification of Disaster-Related Images Posted on Social Media,"Johnson, Matthew and Murthy, Dhiraj and Robertson, Brett W. and Smith, William Roth and Stephens, Keri K.",10.1080/07421222.2023.2172778
+64,D_001603,Moving Emergency Response Forward: Leveraging Machine-Learning Classification of Disaster-Related Images Posted on Social Media,"Johnson, Matthew and Murthy, Dhiraj and Robertson, Brett W. and Smith, William R. and Stephens, Keri K.",
+64,P_001637,Moving Emergency Response Forward: Leveraging Machine-Learning Classification of Disaster-Related Images Posted on Social Media,"Johnson, Matthew and Murthy, Dhiraj and Robertson, Brett W and Smith, William Roth and Stephens, Keri K",10.1080/07421222.2023.2172778
+65,C_000035,Special Issue: Designing Tools to Answer Great Information Systems Research Questions,"Giboney, Justin Scott and Briggs, Robert O. and Nunamaker, Jay F.",10.1080/07421222.2016.1267512
+65,C_001139,Special Issue: Crossing Boundaries in Information Systems Research,"BRIGGS, ROBERT O. and NUNAMAKER Jr., JAY F. and SPRAGUE Jr., RALPH H.",10.2753/MIS0742-1222220401
+65,D_000795,Special Issue - Crossing Boundaries in Information Systems Research,"Briggs, Robert O. and Nunamaker Jr., Jay F. and Sprague Jr., Ralph H.",
+65,D_001277,Special Issue - Designing Tools to Answer Great Information Systems Research Questions,"Giboney, Justin Scott and Briggs, Robert O. and Nunamaker Jr., Jay F.",
+65,P_0000000107,Special Issue: Crossing Boundaries in Information Systems Research,"Briggs, Robert O and Nunamaker, Jay F and Sprague, Ralph H",
+65,P_0000000276,Special Issue: Designing Tools to Answer Great Information Systems Research Questions,"Briggs, Robert O",10.1080/07421222.2016.1267512
+66,C_001603,Rethinking Project Escalation: An Institutional Perspective on the Persistence of Failing Large-Scale Information System Projects,"Berente, Nicholas and Salge, Carolina Alves de Lima and Mallampalli, Venkata K.P. and Park, Ken",10.1080/07421222.2022.2096545
+66,D_001554,Rethinking Project Escalation: An Institutional Perspective on the Persistence of Failing Large-Scale Information System Projects,"Berente, Nicholas and de Lima Salge, Carolina Alves and Mallampalli, Venkata K. P. and Park, Kenneth J.",
+67,C_000836,Special Issue: Neuroscience in Information Systems Research,"Liang, Ting-Peng and vom Brocke, Jan",10.2753/MIS0742-1222300401
+67,C_001119,Guidelines for Neuroscience Studies in Information Systems Research,"vom Brocke, Jan and Liang, Ting-Peng",10.2753/MIS0742-1222300408
+67,D_001161,Special Issue - Neuroscience in Information Systems Research,"Liang, Ting-Peng and vomBrocke, Jan",
+67,D_001165,Guidelines for Neuroscience Studies in Information Systems Research,"vomBrocke, Jan and Liang, Ting-Peng",
+67,P_0000000017,"Special Issue: Neuroscience in Information Systems Research TINg-PENg LIANg AND JAN VOM BrOckE, guEST EDITOrS","Liang, Ting-Peng",10.2753/MIS0742-1222300401
+67,P_0000000944,Guidelines for Neuroscience Studies in Information Systems Research,"Brocke, Jan Vom and Liang, Ting-Peng",10.2753/MIS0742-1222300408
+68,C_000567,Special Issue: Creating Social Value with Information,"Giboney, Justin Scott and Briggs, Robert O. and Nunamaker Jr, Jay F.",10.1080/07421222.2017.1393302
+68,C_001346,Special Section: Creating Value with Information,"Briggs, Robert O. and Nunamaker, Jay F.",10.2753/MIS0742-1222280401
+68,D_001070,Special Section - Creating Value with Information,"Briggs, Robert O. and Nunamaker Jr., Jay F.",
+68,D_001333,Special Issue - Creating Social Value with Information,"Giboney, Justin Scott and Briggs, Robert O. and Nunamaker Jr., Jay F.",
+68,P_0000000341,Special Issue: Creating Social Value with Information,"Briggs, Robert O",10.1080/07421222.2017.1393302
+68,P_0000000786,Special Section: Creating Value with Information,"Briggs, Robert O and Nunamaker, Jay F",10.2753/MIS0742-1222280401
+69,C_000140,Special Section: Cognitive Perspectives on Information Systems,"Briggs, Robert O.",10.1080/07421222.2014.1001253
+69,D_001232,Special Section - Cognitive Perspectives on Information Systems,"Briggs, Robert O.",
+69,P_0000000399,The papers in the Special section on Cognitive Perspectives on Information Systems that opens this issue of the Journal of Management Information Systems are unified by the common idea of its,,10.1080/07421222.2014.1001252
+69,P_0000001180,Special Section: Cognitive Perspectives on Information Systems,"Briggs, Robert O",10.1080/07421222.2014.1001253
+70,C_001592,Do Computers Reduce the Value of Worker Persistence?,"Brynjolfsson, Erik and Liu, Meng and Westerman, George",10.1080/07421222.2021.2023406
+70,D_001578,Do Computers Reduce the Value of Worker Persistence?,"Brynjolfsson, Erik and Liu, Meng and Westerman, George",
+70,P_0000001431,Do Computers Reduce the Value of Worker Persistence?,"Brynjolfsson, Erik and Liu, Meng and Westerman, George",10.1080/07421222.2021.2023406
+71,C_000622,A Rigidity Detection System for Automated Credibility Assessment,"Twyman, Nathan W. and Elkins, Aaron C. and Burgoon, Judee K. and Nunamaker, Jay F.",10.2753/MIS0742-1222310108
+71,D_001173,A Rigidity Detection System for Automated Credibility Assessment,"Twyman, Nathan W. and Elkins, Aaron C. and Burgoon, Judee K. and Nunamaker Jr., Jay F.",
+71,P_001601,A Rigidity Detection System for Automated Credibility Assessment,"Twyman, Nathan W and Elkins, Aaron C and Burgoon, Judee K and Nunamaker, Jay F",10.2753/MIS0742-1222310108
+71,P_001620,A Rigidity Detection System for Automated Credibility Assessment,"Twyman, Nathan W and Elkins, Aaron C and Burgoon, Judee K and Nunamaker, Jay F",10.2753/MIS0742-1222310108
+72,C_001640,Unbox the Black-Box: Predict and Interpret YouTube Viewership Using Deep Learning,"Xie, Jiaheng and Chai, Yidong and Liu, Xiao",10.1080/07421222.2023.2196780
+72,D_001616,Unbox the Black-Box: Predict and Interpret YouTube Viewership Using Deep Learning,"Xie, Jiaheng and Chai, Yidong and Liu, Xiao",
+73,C_001139,Special Issue: Crossing Boundaries in Information Systems Research,"BRIGGS, ROBERT O. and NUNAMAKER Jr., JAY F. and SPRAGUE Jr., RALPH H.",10.2753/MIS0742-1222220401
+73,D_001277,Special Issue - Designing Tools to Answer Great Information Systems Research Questions,"Giboney, Justin Scott and Briggs, Robert O. and Nunamaker Jr., Jay F.",
+74,C_001593,Do Social Dominance-Based Faultlines Help or Hurt Team Performance in Crowdsourcing Tournaments?,"Cao, Fang and Wang, Weiquan and Lim, Eric and Liu, Xinmei and Tan, Chee-Wee",10.1080/07421222.2021.2023403
+74,D_001579,Do Social Dominance-Based Faultlines Help or Hurt Team Performance in Crowdsourcing Tournaments?,"Cao, Fang and Wang, Weiquan and Lim, Eric Tze Kuan and Liu, Xinmei and Tan, Chee-Wee",
+74,P_0000000672,Do Social Dominance-Based Faultlines Help or Hurt Team Performance in Crowdsourcing Tournaments?,"Cao, Fang and Wang, Weiquan and Lim, Eric and Liu, Xinmei and Tan, Chee-Wee",10.1080/07421222.2021.2023403
+75,C_001346,Special Section: Creating Value with Information,"Briggs, Robert O. and Nunamaker, Jay F.",10.2753/MIS0742-1222280401
+75,D_001070,Special Section - Creating Value with Information,"Briggs, Robert O. and Nunamaker Jr., Jay F.",
+75,D_001333,Special Issue - Creating Social Value with Information,"Giboney, Justin Scott and Briggs, Robert O. and Nunamaker Jr., Jay F.",
+76,C_001416,Special Issue: Decision Support and Knowledge-Based Systems,"Stohr, Edward A.",10.1080/07421222.1987.11517774
+76,D_000057,Decision Support and Knowledge-Based Systems - A Special Issue,"Stohr, Edward A.",
+76,D_000088,Special Issue - Decision Support and Knowledge-Based Systems,"Stohr, Edward A.",
+77,C_001606,"The Good, the Bad, and the Social Media: Financial Implications of Social Media Reactions to Firm-Related News","Peng, Jing and Zhang, Juheng and Gopal, Ram",10.1080/07421222.2022.2096547
+77,D_001570,"The Good, the Bad, and the Social Media: Financial Implications of Social Media Reactions to Firm-Related News","Peng, Jing and Zhang, Juheng and Gopal, Ram",
+77,P_001570,"The Good, the Bad, and the Social Media: Financial Implications of Social Media Reactions to Firm-Related News","Peng, Jing and Zhang, Juheng and Gopal, Ram",10.1080/07421222.2022.2096547
+77,P_001631,"The Good, the Bad, and the Social Media: Financial Implications of Social Media Reactions to Firm-Related News","Peng, Jing and Zhang, Juheng and Gopal, Ram",10.1080/07421222.2022.2096547
+78,C_001600,Post-Story: Influence of Introducing Story Feature on Social Media Posts,"Alibakhshi, Reza and Srivastava, Shirish C.",10.1080/07421222.2022.2063550
+78,D_001556,Post-Story: Influence of Introducing Story Feature on Social Media Posts,"Alibakhshi, Reza and Srivastava, Shirish C.",
+78,P_0000000015,Post-Story: Influence of Introducing Story Feature on Social Media Posts,"Alibakhshi, Reza and Srivastava, Shirish C",10.1080/07421222.2022.2063550
 79,C_001633,Explaining the Outcomes of Social Gamification: A Longitudinal Field Experiment,"Zhang, Jun and Jiang, Qiqi and Zhang, Wenping and Kang, Lele and Lowry, Paul Benjamin and Zhang, Xiong",10.1080/07421222.2023.2196776
-79,D_001618,Explaining the Outcomes of Social Gamification: A Longitudinal Field Experiment,"Zhang, Jun and Jiang, Qiqi and Zhang, Wenping and Kang, Lele and Lowry, Paul Benjamin and Zhang, Xiong",
-80,C_001198,"Same Coin, Different Sides: Differential Impact of Social Learning on Two Facets of Music Piracy","Wang, Jingguo and Yang, Zhiyong and Bhattacharjee, Sudip",10.2753/MIS0742-1222280310
-80,D_001087,"Same Coin, Different Sides: Differential Impact of Social Learning on Two Facets of Music Piracy","Wang, Jingguo and Yang, Zhiyong and Bhattacharjee, Sudip",
-80,P_001584,"Same Coin, Different Sides: Differential Impact of Social Learning on Two Facets of Music Piracy","Wang, Jingguo and Yang, Zhiyong and Bhattacharjee, Sudip",10.2753/MIS0742-1222280310
-80,P_001614,"Same Coin, Different Sides: Differential Impact of Social Learning on Two Facets of Music Piracy","Wang, Jingguo and Yang, Zhiyong and Bhattacharjee, Sudip",10.2753/MIS0742-1222280310
-81,C_000035,Special Issue: Designing Tools to Answer Great Information Systems Research Questions,"Giboney, Justin Scott and Briggs, Robert O. and Nunamaker, Jay F.",10.1080/07421222.2016.1267512
-81,D_000795,Special Issue: Designing Tools to Answer Great Information Systems Research Questions,"Giboney, Justin Scott and Briggs, Robert O. and Nunamaker, Jay F.",
-81,P_0000000107,Special Issue: Crossing Boundaries in Information Systems Research,"Briggs, Robert O and Nunamaker, Jay F and Sprague, Ralph H",
-81,P_0000000276,Special Issue: Designing Tools to Answer Great Information Systems Research Questions,"Briggs, Robert O",10.1080/07421222.2016.1267512
-82,C_001584,Editorial Introduction,"Zwass, Vladimir",10.1080/07421222.2022.2063548
-82,D_001596,Editorial Introduction,"Zwass, Vladimir",
-83,C_001595,Effects of Online Crowds on Self-Disclosure Behaviors in Online Reviews: A Multidimensional Examination,"Choi, HanByeol Stella and Oh, Wonseok and Kwak, Chanhee and Lee, Junyeong and Lee, Heeseok",10.1080/07421222.2021.2023412
-83,D_001562,Effects of Online Crowds on Self-Disclosure Behaviors in Online Reviews: A Multidimensional Examination,"Choi, HanByeol Stella and Oh, Wonseok and Kwak, Chanhee and Lee, Junyeong and Lee, Heeseok",
-83,P_0000000028,Effects of Online Crowds on Self-Disclosure Behaviors in Online Reviews: A Multidimensional Examination,"Hanbyeol, Stella and Choi and Oh, Wonseok and Kwak, Chanhee and Lee, Junyeong and Lee, Heeseok",10.1080/07421222.2021.2023412
-84,D_001573,"We Are All in This Together, or Are We? Job Strain and Coping in the Context of an E-Healthcare System Implementation","Sykes, Tracy Ann and Aljafari, Ruba",
-84,P_001588,"We Are All in This Together, or Are We? Job Strain and Coping in the Context of an E-Healthcare System Implementation","Sykes, Tracy Ann and Aljafari, Ruba",10.1080/07421222.2022.2127450
-85,C_001611,Multi-Party Certification on Blockchain and Its Impact in the Market for Lemons,"Bauer, Ingrid and Parra-Moyano, José and Schmedders, Karl and Schwabe, Gerhard",10.1080/07421222.2022.2063555
-85,D_001560,Multi-Party Certification on Blockchain and Its Impact in the Market for Lemons,"Bauer, Ingrid and Parra-Moyano, José and Schmedders, Karl and Schwabe, Gerhard",
-85,P_0000000750,Multi-Party Certification on Blockchain and Its Impact in the Market for Lemons,"Bauer, Ingrid and Parra-Moyano, José and Schmedders, Karl and Schwabe, Gerhard",10.1080/07421222.2022.2063555
-86,D_000308,The Role of Information Technology in Organization Design,"Baroudi, Jack and Lucas, Henry C.",
-86,P_0000000702,Special Section: Information Technology and Organization Design,"Baroudi, Jack and Lucas, Henry C",
-86,P_0000001559,The Role of Information Technology in Organization Design,"Lucas, Henry C and Baroudi, Jack",
-87,C_001591,Does Techno-invasion Lead to Employees’ Deviant Behaviors?,"Chen, Yang and Wang, Xin and Benitez, Jose and Luo, Xin (Robert) and Li, Dechao",10.1080/07421222.2022.2063557
-87,D_001561,Does Techno-invasion Lead to Employees’ Deviant Behaviors?,"Chen, Yang and Wang, Xin and Benitez, Jose and Luo, Xin (Robert) and Li, Dechao",
-87,P_0000001089,Does Techno-invasion Lead to Employees' Deviant Behaviors?,"Chen, Yang and Wang, Xin and Benitez, Jose and Luo, Robert and Li, Dechao",10.1080/07421222.2022.2063557
-88,C_001582,Why Do Data Analysts Take IT-Mediated Shortcuts? An Ego-Depletion Perspective,"Ghasemaghaei, Maryam and Turel, Ofir",10.1080/07421222.2022.2063558
-88,D_001584,Why Do Data Analysts Take IT-Mediated Shortcuts? An Ego-Depletion Perspective,"Ghasemaghaei, Maryam and Turel, Ofir",
-88,P_0000000178,Why Do Data Analysts Take IT-Mediated Shortcuts? An Ego-Depletion Perspective,"Ghasemaghaei, Maryam and Turel, Ofir",10.1080/07421222.2022.2063558
-89,C_001589,Editorial Introduction,"Zwass, Vladimir",10.1080/07421222.2021.2023402
-89,D_001595,Editorial Introduction,"Zwass, Vladimir",
-90,C_001601,Greening the Cloud: A Load Balancing Mechanism to Optimize Cloud Computing Networks,"Kumar, Chetan and Marston, Sean and Sen, Ravi and Narisetty, Amar",10.1080/07421222.2022.2063551
-90,D_001585,Greening the Cloud: A Load Balancing Mechanism to Optimize Cloud Computing Networks,"Kumar, Chetan and Marston, Sean and Sen, Ravi and Narisetty, Amar",
-90,P_0000000208,Greening the Cloud: A Load Balancing Mechanism to Optimize Cloud Computing Networks,"Kumar, Chetan and Marston, Sean and Sen, Ravi and Narisetty, Amar",10.1080/07421222.2022.2063551
-91,C_001640,Unbox the Black-Box: Predict and Interpret YouTube Viewership Using Deep Learning,"Xie, Jiaheng and Chai, Yidong and Liu, Xiao",10.1080/07421222.2023.2196780
-91,D_001616,Unbox the Black-Box: Predict and Interpret YouTube Viewership Using Deep Learning,"Xie, Jiaheng and Chai, Yidong and Liu, Xiao",
-92,C_001588,The Impact of Trust and Recommendation Quality on Adopting Interactive and Non-Interactive Recommendation Agents: A Meta-Analysis,"Ebrahimi, Sepideh and Ghasemaghaei, Maryam and Benbasat, Izak",10.1080/07421222.2022.2096549
-92,D_001583,The Impact of Trust and Recommendation Quality on Adopting Interactive and Non-Interactive Recommendation Agents: A Meta-Analysis,"Ebrahimi, Sepideh and Ghasemaghaei, Maryam and Benbasat, Izak",
-92,P_001573,The Impact of Trust and Recommendation Quality on Adopting Interactive and Non-Interactive Recommendation Agents: A Meta-Analysis,"Ebrahimi, Sepideh and Ghasemaghaei, Maryam and Benbasat, Izak",10.1080/07421222.2022.2096549
-92,P_001623,The Impact of Trust and Recommendation Quality on Adopting Interactive and Non-Interactive Recommendation Agents: A Meta-Analysis,"Ebrahimi, Sepideh and Ghasemaghaei, Maryam and Benbasat, Izak",10.1080/07421222.2022.2096549
-93,C_001586,Why do Family Members Reject AI in Health Care? Competing Effects of Emotions,"Park, Eun Hee and Werder, Karl and Cao, Lan and Ramesh, Balasubramaniam",10.1080/07421222.2022.2096550
-93,D_001588,Why do Family Members Reject AI in Health Care? Competing Effects of Emotions,"Park, Eun Hee and Werder, Karl and Cao, Lan and Ramesh, Balasubramaniam",
-93,P_001576,Why do Family Members Reject AI in Health Care? Competing Effects of Emotions,"Park, Eun Hee and Werder, Karl and Cao, Lan and Ramesh, Balasubramaniam",10.1080/07421222.2022.2096550
-93,P_001630,Why do Family Members Reject AI in Health Care? Competing Effects of Emotions,"Park, Eun Hee and Werder, Karl and Cao, Lan and Ramesh, Balasubramaniam",10.1080/07421222.2022.2096550
-94,C_001583,Gaining Customer Loyalty with Tracking Information Quality in B2B Logistics,"Rai, Arun and Tang, Xinlin and Yin, Zhitao and Du, Steven",10.1080/07421222.2022.2063552
-94,D_001572,Gaining Customer Loyalty with Tracking Information Quality in B2B Logistics,"Rai, Arun and Tang, Xinlin and Yin, Zhitao and Du, Steven",
-94,P_0000000243,Gaining Customer Loyalty with Tracking Information Quality in B2B Logistics,"Rai, Arun and Tang, Xinlin and Yin, Zhitao and Du, Steven",10.1080/07421222.2022.2063552
-95,C_001619,Trust in Online Ride-Sharing Transactions: Impacts of Heterogeneous Order Features,"Cheng, Xusen and Fu, Shixuan and Sun, Jianshan and Zuo, Meiyun and Meng, Xiangsong",10.1080/07421222.2023.2172779
-95,D_001601,Trust in Online Ride-Sharing Transactions: Impacts of Heterogeneous Order Features,"Cheng, Xusen and Fu, Shixuan and Sun, Jianshan and Zuo, Meiyun and Meng, Xiangsong",
-95,P_001644,Trust in Online Ride-Sharing Transactions: Impacts of Heterogeneous Order Features,"Cheng, Xusen and Fu, Shixuan and Sun, Jianshan and Zuo, Meiyun and Meng, Xiangsong",10.1080/07421222.2023.2172779
-96,C_000993,Investment in Enterprise Resource Planning: Business Impact and Productivity Measures,,10.1080/07421222.2002.11045718
-96,C_001262,Investment in Enterprise Resource Planning: Business Impact and Productivity Measures,,10.1080/07421222.2002.11045716
-97,C_000627,The Impact of Influence Tactics in Information System Development Projects: A Control-Loss Perspective,"Narayanaswamy, Ravi and Grover, Varun and Henry, Raymond M.",10.2753/MIS0742-1222300106
-97,P_001618,The Impact of Influence Tactics in Information System Development Projects: A Control-Loss Perspective,"Narayanaswamy, Ravi and Grover, Varun and Henry, Raymond M",10.2753/MIS0742-1222300106
-98,C_000622,A Rigidity Detection System for Automated Credibility Assessment,"Twyman, Nathan W. and Elkins, Aaron C. and Burgoon, Judee K. and Nunamaker, Jay F.",10.2753/MIS0742-1222310108
-98,P_001620,A Rigidity Detection System for Automated Credibility Assessment,"Twyman, Nathan W and Elkins, Aaron C and Burgoon, Judee K and Nunamaker, Jay F",10.2753/MIS0742-1222310108
-99,C_001623,Deep Learning for Information Systems Research,"Samtani, Sagar and Zhu, Hongyi and Padmanabhan, Balaji and Chai, Yidong and Chen, Hsinchun and Nunamaker, Jay F.",10.1080/07421222.2023.2172772
-99,D_001599,Deep Learning for Information Systems Research,"Samtani, Sagar and Zhu, Hongyi and Padmanabhan, Balaji and Chai, Yidong and Chen, Hsinchun and Nunamaker, Jay F.",
-99,P_001646,Deep Learning for Information Systems Research,"Samtani, Sagar and Zhu, Hongyi and Padmanabhan, Balaji and Chai, Yidong and Chen, Hsinchun and Nunamaker, Jay F",10.1080/07421222.2023.2172772
-100,C_001592,Do Computers Reduce the Value of Worker Persistence?,"Brynjolfsson, Erik and Liu, Meng and Westerman, George",10.1080/07421222.2021.2023406
-100,D_001578,Do Computers Reduce the Value of Worker Persistence?,"Brynjolfsson, Erik and Liu, Meng and Westerman, George",
-100,P_0000001431,Do Computers Reduce the Value of Worker Persistence?,"Brynjolfsson, Erik and Liu, Meng and Westerman, George",10.1080/07421222.2021.2023406
-101,C_000140,Special Section: Cognitive Perspectives on Information Systems,"Briggs, Robert O.",10.1080/07421222.2014.1001253
-101,D_001232,Special Section: Cognitive Perspectives on Information Systems,"Briggs, Robert O.",
-101,P_0000000399,The papers in the Special section on Cognitive Perspectives on Information Systems that opens this issue of the Journal of Management Information Systems are unified by the common idea of its,,10.1080/07421222.2014.1001252
-101,P_0000001180,Special Section: Cognitive Perspectives on Information Systems,"Briggs, Robert O",10.1080/07421222.2014.1001253
-102,C_000613,Online Consumer Search Depth: Theories and New Findings,"""Jennifer"" Zhang, Jie and Fang, Xiao and Liu Sheng, Olivia R.",10.2753/MIS0742-1222230304
-102,D_000865,Online Consumer Search Depth: Theories and New Findings,"""Jennifer"" Zhang, Jie and Fang, Xiao and Liu Sheng, Olivia R.",
-102,P_001597,"Online Consumer Search Depth: Theories and New Findings JIE ""JENNIFER"" ZHANG, XIAO FANG, AND OLIVIA R. LIU SHENG","Zhang, Jennifer "" and Liu Sheng, Olivia R and Sheng",10.2753/MIS0742-1222230304
-102,P_001616,"Online Consumer Search Depth: Theories and New Findings JIE ""JENNIFER"" ZHANG, XIAO FANG, AND OLIVIA R. LIU SHENG","Zhang, Jennifer "" and Liu Sheng, Olivia R and Sheng",10.2753/MIS0742-1222230304
-103,C_000094,Editorial Introduction,"Zwass, Vladimir",10.1080/07421222.2017.1334463
-103,D_001363,Editorial Introduction,"Zwass, Vladimir",
-103,P_001615,Editorial Introduction,,10.1080/07421222.2017.1334463
-104,C_000730,"How Big Data Analytics Enables Service Innovation: Materiality, Affordance, and the Individualization of Service","Lehrer, Christiane and Wieneke, Alexander and vom Brocke, Jan and Jung, Reinhard and Seidel, Stefan",10.1080/07421222.2018.1451953
-104,D_001385,"How Big Data Analytics Enables Service Innovation: Materiality, Affordance, and the Individualization of Service","Lehrer, Christiane and Wieneke, Alexander and vom Brocke, Jan and Jung, Reinhard and Seidel, Stefan",
-104,P_001582,"How Big Data Analytics Enables Service Innovation: Materiality, Affordance, and the Individualization of Service","Lehrer, Christiane and Wieneke, Alexander and Brocke, Jan Vom and Jung, Reinhard and Seidel, Stefan and Quarterly, Mis",10.1080/07421222.2018.1451953
-105,C_001590,Repeated IT Interruption: Habituation and Sensitization of User Responses,"Weinert, Christoph and Maier, Christian and Laumer, Sven and Weitzel, Tim",10.1080/07421222.2021.2023411
-105,D_001590,Repeated IT Interruption: Habituation and Sensitization of User Responses,"Weinert, Christoph and Maier, Christian and Laumer, Sven and Weitzel, Tim",
-105,P_0000000910,Repeated IT Interruption: Habituation and Sensitization of User Responses,"Weinert, Christoph and Maier, Christian and Laumer, Sven and Weitzel, Tim",10.1080/07421222.2021.2023411
-106,C_001622,Act and Reflect: Integrating Reflection into Design Thinking,"Schoormann, Thorsten and Stadtländer, Maren and Knackstedt, Ralf",10.1080/07421222.2023.2172773
-106,D_001608,Act and Reflect: Integrating Reflection into Design Thinking,"Schoormann, Thorsten and Stadtländer, Maren and Knackstedt, Ralf",
-107,C_001620,Introduction to the Special Issue,"de Vreede, Gert-Jan and Nunamaker, Jay F.",10.1080/07421222.2023.2172768
-107,P_001639,Introduction to the Special Issue,,10.1080/07421222.2023.2172768
-108,C_001624,Learning with Digital Agents: An Analysis based on the Activity Theory,"Dolata, Mateusz and Katsiuba, Dzmitry and Wellnhammer, Natalie and Schwabe, Gerhard",10.1080/07421222.2023.2172775
-108,D_001606,Learning with Digital Agents: An Analysis based on the Activity Theory,"Dolata, Mateusz and Katsiuba, Dzmitry and Wellnhammer, Natalie and Schwabe, Gerhard",
-108,P_001641,Learning with Digital Agents: An Analysis based on the Activity Theory,"Dolata, Mateusz and Katsiuba, Dzmitry and Wellnhammer, Natalie and Schwabe, Gerhard",10.1080/07421222.2023.2172775
-109,C_001629,Editorial Introduction,"Zwass, Vladimir",10.1080/07421222.2023.2196768
-109,D_001623,Editorial Introduction,"Zwass, Vladimir",
-110,C_001636,"AI Agents as Team Members: Effects on Satisfaction, Conflict, Trustworthiness, and Willingness to Work With","Dennis, Alan R. and Lakhiwal, Akshat and Sachdeva, Agrim",10.1080/07421222.2023.2196773
-110,D_001620,"AI Agents as Team Members: Effects on Satisfaction, Conflict, Trustworthiness, and Willingness to Work With","Dennis, Alan R. and Lakhiwal, Akshat and Sachdeva, Agrim",
-111,C_001638,SocioLink: Leveraging Relational Information in Knowledge Graphs for Startup Recommendations,"Xu, Ruiyun and Chen, Hailiang and Zhao, J. Leon",10.1080/07421222.2023.2196771
-111,D_001612,SocioLink: Leveraging Relational Information in Knowledge Graphs for Startup Recommendations,"Xu, Ruiyun and Chen, Hailiang and Zhao, J. Leon",
-112,D_001580,To Be or Not to Be . . .Human? Theorizing the Role of Human-Like Competencies in Conversational Artificial Intelligence Agents,"Chandra, Shalini and Shirish, Anuragini and Srivastava, Shirish C.",
-112,P_001594,To Be or Not to Be . . .Human? Theorizing the Role of Human-Like Competencies in Conversational Artificial Intelligence Agents,"Chandra, Shalini and Shirish, Anuragini and Srivastava, Shirish C",10.1080/07421222.2022.2127441
-113,C_001637,Token Incentives in a Volatile Crypto Market: The Effects of Token Price Volatility on User Contribution,"Chen, Kun and Fan, Yifan and Liao, Shaoyi Stephen",10.1080/07421222.2023.2196772
-113,D_001619,Token Incentives in a Volatile Crypto Market: The Effects of Token Price Volatility on User Contribution,"Chen, Kun and Fan, Yifan and Liao, Shaoyi Stephen",
-114,C_001630,Situational Contingencies in Susceptibility of Social Media to Phishing: A Temptation and Restraint Model,"Qahri-Saremi, Hamed and Turel, Ofir",10.1080/07421222.2023.2196779
-114,D_001622,Situational Contingencies in Susceptibility of Social Media to Phishing: A Temptation and Restraint Model,"Qahri-Saremi, Hamed and Turel, Ofir",
+79,D_001618,Explaining the Outcomes of Social Gamification: A Longitudinal Field Experiment,"Zhang, Jun and Jiang, Qiqi and Zhang, Wenping and Kang, Lele and Lowry, Paul Benjamin and Xiong, Zhang",
+80,C_001601,Greening the Cloud: A Load Balancing Mechanism to Optimize Cloud Computing Networks,"Kumar, Chetan and Marston, Sean and Sen, Ravi and Narisetty, Amar",10.1080/07421222.2022.2063551
+80,D_001585,Greening the Cloud: A Load Balancing Mechanism to Optimize Cloud Computing Networks,"Kumar, Chetan and Marston, Sean R. and Sen, Ravi and Narisetty, Amar",
+80,P_0000000208,Greening the Cloud: A Load Balancing Mechanism to Optimize Cloud Computing Networks,"Kumar, Chetan and Marston, Sean and Sen, Ravi and Narisetty, Amar",10.1080/07421222.2022.2063551
+81,C_001627,Blood and Water: Information Technology Investment and Control in Family-owned Businesses,"Kathuria, Abhishek and Karhade, Prasanna P. and (Nancy) Ning, Xue and Konsynski, Benn R.",10.1080/07421222.2023.2172770
+81,D_001604,Blood and Water: Information Technology Investment and Control in Family-owned Businesses,"Kathuria, Abhishek and Karhade, Prasanna P. and Ning, Xue and Konsynski, Benn R.",
+81,P_001636,Blood and Water: Information Technology Investment and Control in Family-owned Businesses,"Kathuria, Abhishek and Karhade, Prasanna P and Konsynski, Benn R and Ning, Nancy",10.1080/07421222.2023.2172770
+82,C_000539,The Role of Information Technology in Organization Design,"Baroudi, Jack and Lucas, Henry C.",10.1080/07421222.1994.11518018
+82,C_001328,Special Section: Information Technology and Organization Design,"Baroudi, Jack and Lucas, Henry C.",10.1080/07421222.1994.11518017
+82,D_000306,Special Section - Information Technology and Organization Design,"Baroudi, Jack J. and Lucas Jr., Henry C.",
+82,D_000308,The Role of Information Technology in Organization Design,"Lucas Jr., Henry C. and Baroudi, Jack J.",
+82,P_0000000702,Special Section: Information Technology and Organization Design,"Baroudi, Jack and Lucas, Henry C",
+82,P_0000001559,The Role of Information Technology in Organization Design,"Lucas, Henry C and Baroudi, Jack",
+83,D_001568,Improving Imbalanced Machine Learning with Neighborhood-Informed Synthetic Sample Placement,"Nasir, Murtaza and Dag, Ali and Simsek, Serhat and Ivanov, Anton and Oztekin, Asil",
+83,P_001586,Improving Imbalanced Machine Learning with Neighborhood-Informed Synthetic Sample Placement,"Nasir, Murtaza and Dag, Ali and Simsek, Serhat and Ivanov, Anton and Oztekin, Asil",10.1080/07421222.2022.2127453
+84,C_000730,"How Big Data Analytics Enables Service Innovation: Materiality, Affordance, and the Individualization of Service","Lehrer, Christiane and Wieneke, Alexander and vom Brocke, Jan and Jung, Reinhard and Seidel, Stefan",10.1080/07421222.2018.1451953
+84,D_001385,"How Big Data Analytics Enables Service Innovation - Materiality, Affordance, and the Individualization of Service","Lehrer, Christiane and Wieneke, Alexander and Brocke, Jan vom and Jung, Reinhard and Seidel, Stefan",
+84,P_001582,"How Big Data Analytics Enables Service Innovation: Materiality, Affordance, and the Individualization of Service","Lehrer, Christiane and Wieneke, Alexander and Brocke, Jan Vom and Jung, Reinhard and Seidel, Stefan and Quarterly, Mis",10.1080/07421222.2018.1451953
+85,D_001558,Managing Digital Platforms with Robust Multi-Sided Recommender Systems,"Malgonde, Onkar and Zhang, He and Padmanabhan, Balaji and Limayem, Moez",
+85,P_001595,Managing Digital Platforms with Robust Multi-Sided Recommender Systems,"Malgonde, Onkar S and Zhang, He and Padmanabhan, Balaji and Limayem, Moez",10.1080/07421222.2022.2127440
+86,C_001580,The Power of Introverts: Personality and Intelligence in Virtual Teams,"Dennis, Alexander S. and Barlow, Jordan B. and Dennis, Alan R.",10.1080/07421222.2021.2023408
+86,D_001563,The Power of Introverts: Personality and Intelligence in Virtual Teams,"Dennis, Alexander S. and Barlow, Jordan B. and Dennis, Alan R.",
+86,P_0000001304,The Power of Introverts: Personality and Intelligence in Virtual Teams,"Dennis, Alexander S and Barlow, Jordan B and Dennis, Alan R and Dennis, Alan R",10.1080/07421222.2021.2023408
+87,C_001617,Editorial Introduction,"Zwass, Vladimir",10.1080/07421222.2023.2172766
+87,D_001610,Editorial Introduction,"Zwass, Vladimir",
+87,P_001645,Editorial Introduction,,10.1080/07421222.2023.2172766
+88,C_000836,Special Issue: Neuroscience in Information Systems Research,"Liang, Ting-Peng and vom Brocke, Jan",10.2753/MIS0742-1222300401
+88,D_001161,Special Issue - Neuroscience in Information Systems Research,"Liang, Ting-Peng and vomBrocke, Jan",
+88,D_001165,Guidelines for Neuroscience Studies in Information Systems Research,"vomBrocke, Jan and Liang, Ting-Peng",
+89,D_001570,"The Good, the Bad, and the Social Media: Financial Implications of Social Media Reactions to Firm-Related News","Peng, Jing and Zhang, Juheng and Gopal, Ram",
+89,P_001570,"The Good, the Bad, and the Social Media: Financial Implications of Social Media Reactions to Firm-Related News","Peng, Jing and Zhang, Juheng and Gopal, Ram",10.1080/07421222.2022.2096547
+90,D_000306,Special Section - Information Technology and Organization Design,"Baroudi, Jack J. and Lucas Jr., Henry C.",
+90,D_000308,The Role of Information Technology in Organization Design,"Lucas Jr., Henry C. and Baroudi, Jack J.",
+91,C_001602,Algorithmic versus Human Advice: Does Presenting Prediction Performance Matter for Algorithm Appreciation?,"You, Sangseok and Yang, Cathy Liu and Li, Xitong",10.1080/07421222.2022.2063553
+91,D_001593,Algorithmic versus Human Advice: Does Presenting Prediction Performance Matter for Algorithm Appreciation?,"You, Sangseok and Yang, Cathy Liu and Li, Xitong",
+91,P_0000000593,Algorithmic versus Human Advice: Does Presenting Prediction Performance Matter for Algorithm Appreciation?,"You, Sangseok and Liu, Cathy and Li, Xitong",10.1080/07421222.2022.2063553
+92,C_001608,Deriving Execution Effectiveness of Crowdfunding Projects from the Fundraiser Network,"Kao, Ta-Wei (Daniel) and Hsiao, Shih-Hui (Steven) and Su, Hung-Chung and Ku, Chih-Hao (Justin)",10.1080/07421222.2021.2023404
+92,D_001566,Deriving Execution Effectiveness of Crowdfunding Projects from the Fundraiser Network,"Kao, Ta-Wei and Hsiao, Shih-Hui Steven and Su, Hung-Chung and Ku, Chih-Hao",
+92,P_0000001161,Deriving Execution Effectiveness of Crowdfunding Projects from the Fundraiser Network,"Kao, Daniel and Hsiao, Steven and Su, Hung-Chung and Ku, Justin and Kao, T.-W and Hsiao, S.-H",10.1080/07421222.2021.2023404
+93,P_001573,The Impact of Trust and Recommendation Quality on Adopting Interactive and Non-Interactive Recommendation Agents: A Meta-Analysis,"Ebrahimi, Sepideh and Ghasemaghaei, Maryam and Benbasat, Izak",10.1080/07421222.2022.2096549
+93,P_001623,The Impact of Trust and Recommendation Quality on Adopting Interactive and Non-Interactive Recommendation Agents: A Meta-Analysis,"Ebrahimi, Sepideh and Ghasemaghaei, Maryam and Benbasat, Izak",10.1080/07421222.2022.2096549
+94,C_001597,Editorial Introduction,"Zwass, Vladimir",10.1080/07421222.2022.2096540
+94,D_001597,Editorial Introduction,"Zwass, Vladimir",
+94,P_001626,Editorial Introduction,,10.1080/07421222.2022.2096540
+95,C_001225,A Data-Mining Approach to Identification of Risk Factors in Safety Management Systems,"Shi, Donghui and Guan, Jian and Zurada, Jozef and Manikas, Andrew",10.1080/07421222.2017.1394056
+95,D_001326,A Data-Mining Approach to Identification of Risk Factors in Safety Management Systems,"Shi, Donghui and Guan, Jian and Zurada, Jacek M. and Manikas, Andrew S.",
+95,P_001602,"A Data-Mining Approach to Identification of Risk Factors in Safety Management Systems DONGHUI SHI, JIAN GUAN, JOZEF ZURADA, AND ANDREW MANIKAS","Shi, Donghui",10.1080/07421222.2017.1394056
+95,P_001621,"A Data-Mining Approach to Identification of Risk Factors in Safety Management Systems DONGHUI SHI, JIAN GUAN, JOZEF ZURADA, AND ANDREW MANIKAS","Shi, Donghui",10.1080/07421222.2017.1394056
+96,C_001198,"Same Coin, Different Sides: Differential Impact of Social Learning on Two Facets of Music Piracy","Wang, Jingguo and Yang, Zhiyong and Bhattacharjee, Sudip",10.2753/MIS0742-1222280310
+96,D_001087,"Same Coin, Different Sides - Differential Impact of Social Learning on Two Facets of Music Piracy","Wang, Jingguo and Yang, Zhiyong and Bhattacharjee, Sudip",
+96,P_001584,"Same Coin, Different Sides: Differential Impact of Social Learning on Two Facets of Music Piracy","Wang, Jingguo and Yang, Zhiyong and Bhattacharjee, Sudip",10.2753/MIS0742-1222280310
+96,P_001614,"Same Coin, Different Sides: Differential Impact of Social Learning on Two Facets of Music Piracy","Wang, Jingguo and Yang, Zhiyong and Bhattacharjee, Sudip",10.2753/MIS0742-1222280310
+97,C_000094,Editorial Introduction,"Zwass, Vladimir",10.1080/07421222.2017.1334463
+97,D_001363,Editorial Introduction,"Zwass, Vladimir",
+97,P_001615,Editorial Introduction,,10.1080/07421222.2017.1334463
+98,C_001634,Who Should Own the Data? The Impact of Data Ownership Shift from the Service Provider to Consumers,"Li, Shilei and Liu, Yang and Feng, Juan",10.1080/07421222.2023.2196775
+98,D_001615,Who Should Own the Data? The Impact of Data Ownership Shift from the Service Provider to Consumers,"Li, Shilei and Liu, Yang and Feng, Juan",
+99,C_001628,Thinking Fast and Thinking Slow: Digital Devices’ Effects on Cognitive Reflection,"Figl, Kathrin and Remus, Ulrich",10.1080/07421222.2023.2196769
+99,D_001621,Thinking Fast and Thinking Slow: Digital Devices' Effects on Cognitive Reflection,"Figl, Kathrin and Remus, Ulrich",
+100,C_001015,Leveraging Information Technology Infrastructure to Facilitate a Firm's Customer Agility and Competitive Activity: An Empirical Investigation,"Roberts, Nicholas and Grover, Varun",10.2753/MIS0742-1222280409
+100,D_001074,Leveraging Information Technology Infrastructure to Facilitate a Firm's Customer Agility and Competitive Activity - An Empirical Investigation,"Roberts, Nicholas H. and Grover, Varun",
+100,P_001583,Leveraging Information Technology Infrastructure to Facilitate a Firm's Customer Agility and Competitive Activity: An Empirical Investigation,"Roberts, Nicholas and Grover, Varun",10.2753/MIS0742-1222280409
+101,C_001605,Examining the Impact of Algorithmic Control on Uber Drivers’ Technostress,"Cram, W. Alec and Wiener, Martin and Tarafdar, Monideepa and Benlian, Alexander",10.1080/07421222.2022.2063556
+101,D_001582,Examining the Impact of Algorithmic Control on Uber Drivers' Technostress,"Cram, W. Alec and Wiener, Martin and Tarafdar, Monideepa and Benlian, Alexander",
+101,P_0000000681,Examining the Impact of Algorithmic Control on Uber Drivers' Technostress,"Cram, W. Alec and Wiener, Martin and Tarafdar, Monideepa and Benlian, Alexander",10.1080/07421222.2022.2063556
+102,C_001591,Does Techno-invasion Lead to Employees’ Deviant Behaviors?,"Chen, Yang and Wang, Xin and Benitez, Jose and Luo, Xin (Robert) and Li, Dechao",10.1080/07421222.2022.2063557
+102,D_001561,Does Techno-invasion Lead to Employees' Deviant Behaviors?,"Chen, Yang and Wang, Xin and Benitez, Jose and Luo, Xin and Li, Dechao",
+102,P_0000001089,Does Techno-invasion Lead to Employees' Deviant Behaviors?,"Chen, Yang and Wang, Xin and Benitez, Jose and Luo, Robert and Li, Dechao",10.1080/07421222.2022.2063557
+103,C_001623,Deep Learning for Information Systems Research,"Samtani, Sagar and Zhu, Hongyi and Padmanabhan, Balaji and Chai, Yidong and Chen, Hsinchun and Nunamaker, Jay F.",10.1080/07421222.2023.2172772
+103,D_001599,Deep Learning for Information Systems Research,"Samtani, Sagar and Zhu, Hongyi and Padmanabhan, Balaji and Chai, Yidong and Chen, Hsinchun and Nunamaker Jr., Jay F.",
+103,P_001646,Deep Learning for Information Systems Research,"Samtani, Sagar and Zhu, Hongyi and Padmanabhan, Balaji and Chai, Yidong and Chen, Hsinchun and Nunamaker, Jay F",10.1080/07421222.2023.2172772
+104,C_001611,Multi-Party Certification on Blockchain and Its Impact in the Market for Lemons,"Bauer, Ingrid and Parra-Moyano, José and Schmedders, Karl and Schwabe, Gerhard",10.1080/07421222.2022.2063555
+104,D_001560,Multi-Party Certification on Blockchain and Its Impact in the Market for Lemons,"Bauer, Ingrid and Moyano, José Parra and Schmedders, Karl and Schwabe, Gerhard",
+104,P_0000000750,Multi-Party Certification on Blockchain and Its Impact in the Market for Lemons,"Bauer, Ingrid and Parra-Moyano, José and Schmedders, Karl and Schwabe, Gerhard",10.1080/07421222.2022.2063555
+105,C_001631,Maximizing Online Revisiting and Purchasing: A Clickstream-Based Approach to Enhancing Customer Lifetime Value,"Jabr, Wael and Ghoshal, Abhijeet and Cheng, Yichen and Pavlou, Paul",10.1080/07421222.2023.2196778
+105,D_001614,Maximizing Online Revisiting and Purchasing: A Clickstream-Based Approach to Enhancing Customer Lifetime Value,"Jabr, Wael and Ghoshal, Abhijeet and Cheng, Yichen and Pavlou, Paul A.",
+106,C_001630,Situational Contingencies in Susceptibility of Social Media to Phishing: A Temptation and Restraint Model,"Qahri-Saremi, Hamed and Turel, Ofir",10.1080/07421222.2023.2196779
+106,D_001622,Situational Contingencies in Susceptibility of Social Media to Phishing: A Temptation and Restraint Model,"Qahri-Saremi, Hamed and Turel, Ofir",
+107,C_001636,"AI Agents as Team Members: Effects on Satisfaction, Conflict, Trustworthiness, and Willingness to Work With","Dennis, Alan R. and Lakhiwal, Akshat and Sachdeva, Agrim",10.1080/07421222.2023.2196773
+107,D_001620,"AI Agents as Team Members: Effects on Satisfaction, Conflict, Trustworthiness, and Willingness to Work With","Dennis, Alan R. and Lakhiwal, Akshat and Sachdeva, Agrim",
+108,C_001416,Special Issue: Decision Support and Knowledge-Based Systems,"Stohr, Edward A.",10.1080/07421222.1987.11517774
+108,P_0000000506,Decision Support and Knowledge-Based Systems: A Special Issue,"Stohr, Edward A",
+109,C_001594,The Effects of Information Nudges on Consumer Usage of Digital Services under Three-Part Tariffs,"Xiao, Ping and Chen, Yuanyuan and Bharadwaj, Anandhi and Bao, Weining",10.1080/07421222.2021.2023409
+109,D_001576,The Effects of Information Nudges on Consumer Usage of Digital Services under Three-Part Tariffs,"Xiao, Ping and Chen, Yuanyuan and Bharadwaj, Anandhi and Bao, Weining",
+109,P_0000001363,The Effects of Information Nudges on Consumer Usage of Digital Services under Three-Part Tariffs,"Xiao, Ping and Chen, Yuanyuan and Bharadwaj, Anandhi and Bao, Weining",10.1080/07421222.2021.2023409
+110,C_001639,Deep Learning-Based Imputation Method to Enhance Crowdsourced Data on Online Business Directory Platforms for Improved Services,"Xu, Da and Hu, Paul Jen-Hwa and Fang, Xiao",10.1080/07421222.2023.2196770
+110,D_001617,Deep Learning-Based Imputation Method to Enhance Crowdsourced Data on Online Business Directory Platforms for Improved Services,"Xu, Da and Hu, Paul Jen-Hwa and Fang, Xiao",
+111,C_001584,Editorial Introduction,"Zwass, Vladimir",10.1080/07421222.2022.2063548
+111,D_001596,Editorial Introduction,"Zwass, Vladimir",
+112,C_001622,Act and Reflect: Integrating Reflection into Design Thinking,"Schoormann, Thorsten and Stadtländer, Maren and Knackstedt, Ralf",10.1080/07421222.2023.2172773
+112,D_001608,Act and Reflect: Integrating Reflection into Design Thinking,"Schoormann, Thorsten and Stadtländer, Maren and Knackstedt, Ralf",
+113,C_001638,SocioLink: Leveraging Relational Information in Knowledge Graphs for Startup Recommendations,"Xu, Ruiyun and Chen, Hailiang and Zhao, J. Leon",10.1080/07421222.2023.2196771
+113,D_001612,SocioLink: Leveraging Relational Information in Knowledge Graphs for Startup Recommendations,"Xu, Ruiyun and Chen, Hailiang and Zhao, J. Leon",
+114,C_001596,Assessing and Enhancing Adversarial Robustness of Predictive Analytics: An Empirically Tested Design Framework,"Li, Weifeng and Chai, Yidong",10.1080/07421222.2022.2063549
+114,D_001586,Assessing and Enhancing Adversarial Robustness of Predictive Analytics: An Empirically Tested Design Framework,"Li, Weifeng and Chai, Yidong",
+114,P_0000001328,Assessing and Enhancing Adversarial Robustness of Predictive Analytics: An Empirically Tested Design Framework,"Li, Weifeng and Chai, Yidong",10.1080/07421222.2022.2063549
+115,C_001582,Why Do Data Analysts Take IT-Mediated Shortcuts? An Ego-Depletion Perspective,"Ghasemaghaei, Maryam and Turel, Ofir",10.1080/07421222.2022.2063558
+115,D_001584,Why Do Data Analysts Take IT-Mediated Shortcuts? An Ego-Depletion Perspective,"Ghasemaghaei, Maryam and Turel, Ofir",
+115,P_0000000178,Why Do Data Analysts Take IT-Mediated Shortcuts? An Ego-Depletion Perspective,"Ghasemaghaei, Maryam and Turel, Ofir",10.1080/07421222.2022.2063558
+116,C_000337,Editorial Introduction,"Zwass, Vladimir",10.1080/07421222.2005.11045854
+116,D_000787,Editorial Introduction,"Zwass, Vladimir",
+116,P_001619,Editorial Introduction,debra,10.1080/07421222.2005.11045854
+117,D_001598,Editorial Introduction,"Zwass, Vladimir",
+117,P_001596,Editorial Introduction,,10.1080/07421222.2022.2127439
+118,D_001580,To Be or Not to Be ...Human? Theorizing the Role of Human-Like Competencies in Conversational Artificial Intelligence Agents,"Chandra, Shalini and Shirish, Anuragini and Srivastava, Shirish C.",
+118,P_001594,To Be or Not to Be . . .Human? Theorizing the Role of Human-Like Competencies in Conversational Artificial Intelligence Agents,"Chandra, Shalini and Shirish, Anuragini and Srivastava, Shirish C",10.1080/07421222.2022.2127441
+119,D_001573,"We Are All in This Together, or Are We? Job Strain and Coping in the Context of an E-Healthcare System Implementation","Sykes, Tracy Ann and Aljafari, Ruba",
+119,P_001588,"We Are All in This Together, or Are We? Job Strain and Coping in the Context of an E-Healthcare System Implementation","Sykes, Tracy Ann and Aljafari, Ruba",10.1080/07421222.2022.2127450
+120,D_001594,Servitization for the Environment? The Impact of Data-Centric Product-Service Models,"Zhang, Xin and Guo, Xiaolong and Yue, Wei Thoo and Yu, Yugang",
+120,P_001589,Servitization for the Environment? The Impact of Data-Centric Product-Service Models,"Zhang, Xin and Guo, Xiaolong and Yue, Wei Thoo and Yu, Yugang",10.1080/07421222.2022.2127454
+121,C_001620,Introduction to the Special Issue,"de Vreede, Gert-Jan and Nunamaker, Jay F.",10.1080/07421222.2023.2172768
+121,P_001639,Introduction to the Special Issue,,10.1080/07421222.2023.2172768

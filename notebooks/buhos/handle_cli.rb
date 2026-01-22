@@ -59,7 +59,7 @@ end
 def create_canonical_documents_from_csv()
   # puts "Current working directory: #{Dir.pwd}"
   csv_file_path = "notebooks/buhos/records.csv"
-  csv_data = CSV.read(csv_file_path, headers: true)
+  csv_data = CSV.read(csv_file_path, headers: true, encoding: "bom|utf-8")
 
   csv_data.each do |row|
     doc_data = row.to_hash  # Convert each row to a hash
