@@ -33,6 +33,111 @@ from bib_dedupe.constants.fields import ID as FIELD_ID, AUTHOR, TITLE, DOI
 warnings.filterwarnings("ignore", category=FutureWarning)
 warnings.filterwarnings("ignore", category=pd.errors.SettingWithCopyWarning)
 
+# Output helpers (match experiments_output/output_<dataset>)
+def _ensure_output_dir(dataset_root: Path) -> Path:
+    out_root = REPO_ROOT / "experiments_output"
+    out_root.mkdir(exist_ok=True)
+    exp_name = dataset_root.parent.name
+    ds_name = exp_name.replace("exp_", "") if exp_name.startswith("exp_") else exp_name
+    out_dir = out_root / f"output_{ds_name}"
+    out_dir.mkdir(exist_ok=True)
+    return out_dir
+
+
+def _append_evaluation_csv(out_dir: Path, subset: str, result: dict) -> None:
+    row = {
+        "dataset": subset,
+        "time": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "TP": result.get("TP", 0),
+        "FP": result.get("FP", 0),
+        "FN": result.get("FN", 0),
+        "TN": result.get("TN", 0),
+        "false_positive_rate": result.get("false_positive_rate", 0.0),
+        "specificity": result.get("specificity", 0.0),
+        "sensitivity": result.get("sensitivity", 0.0),
+        "precision": result.get("precision", 0.0),
+        "f1": result.get("f1", 0.0),
+        "runtime": result.get("runtime", ""),
+    }
+    columns = [
+        "dataset",
+        "time",
+        "TP",
+        "FP",
+        "FN",
+        "TN",
+        "false_positive_rate",
+        "specificity",
+        "sensitivity",
+        "precision",
+        "f1",
+        "runtime",
+    ]
+    eval_csv = out_dir / "evaluation.csv"
+    if eval_csv.exists():
+        df = pd.read_csv(eval_csv)
+        df = pd.concat([df, pd.DataFrame([row])], ignore_index=True)
+    else:
+        df = pd.DataFrame([row])
+    df = df.reindex(columns=columns)
+    df.to_csv(eval_csv, index=False)
+
+
+def _write_current_results(out_dir: Path, dataset_root: Path, results_by_subset: dict) -> None:
+    summary_rows = []
+    detail_rows = []
+    for subset, result in results_by_subset.items():
+        summary_rows.append({
+            "dataset": subset,
+            "FP": result.get("FP", 0),
+            "TP": result.get("TP", 0),
+            "FN": result.get("FN", 0),
+            "TN": result.get("TN", 0),
+            "false_positive_rate": round(float(result.get("false_positive_rate", 0.0)), 4),
+            "sensitivity": round(float(result.get("sensitivity", 0.0)), 4),
+            "precision": round(float(result.get("precision", 0.0)), 4),
+            "f1": round(float(result.get("f1", 0.0)), 4),
+        })
+
+        detail_rows.append({
+            "dataset": subset,
+            "TP": result.get("TP", 0),
+            "FP": result.get("FP", 0),
+            "FN": result.get("FN", 0),
+            "TN": result.get("TN", 0),
+            "runtime": result.get("runtime", ""),
+            "false_positive_rate": round(float(result.get("false_positive_rate", 0.0)), 6),
+            "specificity": round(float(result.get("specificity", 0.0)), 6),
+            "sensitivity": round(float(result.get("sensitivity", 0.0)), 6),
+            "precision": round(float(result.get("precision", 0.0)), 6),
+            "f1": round(float(result.get("f1", 0.0)), 6),
+            "tool": "bib-dedupe",
+        })
+
+    summary_df = pd.DataFrame(
+        summary_rows,
+        columns=["dataset", "FP", "TP", "FN", "TN", "false_positive_rate", "sensitivity", "precision", "f1"],
+    )
+    detail_df = pd.DataFrame(
+        detail_rows,
+        columns=["dataset", "TP", "FP", "FN", "TN", "runtime", "false_positive_rate", "specificity", "sensitivity", "precision", "f1", "tool"],
+    )
+
+    md_lines = []
+    md_lines.append(f"## {dataset_root.parent.name}/{dataset_root.name} Evaluation Report")
+    md_lines.append("")
+    md_lines.append(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    md_lines.append("")
+    md_lines.append("## Summary")
+    md_lines.append("")
+    md_lines.append(summary_df.to_markdown(index=False))
+    md_lines.append("")
+    md_lines.append("## Detailed Results")
+    md_lines.append("")
+    md_lines.append(detail_df.to_markdown(index=False))
+
+    (out_dir / "current_results.md").write_text("\n".join(md_lines), encoding="utf-8")
+
 # Source file mapping - adjust for different datasets
 DEFAULT_SRC_MAP = {
     "CROSSREF.bib": ("C", "crossref"),
@@ -72,6 +177,7 @@ class UniversalEvaluator:
 
         self.dataset_path = resolved_root
         self.dataset_root = self.data_dir.parent
+        self.output_dir = _ensure_output_dir(self.dataset_root)
         
         self.src_map = src_map or DEFAULT_SRC_MAP
         self.prefix_map = prefix_map or DEFAULT_PREFIX
@@ -385,6 +491,9 @@ class UniversalEvaluator:
         print(f"  Specificity   = {result['specificity']:.4f}")
         print(f"  F1 score      = {result['f1']:.4f}")
 
+        _append_evaluation_csv(self.output_dir, subset, result)
+        return result
+
         # Generate false positive and true positive pairs
         pred_pairs = set(itertools.chain.from_iterable(
             itertools.combinations(cluster, 2) for cluster in dup_sets
@@ -527,6 +636,7 @@ class UniversalEvaluator:
         self.filter_records()
         
         # Steps 3-5: Generate necessary files and evaluate for each subset
+        results_by_subset = {}
         for subset in subsets:
             print(f"\n{'='*50}")
             print(f"Processing subset: {subset}")
@@ -539,7 +649,12 @@ class UniversalEvaluator:
             self.generate_records_pre_merged(subset)
             
             # Step 5: Evaluate
-            self.evaluate_subset(subset)
+            result = self.evaluate_subset(subset)
+            if result:
+                results_by_subset[subset] = result
+
+        if results_by_subset:
+            _write_current_results(self.output_dir, self.dataset_root, results_by_subset)
         
         print(f"\n{'='*50}")
         print("All evaluations finished!")
