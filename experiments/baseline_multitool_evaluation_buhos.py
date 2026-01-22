@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """
-Mixed dataset multi-tool evaluation (ASReview vs Bib_dedupe vs Buhos)
+Baseline dataset multi-tool evaluation (ASReview vs Bib_dedupe vs Buhos)
 
 Usage:
-    python mixed_multitool_evaluation_buhos.py <dataset_root>
+    python baseline_multitool_evaluation_buhos.py <dataset_root>
 
 Example:
-    python mixed_multitool_evaluation_buhos.py exp_mis/mis-quarterly
-    python mixed_multitool_evaluation_buhos.py exp_jmis/journal-of-information-technology
+    python baseline_multitool_evaluation_buhos.py exp_mis/mis-quarterly
+    python baseline_multitool_evaluation_buhos.py exp_jmis/journal-of-information-technology
 
 Output:
 - evaluation.csv, current_results.md, false_positive_multitools.csv
-- Output dir: /Users/jiangmingxin/Desktop/bib-dedupe/experiments_output/output_<dataset>_multiTool/mixed/
+- Output dir: /Users/jiangmingxin/Desktop/bib-dedupe/experiments_output/output_<dataset>_multiTool/baseline/
 """
 
 import sys
@@ -48,27 +48,40 @@ def _ensure_output_dir(dataset_root: str) -> Path:
     ds_name = ds_token.replace("exp_", "") if ds_token.startswith("exp_") else ds_token
     out_parent = out_root / f"output_{ds_name}_multiTool"
     out_parent.mkdir(exist_ok=True)
-    out_dir = out_parent / "mixed"
+    out_dir = out_parent / "baseline"
     out_dir.mkdir(exist_ok=True)
     return out_dir
 
 
 def _resolve_subset_dir(dataset_root: str) -> Path:
-    return (BASE / dataset_root / "mixed").resolve()
+    base_dir = (BASE / dataset_root).resolve()
+    candidate = base_dir / "baseline"
+    if (candidate / "records_pre_merged.csv").exists() and (candidate / "merged_record_ids.csv").exists():
+        return candidate
+
+    matches = []
+    for path in base_dir.rglob("baseline"):
+        if (path / "records_pre_merged.csv").exists() and (path / "merged_record_ids.csv").exists():
+            matches.append(path)
+
+    if len(matches) == 1:
+        return matches[0]
+    if len(matches) > 1:
+        raise FileNotFoundError(f"Multiple baseline dataset dirs found under {base_dir}: {matches}")
+    return candidate
 
 
 def _load_dataset(ds_dir: Path) -> pd.DataFrame:
     records_path = ds_dir / "records_pre_merged.csv"
     merged_ids_path = ds_dir / "merged_record_ids.csv"
     if not records_path.exists() or not merged_ids_path.exists():
-        raise FileNotFoundError(f"Missing MIX dataset files: {records_path} or {merged_ids_path}")
+        raise FileNotFoundError(f"Missing baseline dataset files: {records_path} or {merged_ids_path}")
     bench = DedupeBenchmarker(benchmark_path=ds_dir)
     records_df = bench.get_records_for_dedupe()
     return records_df
 
 
 def _coerce_text_fields(records_df: pd.DataFrame) -> pd.DataFrame:
-    # Ensure ASReview key columns exist
     if TITLE not in records_df.columns:
         records_df.loc[:, TITLE] = ""
     if ABSTRACT not in records_df.columns:
@@ -327,7 +340,7 @@ def _write_current_results(out_dir: Path, dataset_label: str, bib_result: dict, 
     ], columns=["TP", "FP", "FN", "TN", "runtime", "false_positive_rate", "specificity", "sensitivity", "precision", "f1", "dataset", "tool"])
 
     md_lines = []
-    md_lines.append(f"## {dataset_label} PDF Dataset Evaluation Report")
+    md_lines.append(f"## {dataset_label} Baseline Dataset Evaluation Report")
     md_lines.append("")
     md_lines.append(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     md_lines.append("")
@@ -344,8 +357,8 @@ def _write_current_results(out_dir: Path, dataset_label: str, bib_result: dict, 
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python mixed_multitool_evaluation_buhos.py <dataset_root>")
-        print("Example: python mixed_multitool_evaluation_buhos.py exp_mis/mis-quarterly")
+        print("Usage: python baseline_multitool_evaluation_buhos.py <dataset_root>")
+        print("Example: python baseline_multitool_evaluation_buhos.py exp_mis/mis-quarterly")
         sys.exit(1)
     dataset_root = sys.argv[1]
     out_dir = _ensure_output_dir(dataset_root)
@@ -354,21 +367,21 @@ def main():
     records_df = _load_dataset(ds_dir)
 
     bib_result = _evaluate_bib_dedupe(records_df, ds_dir, out_dir, dataset_root)
-    _append_evaluation_csv(out_dir, "bib-dedupe", "mixed", bib_result)
+    _append_evaluation_csv(out_dir, "bib-dedupe", "baseline", bib_result)
 
     asr_result = _evaluate_asreview(records_df, ds_dir)
     if "error" not in asr_result:
-        _append_evaluation_csv(out_dir, "asreview", "mixed", asr_result)
+        _append_evaluation_csv(out_dir, "asreview", "baseline", asr_result)
     else:
         print(f"ASReview skipped: {asr_result.get('error')}")
 
     buhos_result = _evaluate_buhos(records_df, ds_dir)
     if "error" not in buhos_result:
-        _append_evaluation_csv(out_dir, "buhos", "mixed", buhos_result)
+        _append_evaluation_csv(out_dir, "buhos", "baseline", buhos_result)
     else:
         print(f"Buhos skipped: {buhos_result.get('error')}")
 
-    _write_current_results(out_dir, f"{dataset_root}/mixed", bib_result, asr_result, buhos_result)
+    _write_current_results(out_dir, f"{dataset_root}/baseline", bib_result, asr_result, buhos_result)
 
     print(f"Complete. Results written to: {out_dir}")
 

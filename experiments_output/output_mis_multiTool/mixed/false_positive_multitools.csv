@@ -1,89 +1,193 @@
 cluster_id,id,title,author,doi
-0,C_000384,Editor's Comments: Necessary Changes,Saunders,10.2307/25148713
-0,C_000859,Editor's Comments: What Does It Take for a Journal to Be Global?,Saunders,10.2307/25148739
-0,C_001380,Editor's Comments,Saunders,10.2307/25148765
-0,C_001450,"Editor's Comments: When Is Enough, Enough?",Saunders,10.2307/25148753
-0,P_0000000896,EDITOR'S COMMENTS Necessary Changes,"Saunders, Carol",
-0,P_0000001384,EDITOR'S COMMENTS,"Saunders, Carol",
-0,P_0000001723,"Editor's Comments: When Is Enough, Enough?","Gray, Peter and Carter, Pamela and Saunders, Carol",
-0,P_001863,"EDITOR'S COMMENTS When Is Enough, Enough? 1","Carter, Pamela and Saunders, Carol",
-1,C_000684,Editor's Comments,Weber,10.2307/30036516
-1,C_000881,Editor's Comments: The Rhetoric of Positivism versus Interpretivism: A Personal View,Weber,10.2307/25148621
-1,D_000562,Editor's Comments,"Weber, Ron",
-1,D_000590,Editor's Comments,"Weber, Ron",
-1,D_000618,Editor's Comments,"Weber, Ron",
-1,P_0000000146,Weber/Editor's Comments,"Weber, Ron",
-1,P_0000000691,EDITOR’S COMMENTS,"Weber, Ron",
-1,P_0000000845,Weber/Editor's Comments,"Weber, Ron",
-1,P_0000001654,Weber/Editor's Comments,"Personal, A. and Ihhhbhhhbhhi, View1",
-2,C_000601,Editor's Comments: Parting Thoughts on My Term of Office as EIC of MISQ (2008-2012),Straub,10.2307/41703495
-2,C_000978,Editor's Comments: Use,Straub and del Giudice,10.2307/41703494
-2,P_0000001533,EDITOR'S COMMENTS,"Use and Straub, Detmar",
-2,P_0000001663,Editor's Comments Parting Thoughts on My Term of Office as EIC of MISQ (2008-2012),"Straub, Detmar",
-3,C_000384,Editor's Comments: Necessary Changes,Saunders,10.2307/25148713
-3,C_001450,"Editor's Comments: When Is Enough, Enough?",Saunders,10.2307/25148753
-3,P_0000001384,EDITOR'S COMMENTS,"Saunders, Carol",
-4,C_000481,Factors That Influence the Social Dimension of Alignment between Business and Information Technology Objectives,"Reich, Blaize Horner and Benbasat, Izak",10.2307/3250980
-4,C_001574,Measuring the Linkage between Business and Information Technology Objectives,"Reich, Blaize Horner and Benbasat, Izak",10.2307/249542
-4,D_000416,Measuring the Linkage Between Business and Information Technology Objectives,"Reich, Blaize Horner and Benbasat, Izak",
-4,D_000518,Factors That Influence the Social Dimension of Alignment Between Business and Information Technology Objectives,"Reich, Blaize Horner and Benbasat, Izak",
-4,P_0000000097,Measuring the Linkage Between Business and Information Technology Objectives,"Reich, Blaize Horner and Benbasat, Izak",
-4,P_0000000900,FACTORS THAT INFLUENCE THE SOCIAL DIMENSION OF ALIGNMENT BETWEEN BUSINESS AND INFORMATION TECHNOLOGY OBJECTIVES 1,"Reich, Blaize Horner and Benbasat, Izak",
-5,C_000881,Editor's Comments: The Rhetoric of Positivism versus Interpretivism: A Personal View,Weber,10.2307/25148621
-5,D_000562,Editor's Comments,"Weber, Ron",
-6,C_000200,Transformational Issues of Big Data and Analytics in Networked Business,"Baesens, Bart and Bapna, Ravi and Marsden, James R. and Vanthienen, Jan and Zhao, J. Leon",10.25300/MISQ/2016/40:4.03
-6,C_000257,Toward a Digital Attribution Model: Measuring the Impact of Display Advertising on Online Consumer Behavior,"Ghose, Anindya and Todri-Adamopoulos, Vilma",10.25300/MISQ/2016/40.4.05
-6,C_000355,Privacy and Big Data: Scalable Approaches to Sanitize Large Transactional Databases for Sharing,"Menon, Syam and Sarkar, Sumit",10.25300/MISQ/2016/40.4.08
-6,D_001088,Toward a Digital Attribution Model - Measuring the Impact of Display Advertising on Online Consumer Behavior,"Ghose, Anindya and Todri-Adamopoulos, Vilma",
-6,D_001106,Privacy and Big Data - Scalable Approaches to Sanitize Large Transactional Databases for Sharing,"Menon, Syam and Sarkar, Sumit",
-6,P_0000000360,BIG DATA & ANALYTICS IN NETWORKED BUSINESS TRANSFORMATIONAL ISSUES OF BIG DATA AND ANALYTICS IN NETWORKED BUSINESS,"Baesens, Bart and Bapna, Ravi and Marsden, James R and Vanthienen, Jan and Zhao, J. Leon",
-6,P_0000000597,BIG DATA & ANALYTICS IN NETWORKED BUSINESS TOWARD A DIGITAL ATTRIBUTION MODEL: MEASURING THE IMPACT OF DISPLAY ADVERTISING ON ONLINE CONSUMER BEHAVIOR 1,"Ghose, Anindya and Todri-Adamopoulos, Vilma and Baesens, Bart and Bapna, Ravi and Marsden, James R and Vanthienen, Jan and Zhao, J. Leon",
-6,P_0000001566,BIG DATA & ANALYTICS IN NETWORKED BUSINESS PRIVACY AND BIG DATA: SCALABLE APPROACHES TO SANITIZE LARGE TRANSACTIONAL DATABASES FOR SHARING 1,"Menon, Syam and Sarkar, Sumit and Baesens, Bart and Bapna, Ravi and Marsden, James R and Vanthienen, Jan and Zhao, J. Leon",
-7,C_000963,Factors Affecting the Policy for Distributing Computing Resources,"Ahituv, Niv and Neumann, Seev and Zviran, Moshe",10.2307/248722
-7,D_000230,Factors Affecting the Policy for Distributing Computing Resources,"Ahituv, Niv and Neumann, Seev and Zviran, Moshe",
-7,P_0000000358,Factors Affecting the Policy for Distributing Computing Resources,"Neumann, Seev and Zviran, Moshe",
-7,P_0000001707,Factors Affecting the Policy for Distributing Computing Resources,"Neumann, Seev and Zviran, Moshe",
-8,P_0000000691,EDITOR’S COMMENTS,"Weber, Ron",
-8,P_0000001654,Weber/Editor's Comments,"Personal, A. and Ihhhbhhhbhhi, View1",
-9,C_001423,Instant Quality Control of Large Batch Processing Jobs,"Ahituv, Niv and Zelek, Meir",10.2307/248676
-9,D_000159,Instant Quality Control of Large Batch Processing Jobs,"Ahituv, Niv and Zelek, Meir",
-9,P_0000000172,Instant Quality Control of Large Batch Processing Jobs,"Zelek, Meir",
-9,P_0000001677,Instant Quality Control of Large Batch Processing Jobs,"Zelek, Meir",
-10,C_001359,Special Issue on Information Technologies and Knowledge Management,Sambamurthy and Subramani,10.2307/25148665
-10,C_001393,Special Issue on Information Technologies and Knowledge Management,Sambamurthy and Subramani,10.2307/25148676
-10,P_0000001204,SPECIAL ISSUE ON INFORMATION TECHNOLOGIES AND KNOWLEDGE MANAGEMENT,"Sambamurthy, V. and Subramani, Mani",
-10,P_0000001379,SPECIAL ISSUE ON INFORMATION TECHNOLOGIES AND KNOWLEDGE MANAGEMENT,"Sambamurthy, V.",
-11,C_001299,Editor's Comments: Why Do Top Journals Reject Good Papers?,Straub,10.2307/25148851
-11,C_001389,"Editor's Comments: ""MISQ"", Inc. or an Online Collective? Is There a Journal Personality and What it Means for Authors",Straub,10.2307/25750684
-11,P_0000000242,"EDITOR'S COMMENTS MISQ, Inc. or an Online Collective? Is There a Journal Personality and What it Means for Authors","Straub, Detmar",
-11,P_0000001568,Straub/Editor's Comments,"Straub, Detmar W.",
-12,P_0000001704,Issues and Opinions,,
-12,P_0000001720,Issues and Opinions,,
-13,C_001389,"Editor's Comments: ""MISQ"", Inc. or an Online Collective? Is There a Journal Personality and What it Means for Authors",Straub,10.2307/25750684
-13,P_0000001568,Straub/Editor's Comments,"Straub, Detmar W.",
-14,P_0000001695,The Society for Management Information Systems,"Dougherty, Dougherty and Dougherty and Dougherty, William and Mis",
-14,P_0000001701,The Society for Management Information Systems,"O'reilly, Anthony J F and Mis",
-14,P_0000001772,The Society for Management Information Systems,"O'reilly, Anthony J F and Mis",
-15,P_0000000007,EDITOR'S COMMENTS,"Rai, Arun",
-15,P_0000000993,EDITOR'S COMMENTS Celebrating 40 Years of MIS Quarterly: MISQ's History and Future Through the Lenses of its Editors-in-Chief,"Rai, Arun",
-15,P_001864,EDITOR'S COMMENTS Celebrating 40 Years of MIS Quarterly: MISQ's History and Future Through the Lenses of its Editors-in-Chief,"Rai, Arun",
-16,C_001947,The Returns of Early Adoption of Information Technologies: Order of Adoption or Level of Adoption Advantages?,"Gómez, Jaime and Palomas, Sergio",10.25300/MISQ/2024/17125
-16,D_001521,The Returns of Early Adoption of Information Technologies: Order of Adoption or Level of Adoption Advantages?,"Gómez, Jaime and Palomas, Sergio",10.25300/MISQ/2024/17125
-16,P_001914,THE RETURNS OF EARLY ADOPTION OF INFORMATION TECHNOLOGIES: ORDER OF ADOPTION OR LEVEL OF ADOPTION ADVANTAGES? 1,"Gómez, Jaime and Palomas, Sergio",10.25300/MISQ/2023/17125
-17,C_001850,Extracting Actionable Insights from Text Data: A Stable Topic Model Approach,"Yang, Yi and Subramanyam, Ramanath",10.25300/MISQ/2022/16957
-17,P_001814,EXTRACTING ACTIONABLE INSIGHTS FROM TEXT DATA: A STABLE TOPIC MODEL APPROACH 1,"Yang, Yi and Subramanyam, Ramanath",10.25300/MISQ/2022/16957
-17,P_001884,EXTRACTING ACTIONABLE INSIGHTS FROM TEXT DATA: A STABLE TOPIC MODEL APPROACH 1,"Yang, Yi and Subramanyam, Ramanath",10.25300/MISQ/2022/16957
-18,P_0000000068,EDITOR'S COMMENTS Continuing and Extending the MIS Quarterly Trifecta Vision,"Burton-Jones, Andrew",
-18,P_001802,EDITOR'S COMMENTS RESEARCH ARTICLE,"Burton-Jones, Andrew and Gray, Peter and Majchrzak, Ann",
-19,C_000601,Editor's Comments: Parting Thoughts on My Term of Office as EIC of MISQ (2008-2012),Straub,10.2307/41703495
-19,C_000978,Editor's Comments: Use,Straub and del Giudice,10.2307/41703494
-20,C_001878,Generativity and Profitability on B2B Innovation Platforms: A Simulation-based Theory Development,"Haki, Kazem and Tanriverdi, Hüseyin and Safaei, Dorsa and Schmid, Marius and Aier, Stephan and Winter, Robert",10.25300/MISQ/2023/17710
-20,D_001524,Generativity and Profitability on B2B Innovation Platforms: A Simulation-based Theory Development,"Haki, Kazem and Tanriverdi, Hüseyin and Safaei, Dorsa and Schmid, Marius and Aier, Stephan and Winter, Robert",10.25300/MISQ/2023/17710
-20,P_001877,GENERATIVITY AND PROFITABILITY ON B2B INNOVATION PLATFORMS: A SIMULATION-BASED THEORY DEVELOPMENT 1,"Haki, Kazem and Tanriverdi, Hüseyin and Safaei, Dorsa and Schmid, Marius and Aier, Stephan and Winter, Robert",10.25300/MISQ/2023/17701
-21,C_000846,Decision Support Systems: An MIS Manager's Perspective,"Vierck, Robert K.",10.2307/249326
-21,D_000027,Invited Article - Decision Support Systems - An MIS Manager's Perspective,"Vierck, Robert K.",
-21,P_0000000957,Decision Support Systems: An MIS Manager's Perspective*,"Sprague, Ralph H and Vierck, Robert K",
-22,C_001129,Editor's Comments: From the Trenches: Thoughts on Developmental Reviewing,Saunders,10.2307/25148675
-22,P_0000000473,EDITOR'S COMMENTS From the Trenches: Thoughts on Developmental Reviewing,"Saunders, Carol",
-23,P_0000000544,"EDITOR'S COMMENTS Sandy Slaughter: Outstanding Scholar, Incredible Human Being","Goes, Paulo B and Head, Management",
-23,P_0000000945,EDITOR'S COMMENTS,"Goes, Paulo B and Head, Management",
+0,C_002033,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2017/41.3.E0
+0,C_002038,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2017/41.1.E0
+0,C_002042,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2020/444E0
+0,C_002043,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2016/40.1.E0
+0,C_002047,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2017/41.4.E0
+0,C_002050,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2016/40.2.E0
+0,C_002051,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2020/442E0
+0,C_002074,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2019/433E0
+0,C_002090,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2018/422E0
+0,C_002095,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2016/40.4.E0
+0,C_002097,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2017/41.2.E0
+0,C_002110,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2018/421E0
+0,C_002129,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2019/434E0
+0,C_002138,Editor’s Comments,"Rai, Arun and Bush, Ashley",10.25300/MISQ/2018/423E0
+0,C_002155,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2019/432E0
+0,C_002170,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2020/441E0
+0,C_002171,Editor’s Comments,"Rai, Arun and Constantinides, Panos and Sarker, Saonee",10.25300/MISQ/2019/431E0
+0,C_002174,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2016/40.3.E0
+0,P_0000000007,EDITOR'S COMMENTS,"Rai, Arun",
+0,P_0000000114,EDITOR'S COMMENTS Avoiding Type III Errors: Formulating IS Research Problems that Matter,"Rai, Arun",
+0,P_0000000688,EDITOR'S COMMENTS Engaged Scholarship: Research with Practice for Impact,"Rai, Arun",
+0,P_0000000705,EDITOR'S COMMENTS The MIS Quarterly as a Platform for Engagement,"Rai, Arun",
+0,P_0000000739,EDITOR'S COMMENTS Writing a Virtuous Review,"Rai, Arun",
+0,P_0000000749,EDITOR'S COMMENTS Beyond Outdated Labels: The Blending of IS Research Traditions,"Rai, Arun",
+0,P_0000000907,EDITOR'S COMMENTS Next-Generation Digital Platforms: Toward Human-AI Hybrids,"Rai, Arun and Constantinides, Panos and Sarker, Saonee and Quarterly, Mis",
+0,P_0000000993,EDITOR'S COMMENTS Celebrating 40 Years of MIS Quarterly: MISQ's History and Future Through the Lenses of its Editors-in-Chief,"Rai, Arun",
+0,P_0000001030,EDITOR'S COMMENTS Proactively Attending to Uncertainty in IS Research,"Rai, Arun",
+0,P_0000001143,EDITOR'S COMMENTS Diversity of Design Science Research,"Rai, Arun and Burton-Jones, Andrew and Chen, Hsinchun and Gupta, Alok and Hevner, Alan R and Ketter, Wolfgang and Parsons, Jeffrey and Rao, H. Raghav and Sarkar, Sumit and Yoo, Youngjin",
+0,P_0000001173,EDITOR'S COMMENTS The First Few Pages,"Rai, Arun",
+0,P_0000001229,EDITOR'S COMMENTS The First Revision,"Rai, Arun",
+0,P_0000001340,EDITOR'S COMMENTS Synergies Between Big Data and Theory,"Rai, Arun",
+0,P_0000001501,"EDITOR'S COMMENTS The MIS Quarterly Trifecta: Impact, Range, Speed","Rai, Arun",
+0,P_001919,EDITOR'S COMMENTS Celebrating 40 Years of MIS Quarterly: MISQ's History and Future Through the Lenses of its Editors-in-Chief,"Rai, Arun",
+1,C_002033,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2017/41.3.E0
+1,C_002042,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2020/444E0
+1,C_002047,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2017/41.4.E0
+1,C_002051,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2020/442E0
+1,C_002074,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2019/433E0
+1,C_002097,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2017/41.2.E0
+1,C_002155,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2019/432E0
+1,P_0000001030,EDITOR'S COMMENTS Proactively Attending to Uncertainty in IS Research,"Rai, Arun",
+1,P_0000001229,EDITOR'S COMMENTS The First Revision,"Rai, Arun",
+1,P_0000001501,"EDITOR'S COMMENTS The MIS Quarterly Trifecta: Impact, Range, Speed","Rai, Arun",
+1,P_001919,EDITOR'S COMMENTS Celebrating 40 Years of MIS Quarterly: MISQ's History and Future Through the Lenses of its Editors-in-Chief,"Rai, Arun",
+2,C_002129,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2019/434E0
+2,P_0000000705,EDITOR'S COMMENTS The MIS Quarterly as a Platform for Engagement,"Rai, Arun",
+2,P_0000000739,EDITOR'S COMMENTS Writing a Virtuous Review,"Rai, Arun",
+2,P_0000000749,EDITOR'S COMMENTS Beyond Outdated Labels: The Blending of IS Research Traditions,"Rai, Arun",
+2,P_0000000993,EDITOR'S COMMENTS Celebrating 40 Years of MIS Quarterly: MISQ's History and Future Through the Lenses of its Editors-in-Chief,"Rai, Arun",
+2,P_0000001030,EDITOR'S COMMENTS Proactively Attending to Uncertainty in IS Research,"Rai, Arun",
+2,P_0000001143,EDITOR'S COMMENTS Diversity of Design Science Research,"Rai, Arun and Burton-Jones, Andrew and Chen, Hsinchun and Gupta, Alok and Hevner, Alan R and Ketter, Wolfgang and Parsons, Jeffrey and Rao, H. Raghav and Sarkar, Sumit and Yoo, Youngjin",
+2,P_0000001173,EDITOR'S COMMENTS The First Few Pages,"Rai, Arun",
+2,P_0000001229,EDITOR'S COMMENTS The First Revision,"Rai, Arun",
+2,P_001919,EDITOR'S COMMENTS Celebrating 40 Years of MIS Quarterly: MISQ's History and Future Through the Lenses of its Editors-in-Chief,"Rai, Arun",
+3,C_002033,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2017/41.3.E0
+3,C_002174,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2016/40.3.E0
+3,P_0000000688,EDITOR'S COMMENTS Engaged Scholarship: Research with Practice for Impact,"Rai, Arun",
+4,C_002090,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2018/422E0
+4,P_0000000739,EDITOR'S COMMENTS Writing a Virtuous Review,"Rai, Arun",
+4,P_0000000749,EDITOR'S COMMENTS Beyond Outdated Labels: The Blending of IS Research Traditions,"Rai, Arun",
+5,C_002043,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2016/40.1.E0
+5,C_002051,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2020/442E0
+5,C_002095,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2016/40.4.E0
+5,C_002110,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2018/421E0
+5,C_002170,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2020/441E0
+5,P_0000000114,EDITOR'S COMMENTS Avoiding Type III Errors: Formulating IS Research Problems that Matter,"Rai, Arun",
+5,P_0000001173,EDITOR'S COMMENTS The First Few Pages,"Rai, Arun",
+6,C_001299,Editor’s Comments,"Straub, Detmar W.",10.2307/25148851
+6,C_001389,Editor’s Comments,"Straub, Detmar",10.2307/25750684
+6,P_0000000242,"EDITOR'S COMMENTS MISQ, Inc. or an Online Collective? Is There a Journal Personality and What it Means for Authors","Straub, Detmar",
+6,P_0000001568,Straub/Editor's Comments,"Straub, Detmar W.",
+7,C_002038,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2017/41.1.E0
+7,C_002110,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2018/421E0
+7,P_0000000007,EDITOR'S COMMENTS,"Rai, Arun",
+8,C_002138,Editor’s Comments,"Rai, Arun and Bush, Ashley",10.25300/MISQ/2018/423E0
+8,P_0000001340,EDITOR'S COMMENTS Synergies Between Big Data and Theory,"Rai, Arun",
+9,C_002134,Editor’s Comments,"Brown, Sue",10.25300/MISQ/2024/482E1
+9,P_001872,EDITOR'S COMMENTS,,
+10,C_002028,Editor’s Comments,"Goes, Paulo B.",10.25300/MISQ/2015/39.1.E0
+10,C_002093,Editor’s Comments,"Goes, Paulo B.",10.25300/MISQ/2013/37.1.E0
+10,P_0000000544,"EDITOR'S COMMENTS Sandy Slaughter: Outstanding Scholar, Incredible Human Being","Goes, Paulo B and Head, Management",
+10,P_0000000945,EDITOR'S COMMENTS,"Goes, Paulo B and Head, Management",
+11,C_000384,Editor’s Comments,"Saunders, Carol",10.2307/25148713
+11,C_000731,Editor’s Comments,"Marcoulides, George A. and Saunders, Carol",10.2307/25148727
+11,C_000859,Editor’s Comments,"Saunders, Carol",10.2307/25148739
+11,C_001380,Editor’s Comments,"Saunders, Carol",10.2307/25148765
+11,C_001450,Editor’s Comments,"Saunders, Carol",10.2307/25148753
+11,C_002020,Editor’s Comments,"Carter, Michelle and Brown, Susan",10.25300/MISQ/2025/492E0
+11,P_0000000489,EDITOR'S COMMENTS PLS: A Silver Bullet?,"Marcoulides, George A and Saunders, Carol",
+11,P_0000000896,EDITOR'S COMMENTS Necessary Changes,"Saunders, Carol",
+11,P_0000001384,EDITOR'S COMMENTS,"Saunders, Carol",
+11,P_0000001723,"Editor's Comments: When Is Enough, Enough?","Gray, Peter and Carter, Pamela and Saunders, Carol",
+11,P_001918,"EDITOR'S COMMENTS When Is Enough, Enough? 1","Carter, Pamela and Saunders, Carol",
+11,P_001952,EDITOR'S COMMENTS RESEARCH ARTICLE,"Carter, Michelle",
+12,C_000539,Errata Notes,"Estes, Naomi E.",10.2307/248715
+12,C_001435,Errata Notes,"Estes, Naomi E.",10.2307/248713
+12,C_002150,Errata Notes,"Estes, Naomi E.",10.2307/248714
+13,C_002090,Editor’s Comments,"Rai, Arun",10.25300/MISQ/2018/422E0
+13,P_0000001229,EDITOR'S COMMENTS The First Revision,"Rai, Arun",
+14,C_002068,Editor’s Comments,"Brown, Susan",10.25300/MISQ/2024/481E1
+14,P_001886,EDITOR'S COMMENTS,,
+15,C_002115,Editor’s Comments,"Goes, Paulo B.",10.25300/MISQ/2014/38.3.E0
+15,P_0000001009,EDITOR'S COMMENTS Big Data and IS Research,"Goes, Paulo B and Head, Management",
+16,C_000731,Editor’s Comments,"Marcoulides, George A. and Saunders, Carol",10.2307/25148727
+16,P_0000001384,EDITOR'S COMMENTS,"Saunders, Carol",
+17,C_001935,Special Issue Introduction: Digital Technologies and the Advancement of Social Justice: A Framework and Agenda,"Pang, Min-Seok and Kankanhalli, Atreyi and Aanestad, Margunn and Ram, Sudha and Maruping, Likoebe M.",10.25300/MISQ/2024/790
+17,C_002104,Digital Technologies and the Advancement of Social Justice: A Framework and Agenda,"Pang, Min-Seok and Kankanhalli, Atreyi and Aanestad, Margunn and Ram, Sudha and Maruping, Likoebe M.",10.25300/MISQ/2024/484E3
+17,D_001546,Special Issue Introduction: Digital Technologies and the Advancement of Social Justice: A Framework and Agenda,"Pang, Min-Seok and Kankanhalli, Atreyi and Aanestad, Margunn and Ram, Sudha and Maruping, Likoebe M.",10.25300/MISQ/2024/790
+18,C_002122,Editor’s Comments,"Miranda, Shaila and Berente, Nicholas and Seidel, Stefan and Safadi, Hani and Burton-Jones, Andrew",10.25300/MISQ/2022/462E1
+18,P_0000000098,EDITOR'S COMMENTS RESEARCH ARTICLE,,
+19,C_002156,Editor’s Comments,"Burton-Jones, Andrew and Boh, Wai Fong and Oborn, Eivor and Padmanabhan, Balaji",10.25300/MISQ/2021/452E1
+19,P_0000000962,EDITOR'S COMMENTS Advancing Research Transparency at MIS Quarterly: A Pluralistic Approach,"Andrew Burton-Jones, Wai Fong Boh, Eivor Oborn and Padmanabhan, Balaji",
+20,C_000010,Issues and Opinions,"Dutton, William H.",10.2307/249124
+20,C_000286,Issues and Opinions,"Benbasat, Izak and Goldstein, David K. and Mead, Melissa",10.2307/249125
+20,P_0000001704,Issues and Opinions,,
+20,P_0000001720,Issues and Opinions,,
+21,C_000859,Editor’s Comments,"Saunders, Carol",10.2307/25148739
+21,P_001918,"EDITOR'S COMMENTS When Is Enough, Enough? 1","Carter, Pamela and Saunders, Carol",
+22,C_002039,Editor’s Comments,"Burton-Jones, Andrew and Gray, Peter and Majchrzak, Ann",10.25300/MISQ/2023/471E1
+22,C_002176,Editor’s Comments,"Burton-Jones, Andrew",10.25300/MISQ/2021/451E1
+22,P_0000000068,EDITOR'S COMMENTS Continuing and Extending the MIS Quarterly Trifecta Vision,"Burton-Jones, Andrew",
+22,P_001802,EDITOR'S COMMENTS RESEARCH ARTICLE,"Burton-Jones, Andrew and Gray, Peter and Majchrzak, Ann",
+23,C_000200,Transformational Issues of Big Data and Analytics in Networked Business,"Baesens, Bart and Bapna, Ravi and Marsden, James R. and Vanthienen, Jan and Zhao, J. Leon",10.25300/MISQ/2016/40:4.03
+23,C_000257,Toward a Digital Attribution Model: Measuring the Impact of Display Advertising on Online Consumer Behavior1,"Ghose, Anindya and Todri-Adamopoulos, Vilma",10.25300/MISQ/2016/40.4.05
+23,C_000355,Privacy and Big Data: Scalable Approaches to Sanitize Large Transactional Databases for Sharing1,"Menon, Syam and Sarkar, Sumit",10.25300/MISQ/2016/40.4.08
+23,D_001088,Toward a Digital Attribution Model - Measuring the Impact of Display Advertising on Online Consumer Behavior,"Ghose, Anindya and Todri-Adamopoulos, Vilma",
+23,D_001106,Privacy and Big Data - Scalable Approaches to Sanitize Large Transactional Databases for Sharing,"Menon, Syam and Sarkar, Sumit",
+23,P_0000000360,BIG DATA & ANALYTICS IN NETWORKED BUSINESS TRANSFORMATIONAL ISSUES OF BIG DATA AND ANALYTICS IN NETWORKED BUSINESS,"Baesens, Bart and Bapna, Ravi and Marsden, James R and Vanthienen, Jan and Zhao, J. Leon",
+23,P_0000000597,BIG DATA & ANALYTICS IN NETWORKED BUSINESS TOWARD A DIGITAL ATTRIBUTION MODEL: MEASURING THE IMPACT OF DISPLAY ADVERTISING ON ONLINE CONSUMER BEHAVIOR 1,"Ghose, Anindya and Todri-Adamopoulos, Vilma and Baesens, Bart and Bapna, Ravi and Marsden, James R and Vanthienen, Jan and Zhao, J. Leon",
+23,P_0000001566,BIG DATA & ANALYTICS IN NETWORKED BUSINESS PRIVACY AND BIG DATA: SCALABLE APPROACHES TO SANITIZE LARGE TRANSACTIONAL DATABASES FOR SHARING 1,"Menon, Syam and Sarkar, Sumit and Baesens, Bart and Bapna, Ravi and Marsden, James R and Vanthienen, Jan and Zhao, J. Leon",
+24,C_001129,Editor’s Comments,"Saunders, Carol",10.2307/25148675
+24,P_0000000473,EDITOR'S COMMENTS From the Trenches: Thoughts on Developmental Reviewing,"Saunders, Carol",
+24,P_0000001650,Saunders/Editor's Comments,"Beath, Cynthia",
+25,C_000481,Factors That Influence the Social Dimension of Alignment Between Business and Information Technology Objectives1,"Reich, Blaize Horner and Benbasat, Izak",10.2307/3250980
+25,C_001574,Measuring the Linkage Between Business and Information Technology Objectives,"Reich, Blaize Horner and Benbasat, Izak",10.2307/249542
+25,D_000416,Measuring the Linkage Between Business and Information Technology Objectives,"Reich, Blaize Horner and Benbasat, Izak",
+25,D_000518,Factors That Influence the Social Dimension of Alignment Between Business and Information Technology Objectives,"Reich, Blaize Horner and Benbasat, Izak",
+25,P_0000000097,Measuring the Linkage Between Business and Information Technology Objectives,"Reich, Blaize Horner and Benbasat, Izak",
+25,P_0000000900,FACTORS THAT INFLUENCE THE SOCIAL DIMENSION OF ALIGNMENT BETWEEN BUSINESS AND INFORMATION TECHNOLOGY OBJECTIVES 1,"Reich, Blaize Horner and Benbasat, Izak",
+26,C_000384,Editor’s Comments,"Saunders, Carol",10.2307/25148713
+26,C_001450,Editor’s Comments,"Saunders, Carol",10.2307/25148753
+27,C_002176,Editor’s Comments,"Burton-Jones, Andrew",10.25300/MISQ/2021/451E1
+27,P_001802,EDITOR'S COMMENTS RESEARCH ARTICLE,"Burton-Jones, Andrew and Gray, Peter and Majchrzak, Ann",
+28,C_000601,Editor's Comments: Parting Thoughts on My Term of Office as EIC of MISQ (2008-2012),Straub,10.2307/41703495
+28,C_000978,Editor’s Comments,"Straub, Detmar and Giudice, Manlio del",10.2307/41703494
+28,P_0000001533,EDITOR'S COMMENTS,"Use and Straub, Detmar",
+28,P_0000001663,Editor's Comments Parting Thoughts on My Term of Office as EIC of MISQ (2008-2012),"Straub, Detmar",
+29,C_002046,Editor’s Comments,"Monteiro, Eric and Constantinides, Panos and Scott, Susan and Shaikh, Maha and Burton-Jones, Andrew",10.25300/MISQ/2022/464E1
+29,P_001782,EDITOR'S COMMENTS RESEARCH ARTICLE,"Monteiro, Eric",
+30,C_002062,Editor’s Comments,"Maruping, Likoebe and Yin, Dezhi and Chen, Adela and Kankanhalli, Atreyi and Burton-Jones, Andrew and Brown, Susan",10.25300/MISQ/2025/49.1.00
+30,P_001936,EDITOR'S COMMENTS RESEARCH ARTICLE,,
+31,C_000846,Decision Support Systems: An MIS Manager’s Perspective*,"Vierck, Robert K.",10.2307/249326
+31,D_000027,Invited Article - Decision Support Systems - An MIS Manager's Perspective,"Vierck, Robert K.",
+31,P_0000000957,Decision Support Systems: An MIS Manager's Perspective*,"Sprague, Ralph H and Vierck, Robert K",
+32,C_001517,Issues and Opinions,"Im, Jin H. and Hartman, Sandra",10.2307/249299
+32,P_0000001660,Issues and Opinions Issues and Opinions,,
+33,C_002105,Editor’s Comments,"Mithas, Sunil and Xue, Ling and Huang, Ni and Burton-Jones, Andrew",10.25300/MISQ/2022/463E1
+33,P_0000001765,EDITOR'S COMMENTS RESEARCH ARTICLE,,
+34,C_002088,Editor’s Comments,"Burton-Jones, Andrew and Sarker, Saonee",10.25300/MISQ/2021/454E1
+34,P_0000001445,EDITOR'S COMMENTS RESEARCH ARTICLE,"Burton-Jones, Andrew",
+35,C_001359,Special Issue on Information Technologies and Knowledge Management (Foreword),"Sambamurthy, V. and Subramani, Mani",10.2307/25148665
+35,C_001393,Special Issue on Information Technologies and Knowledge Management (Part II),"Sambamurthy, V. and Subramani, Mani",10.2307/25148676
+35,P_0000001204,SPECIAL ISSUE ON INFORMATION TECHNOLOGIES AND KNOWLEDGE MANAGEMENT,"Sambamurthy, V. and Subramani, Mani",
+35,P_0000001379,SPECIAL ISSUE ON INFORMATION TECHNOLOGIES AND KNOWLEDGE MANAGEMENT,"Sambamurthy, V.",
+36,C_000286,Issues and Opinions,"Benbasat, Izak and Goldstein, David K. and Mead, Melissa",10.2307/249125
+36,P_0000001720,Issues and Opinions,,
+37,C_002169,Editor’s Comments,"Goes, Paulo B.",10.25300/MISQ/2014/38.1.E0
+37,P_0000001110,EDITOR'S COMMENTS Design Science Research in Top Information Systems Journals,"Goes, Paulo B and Head, Management",
+38,C_002102,Editor’s Comments,"Dennis, Alan R. and Brown, Susan A. and Wells, Taylor M. and Rai, Arun",10.25300/MISQ/2020/443E0
+38,P_0000000608,EDITOR'S COMMENTS Replication Crisis or Replication Reassurance: Results of the IS Replication Project,"Dennis Co-Editor, Alan R and Brown Co-Editor, Susan A and Wells, Taylor M and Rai, Arun",
+39,C_002080,Editor’s Comments,"Padmanabhan, Balaji and Fang, Xiao and Sahoo, Nachiketa and Burton-Jones, Andrew",10.25300/MISQ/2022/461E1
+39,P_0000001001,EDITOR'S COMMENTS RESEARCH ARTICLE,"Balaji Padmanabhan, xiao fang, Nachiketa Sahoo and Burton-Jones, Andrew",
+40,C_000601,Editor's Comments: Parting Thoughts on My Term of Office as EIC of MISQ (2008-2012),Straub,10.2307/41703495
+40,P_0000001533,EDITOR'S COMMENTS,"Use and Straub, Detmar",
+41,C_002100,Editor’s Comments,"Goes, Paulo B.",10.25300/MISQ/2014/38.4.E0
+41,P_0000001065,EDITOR'S COMMENTS The MISQ Review System: Operational Perspectives 1,"Goes, Paulo B and Head, Management",
+42,C_002073,Editor’s Comments,"Goes, Paulo B.",10.25300/MISQ/2015/39.3.E0
+42,P_0000000833,EDITOR'S COMMENTS Inflection Point: Looking Back or Looking Forward?,"Goes, Paulo B and Head, Management",
+43,C_002113,Editor’s Comments,"Brown, Susan",10.25300/MISQ/2024/483E1
+43,P_001916,EDITOR'S COMMENTS,,
+44,C_001359,Special Issue on Information Technologies and Knowledge Management (Foreword),"Sambamurthy, V. and Subramani, Mani",10.2307/25148665
+44,C_001393,Special Issue on Information Technologies and Knowledge Management (Part II),"Sambamurthy, V. and Subramani, Mani",10.2307/25148676
+45,C_002064,Editor’s Comments,"Goes, Paulo B.",10.25300/MISQ/2013/37.2.E0
+45,P_0000001626,EDITOR'S COMMENTS Commonalities Across IS Silos and Intradisciplinary Information Systems Research,"Goes, Paulo B",
+46,P_0000001695,The Society for Management Information Systems,"Dougherty, Dougherty and Dougherty and Dougherty, William and Mis",
+46,P_0000001701,The Society for Management Information Systems,"O'reilly, Anthony J F and Mis",
+47,C_002177,Editor’s Comments,"Burton-Jones, Andrew and Stein, Mari-Klara",10.25300/MISQ/2021/453E1
+47,P_0000001257,EDITOR'S COMMENTS RESEARCH ARTICLE,"Burton-Jones, Andrew",
+48,C_002114,Editor’s Comments,"Saar-Tsechansky, Maytal",10.25300/MISQ/2015/39.4.E0
+48,P_0000001201,EDITOR'S COMMENTS The Business of Business Data Science in IS Journals,"Saar-Tsechansky, Maytal",
+49,C_002119,Editor’s Comments,"Goes, Paulo B.",10.25300/MISQ/2013/37.3.E0
+49,P_0000000364,EDITOR'S COMMENTS Information Systems Research and Behavioral Economics,"Goes, Paulo B and Head, Management",

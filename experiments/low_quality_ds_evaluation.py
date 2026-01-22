@@ -7,7 +7,7 @@ python experiments/low_quality_ds_evaluation.py <dataset_root> [subset]
 
 Examples (run from repo root):
 python experiments/low_quality_ds_evaluation.py exp_mis/mis-quarterly
-python experiments/low_quality_ds_evaluation.py experiments/exp_jsis/the-journal-of-strategic-information-systems-main
+
 """
 
 import warnings

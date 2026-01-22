@@ -3,11 +3,11 @@
 PDF-only dataset multi-tool evaluation (ASReview vs Bib_dedupe vs Buhos)
 
 Usage:
-    python pdf_multitool_evaluation_buhos.py [dataset_root]
+    python pdf_multitool_evaluation_buhos.py <dataset_root>
 
 Example:
-    python pdf_multitool_evaluation_buhos.py           # default exp_mis
-    python pdf_multitool_evaluation_buhos.py exp_jmis  # specify exp_jmis
+    python pdf_multitool_evaluation_buhos.py exp_mis/mis-quarterly
+    python pdf_multitool_evaluation_buhos.py exp_jmis/journal-of-information-technology
 
 Output:
 - evaluation.csv, current_results.md, false_positive_multitools.csv
@@ -44,7 +44,8 @@ from bib_dedupe.constants.fields import TITLE, AUTHOR, YEAR, DOI, PAGES, NUMBER,
 def _ensure_output_dir(dataset_root: str) -> Path:
     out_root = REPO_ROOT / "experiments_output"
     out_root.mkdir(exist_ok=True)
-    ds_name = dataset_root.replace("exp_", "") if dataset_root.startswith("exp_") else dataset_root
+    ds_token = Path(dataset_root).parts[0] if Path(dataset_root).parts else dataset_root
+    ds_name = ds_token.replace("exp_", "") if ds_token.startswith("exp_") else ds_token
     out_parent = out_root / f"output_{ds_name}_multiTool"
     out_parent.mkdir(exist_ok=True)
     out_dir = out_parent / "pdf_only"
@@ -341,7 +342,11 @@ def _write_current_results(out_dir: Path, dataset_label: str, bib_result: dict, 
 
 
 def main():
-    dataset_root = sys.argv[1] if len(sys.argv) > 1 else "exp_mis"
+    if len(sys.argv) < 2:
+        print("Usage: python pdf_multitool_evaluation_buhos.py <dataset_root>")
+        print("Example: python pdf_multitool_evaluation_buhos.py exp_mis/mis-quarterly")
+        sys.exit(1)
+    dataset_root = sys.argv[1]
     out_dir = _ensure_output_dir(dataset_root)
     ds_dir = _resolve_subset_dir(dataset_root)
 
