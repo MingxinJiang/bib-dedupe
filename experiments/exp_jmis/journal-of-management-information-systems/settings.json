@@ -1,0 +1,209 @@
+{
+    "project": {
+        "title": "journal-of-management-information-systems",
+        "authors": [
+            {
+                "name": "Gerit Wagner",
+                "initials": "GW",
+                "email": "gerit.wagner@hec.ca",
+                "orcid": null,
+                "contributions": [],
+                "affiliations": null,
+                "funding": [],
+                "identifiers": []
+            }
+        ],
+        "keywords": [],
+        "protocol": null,
+        "review_type": "colrev.curated_masterdata",
+        "id_pattern": "three_authors_year",
+        "share_stat_req": "processed",
+        "delay_automated_processing": false,
+        "colrev_version": "0.12.0",
+        "auto_upgrade": true
+    },
+    "sources": [
+        {
+            "endpoint": "colrev.dblp",
+            "filename": "data/search/DBLP.bib",
+            "search_type": "TOC",
+            "search_parameters": {
+                "scope": {
+                    "venue_key": "journals/jmis",
+                    "journal_abbreviated": "J. Manag. Inf. Syst."
+                }
+            },
+            "comment": ""
+        },
+        {
+            "endpoint": "colrev.files_dir",
+            "filename": "data/search/pdfs.bib",
+            "search_type": "FILES",
+            "search_parameters": {
+                "scope": {
+                    "subdir_pattern": "volume_number",
+                    "type": "journal",
+                    "journal": "Journal of Management Information Systems",
+                    "path": "data/pdfs"
+                }
+            },
+            "comment": ""
+        },
+        {
+            "endpoint": "colrev.crossref",
+            "filename": "data/search/CROSSREF.bib",
+            "search_type": "TOC",
+            "search_parameters": {
+                "scope": {
+                    "issn": [
+                        "0742-1222"
+                    ]
+                }
+            },
+            "comment": ""
+        }
+    ],
+    "search": {
+        "retrieve_forthcoming": false
+    },
+    "prep": {
+        "fields_to_keep": [],
+        "prep_rounds": [
+            {
+                "name": "prep",
+                "prep_package_endpoints": [
+                    {
+                        "endpoint": "colrev.colrev_curation"
+                    },
+                    {
+                        "endpoint": "colrev.source_specific_prep"
+                    },
+                    {
+                        "endpoint": "colrev.exclude_non_latin_alphabets"
+                    },
+                    {
+                        "endpoint": "colrev.exclude_collections"
+                    },
+                    {
+                        "endpoint": "colrev.exclude_complementary_materials"
+                    },
+                    {
+                        "endpoint": "colrev.exclude_languages"
+                    },
+                    {
+                        "endpoint": "colrev.remove_urls_with_500_errors"
+                    },
+                    {
+                        "endpoint": "colrev.remove_broken_ids"
+                    },
+                    {
+                        "endpoint": "colrev.get_doi_from_urls"
+                    },
+                    {
+                        "endpoint": "colrev.get_year_from_vol_iss_jour"
+                    }
+                ]
+            }
+        ],
+        "prep_man_package_endpoints": [
+            {
+                "endpoint": "colrev.export_man_prep"
+            }
+        ],
+        "defects_to_ignore": [
+            "record-not-in-toc",
+            "inconsistent-with-url-metadata"
+        ]
+    },
+    "dedupe": {
+        "dedupe_package_endpoints": [
+            {
+                "endpoint": "colrev.curation_full_outlet_dedupe",
+                "selected_source": "data/search/CROSSREF.bib"
+            },
+            {
+                "endpoint": "colrev.curation_full_outlet_dedupe",
+                "selected_source": "data/search/DBLP.bib"
+            },
+            {
+                "endpoint": "colrev.curation_full_outlet_dedupe",
+                "selected_source": "data/search/pdfs.bib"
+            },
+            {
+                "endpoint": "colrev.curation_missing_dedupe"
+            }
+        ]
+    },
+    "prescreen": {
+        "explanation": "",
+        "prescreen_package_endpoints": []
+    },
+    "pdf_get": {
+        "pdf_path_type": "symlink",
+        "pdf_required_for_screen_and_synthesis": true,
+        "rename_pdfs": true,
+        "pdf_get_package_endpoints": [
+            {
+                "endpoint": "colrev.unpaywall"
+            },
+            {
+                "endpoint": "colrev.local_index"
+            }
+        ],
+        "pdf_get_man_package_endpoints": [
+            {
+                "endpoint": "colrev.colrev_cli_pdf_get_man"
+            }
+        ],
+        "defects_to_ignore": []
+    },
+    "pdf_prep": {
+        "keep_backup_of_pdfs": true,
+        "pdf_prep_package_endpoints": [
+            {
+                "endpoint": "colrev.ocrmypdf"
+            },
+            {
+                "endpoint": "colrev.grobid_tei"
+            },
+            {
+                "endpoint": "colrev.remove_coverpage"
+            },
+            {
+                "endpoint": "colrev.remove_last_page"
+            }
+        ],
+        "pdf_prep_man_package_endpoints": [
+            {
+                "endpoint": "colrev.colrev_cli_pdf_prep_man"
+            }
+        ]
+    },
+    "screen": {
+        "explanation": null,
+        "criteria": {},
+        "screen_package_endpoints": []
+    },
+    "data": {
+        "data_package_endpoints": [
+            {
+                "endpoint": "colrev.colrev_curation",
+                "curation_url": "https://github.com/CoLRev-curations/journal-of-management-information-systems",
+                "curated_masterdata": true,
+                "masterdata_restrictions": {
+                    "1984": {
+                        "ENTRYTYPE": "article",
+                        "volume": true,
+                        "number": true,
+                        "journal": "Journal of Management Information Systems"
+                    }
+                },
+                "curated_fields": [
+                    "doi",
+                    "url",
+                    "dblp_key"
+                ]
+            }
+        ]
+    }
+}
