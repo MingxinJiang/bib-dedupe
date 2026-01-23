@@ -2,6 +2,7 @@
 """Preparation of title field"""
 import html
 import re
+from typing import Optional, Tuple
 
 import numpy as np
 from number_parser import parse
@@ -29,6 +30,67 @@ TITLE_STOPWORDS = [
     "their",
     "the",
 ]
+
+
+TEMPLATE_PREFIX_RE = re.compile(
+    r"^\s*(?P<lead>.*?)(?P<template>(?:guest\s+)?editorial|editor'?s?\s+comments?)\b(?P<suffix>.*)$",
+    flags=re.IGNORECASE,
+)
+
+
+def _normalize_template_prefix(prefix: str) -> str:
+    cleaned = (
+        prefix.replace("\u2019", "'").replace("\u2018", "'").lower()
+        if prefix
+        else ""
+    )
+    cleaned = re.sub(r"[^a-z0-9]+", " ", cleaned)
+    return " ".join(cleaned.split())
+
+
+def _is_template_prefix(prefix: str) -> bool:
+    normalized = _normalize_template_prefix(prefix)
+    if not normalized:
+        return False
+    if "editorial" in normalized:
+        return True
+    return "editor" in normalized and "comment" in normalized
+
+
+def _is_template_leadin(lead: str) -> bool:
+    if not lead or not lead.strip():
+        return True
+    stripped = lead.strip()
+    if stripped.endswith(("/", "\\")):
+        return True
+    return bool(re.fullmatch(r"[\s\-/\u2013\u2014:;]*", lead))
+
+
+def _extract_template_prefix_suffix(title: str) -> Optional[Tuple[str, str]]:
+    match = TEMPLATE_PREFIX_RE.match(title)
+    if not match:
+        return None
+    lead = match.group("lead")
+    if not _is_template_leadin(lead):
+        return None
+    prefix = f"{lead}{match.group('template')}".strip()
+    suffix = match.group("suffix").strip()
+    return prefix, suffix
+
+
+def strip_template_title(title: str, *, min_suffix_len: int = 10) -> str:
+    if not isinstance(title, str) or not title:
+        return title
+    extracted = _extract_template_prefix_suffix(title)
+    if extracted is None:
+        return title
+    prefix, suffix = extracted
+    if not _is_template_prefix(prefix):
+        return title
+    suffix = re.sub(r"^[\s:;/\-\u2013\u2014]+", "", suffix)
+    if len(re.sub(r"\s+", "", suffix)) <= min_suffix_len:
+        return title
+    return suffix
 
 
 def remove_erratum_suffix(title: str) -> str:

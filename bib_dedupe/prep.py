@@ -34,6 +34,7 @@ from bib_dedupe.prep_doi import prep_doi
 from bib_dedupe.prep_number import prep_number
 from bib_dedupe.prep_pages import prep_pages
 from bib_dedupe.prep_title import prep_title
+from bib_dedupe.prep_title import strip_template_title
 from bib_dedupe.prep_volume import prep_volume
 from bib_dedupe.prep_year import prep_year
 
@@ -92,6 +93,18 @@ def prepare_df_split(split_df: pd.DataFrame) -> pd.DataFrame:
     set_container_title(split_df)
 
     split_df["author_full"] = split_df[AUTHOR]
+
+    doi_series = split_df[DOI]
+    doi_text = doi_series.astype(str).str.strip()
+    low_quality_mask = (
+        doi_series.isna()
+        | doi_text.eq("")
+        | doi_text.str.lower().isin({"nan", "none"})
+    )
+    if low_quality_mask.any():
+        split_df.loc[low_quality_mask, TITLE] = split_df.loc[
+            low_quality_mask, TITLE
+        ].apply(strip_template_title)
 
     for field, function in function_mapping.items():
         split_df[field] = function(split_df[field].values)  # type: ignore

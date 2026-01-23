@@ -492,7 +492,6 @@ class UniversalEvaluator:
         print(f"  F1 score      = {result['f1']:.4f}")
 
         _append_evaluation_csv(self.output_dir, subset, result)
-        return result
 
         # Generate false positive and true positive pairs
         pred_pairs = set(itertools.chain.from_iterable(
@@ -612,6 +611,8 @@ class UniversalEvaluator:
             out_tp = subset_dir / "true_positives.csv"
             tp_df.to_csv(out_tp, index=False, encoding="utf-8")
             print(f"{datetime.now()} True positives saved to {out_tp}")
+
+        return result
 
     def run_evaluation(self, subsets=None):
         """Run complete evaluation pipeline"""
