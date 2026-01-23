@@ -1,0 +1,234 @@
+cluster_id,id,title,author,doi,file
+0,P_0000000141,Journal of the Association for Information,"Lowry, Paul Benjamin and Gaskin, James Eric and Moody, Gregory D",,data/pdfs/16_7/LowryGaskinMoody2015.pdf
+0,P_0000000406,Journal of the Association for Information Research Article,"Grgecic, Daniel and Holten, Roland and Rosenkranz, Christoph",,data/pdfs/16_7/GrgecicHoltenRosenkranz2015.pdf
+0,P_0000000647,Journal of the Association for Information Research Article,"Windeler, Jaime B and Maruping, Likoebe M and Robert, Lionel P and Davidson, Elizabeth and Riemenschneider, Cynthia K",,data/pdfs/16_7/WindelerMarupingRobertJrEtAl2015.pdf
+1,P_0000000022,Journal of the Association for Information,"Vance, Anthony and Anderson, Bonnie Brinton and Kirwan, C. Brock and Eargle, David",,data/pdfs/15_10/VanceAndersonKirwanEtAl2014.pdf
+1,P_0000000228,Journal of the Association for Information Special Issue,"Léger, Pierre-Majorique and Montréal, Hec and Sénecal, Sylvain and Ortiz De Guinea, Ana and Titah, Ryad and Fredette, Marc and Research, Systems",,data/pdfs/15_10/LegerSenecalCourtemancheEtAl2014.pdf
+1,P_0000000249,Journal of the Association for Information,"Hill, Kevin and Ortiz De Guinea, Ana and Thatcher, Jason and Grover, Varun and Tams, Stefan",,data/pdfs/15_10/TamsHilldeGuineaEtAl2014.pdf
+1,P_0000000585,Journal of the Association for Information,"Riedl, René and Davis, Fred D and Hevner, Alan R and Barki, Henri and Chatterjee, Samir and Dennis, Alan and Gefen, David and Léger, Pierre-Majorique and Randolph, Adriane and Walden, Eric and Walton, Sam M",,data/pdfs/15_10/RiedlDavisHevner2014.pdf
+2,P_0000000151,Journal of the Association for Information,"Parsons, Jeffrey and Wand, Yair",,data/pdfs/14_5/ParsonsWand2013.pdf
+2,P_0000000178,Journal of the Association for Information,"Grover, Varun and Nicholas, *.",,data/pdfs/14_5/Grover2013.pdf
+2,P_0000000313,Journal of the Association for Information,"Yoo, Youngjin",,data/pdfs/14_5/Yoo2013.pdf
+2,P_0000000695,Journal of the Association for Information,"Osterwalder, Alexander and Pigneur, Yves and Nicholas, *.",,data/pdfs/14_5/OsterwalderPigneur2013.pdf
+3,P_0000000388,Journal of the Association for Information,"Rivard, Suzanne and Montreal, Hec and Lapointe, Liette and Kappos, Antonio and Payton, Fay Cobb and Paré, Guy and Lerouge, Cynthia and Reddy, Madhu",,data/pdfs/12_2/RivardLapointeKappos2011.pdf
+3,P_0000000523,Journal of the Association for Information,"Singh, Rajendra and Mathiassen, Lars and Stachura, Max E and Astapova, Elena V and Payton, Fay Cobb and Paré, Guy and Lerouge, Cynthia and Reddy, Madhu",,data/pdfs/12_2/SinghMathiassenStachuraEtAl2011.pdf
+3,P_0000000588,Journal of the Association for Information,"Feldman, Sue S and Horan, Thomas A and Payton, Fay Cobb and Paré, Guy and Lerouge, Cynthia and Reddy, Madhu",,data/pdfs/12_2/FeldmanHoran2011.pdf
+3,P_0000000621,Journal of the Association for Information,"Payton, Fay Cobb and Paré, Guy and Lerouge, Cynthia and Reddy, Madhu and Considerations, Interdisciplinary",,data/pdfs/12_2/PaytonPareLeRougeEtAl2011.pdf
+4,P_0000000316,Journal of the Association for Information,"Grytten, Petter and Østerlie, Thomas and Haavik, Torgeir Kolstø",,data/pdfs/15_5/AlmklovOsterlieHaavik2014.pdf
+4,P_0000000376,Journal of the Association for Information,"Kaniadakis, Antonios and Constantinides, Panos",,data/pdfs/15_5/KaniadakisConstantinides2014.pdf
+4,P_0000000552,Journal of the Association for Information,"Ribes, David and Polk, Jessica Beth and Monteiro, Eric",,data/pdfs/15_5/RibesPolk2014.pdf
+5,P_0000000170,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Shafiq Khan, Sarah and Zhao, Kexin and Kumar, Ram L and Stylianou, Antonis and Khan, Sarah S and Kong, Hong and Zhao, Taiwan Kexin",,data/pdfs/18_5/KhanZhaoKumarEtAl2017.pdf
+5,P_0000000266,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Arazy, Ofer and Kopak, Rick and Hadar, Irit",,data/pdfs/18_5/ArazyKopakHadar2017.pdf
+6,P_0000000204,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Warkentin, Merrill and Goel, Sanjay and Menard, Philip",,data/pdfs/18_11/WarkentinGoelMenard2017.pdf
+6,P_0000000357,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Wu, Yi and Choi, Ben and Guo, Xitong and Klarissa, Ting-Ting and Chang",,data/pdfs/18_11/WuChoiGuoEtAl2017.pdf
+6,P_0000000507,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Molnar, Wolfgang Alfred and Nandhakumar, Joe and Stacey, Patrick",,data/pdfs/18_11/MolnarNandhakumarStacey2017.pdf
+7,P_0000000670,Journal of the Association for Information,"Figl, Kathrin and Mendling, Jan and Strembeck, Mark",,data/pdfs/14_6/FiglMendlingStrembeck2013.pdf
+7,P_0000000682,Journal of the Association for Information,"Vessey, Iris and Ward, Kerry",,data/pdfs/14_6/VesseyWard2013.pdf
+8,P_0000000048,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Bernardi, Roberta and Constantinides, Panos and Nandhakumar, Joe",,data/pdfs/18_2/BernardiConstantinidesNandhakumar2017.pdf
+8,P_0000000278,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Salehan, Mohammad and Kim, Dan J and Kim, Changsu",,data/pdfs/18_2/SalehanKimKim2017.pdf
+8,P_0000000304,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Xu, David Jingjun and Abdinnour, Sue and Chaparro, Barbara",,data/pdfs/18_2/XuAbdinnourChaparro2017.pdf
+9,P_0000000457,Journal of the Association for Information,"Kaganer, Evgeny and Pawlowski, Suzanne D and Wiley-Patton, Sonja",,data/pdfs/11_1/KaganerPawlowskiWileyPatton2010.pdf
+9,P_0000000541,Journal of the Association for Information,"Jiang, Zhenhui and Chan, Jason and Tan, Bernard C Y and Siong Chua, Wei",,data/pdfs/11_1/JiangChanTanEtAl2010.pdf
+10,P_0000000583,Journal of the Association for Information,"Wagner, Erica L and Newell, Sue and Piccoli, Gabriele",,data/pdfs/11_5/WagnerNewellPiccoli2010.pdf
+10,P_0000000589,Journal of the Association for Information,"Appan, Radha and Browne, Glenn J",,data/pdfs/11_5/AppanBrowne2010.pdf
+11,P_0000000157,Journal of the Association for Information,"Sanner, Terje Aksel and Davis, Tiwonge and Nielsen, Petter",,data/pdfs/15_4/SannerMandaNielsen2014.pdf
+11,P_0000000250,Journal of the Association for Information,"Grisot, Miria and Hanseth, Ole and Thorseng, Anne Asmyr and Pollock, Neil",,data/pdfs/15_4/GrisotHansethThorseng2014.pdf
+11,P_0000000540,Journal of the Association for Information,"Silsand, Line and Ellingsen, Gunnar",,data/pdfs/15_4/SilsandEllingsen2014.pdf
+12,P_0000000279,Journal of the Association for Information,"Kock, Ned and Lynn, Gary S",,data/pdfs/13_7/KockLynn2012.pdf
+12,P_0000000402,Journal of the Association for Information,"Choi, Byounggu and Lee, Jae-Nam",,data/pdfs/13_7/ChoiLee2012.pdf
+12,P_0000000708,Journal of the Association for Information,"Jewer, Jennifer and Mckay, Kenneth N",,data/pdfs/13_7/JewerMcKay2012.pdf
+13,P_0000000105,Journal of the Association for Information,"Sojer, Manuel and Henkel, Joachim and Wade, Michael and Crowston, Kevin",,data/pdfs/11_12/SojerHenkel2010.pdf
+13,P_0000000273,Journal of the Association for Information,"Cornford, Tony and Shaikh, Maha and Ciborra, Claudio and Wade, Michael and Crowston, Kevin",,data/pdfs/11_12/CornfordShaikhCiborra2010.pdf
+13,P_0000000372,Journal of the Association for Information,"Eng, Cecil and Chua, Huang and Yong, Adrian and Yeow, Kwang and Wade, Michael and Crowston, Kevin",,data/pdfs/11_12/HuangYeow2010.pdf
+13,P_0000000506,Journal of the Association for Information,"Bach, Paula M and Carroll, John M and Wade, Michael and Crowston, Kevin",,data/pdfs/11_12/BachCarroll2010.pdf
+13,P_0000000636,Journal of the Association for Information,"Zhang, Ping",,data/pdfs/11_12/KeZhang2010.pdf
+14,P_0000000411,Journal of the Association for Information,"Howcroft, Debra and Light, Ben and Rivard, Suzanne",,data/pdfs/11_3/HowcroftLight2010.pdf
+14,P_0000000503,Journal of the Association for Information,"Zmud, Robert W and Shaft, Teresa and Zheng, Weijun and Croes, Henry",,data/pdfs/11_3/ZmudShaftZhengEtAl2010.pdf
+15,P_0000000565,Journal of the Association for Information Systems IS Research Perspective,"Marakas, George M and Johnson, Richard D and Clay, Paul F",,data/pdfs/9_9/MarakasJohnsonClay2008.pdf
+15,P_0000000704,Journal of the Association for Information Systems IS Research Perspective,"Hardin, Andrew M and Cha, Jerry and Chang, Jan and Fuller, Mark A",,data/pdfs/9_9/HardinChangFuller2008.pdf
+16,P_0000000008,Journal of the Association for Information,"Goh, Samuel and Wasko, Molly",,data/pdfs/13_10/GohWasko2012.pdf
+16,P_0000000027,Journal of the Association for Information Special Issue,"Boughzala, Imed and De Vreede, Gert-Jan and Limayem, Moez",,data/pdfs/13_10/BoughzaladeVreedeLimayem2012.pdf
+16,P_0000000236,Journal of the Association for Information Special Issue,"Boughzala, Imed and De Vreede, Gert-Jan and Limayem, Moez",,data/pdfs/13_10/Team Collaboration In Virtual Worlds Introduction To The Special Iss.pdf
+16,P_0000000533,Journal of the Association for Information,"Venkatesh, Viswanath and Windeler, Jaime B",,data/pdfs/13_10/VenkateshWindeler2012.pdf
+16,P_0000000626,Journal of the Association for Information,"Schmeil, Andreas and Eppler, Martin J",,data/pdfs/13_10/SchmeilEpplerdeFreitas2012.pdf
+16,P_0000000690,Journal of the Association for Information,"Nardon, Luciara and Aten, Kathryn",,data/pdfs/13_10/NardonAten2012.pdf
+17,P_0000000143,Journal of the Association for Information,"Kelley, Helen and Chiasson, Mike and Downey, Angela and Pacaud, Danièle and Payton, Fay Cobb and Paré, Guy and Lerouge, Cynthia and Reddy, Madhu",,data/pdfs/12_3/KelleyChiassonDowneyEtAl2011.pdf
+17,P_0000000299,Journal of the Association for Information,"Parmet, Yisrael and Pliskin, Nava and Payton, Fay Cobb and Paré, Guy and Lerouge, Cynthia and Reddy, Madhu and Zuker, Allon and Pliskin, Joseph S",,data/pdfs/12_3/HeartZuckerParmetEtAl2011.pdf
+17,P_0000000459,Journal of the Association for Information,"Shaw, Mark Christopher and Stahl, Bernd Carsten and Payton, Fay Cobb and Paré, Guy and Lerouge, Cynthia and Reddy, Madhu",,data/pdfs/12_3/ShawStahl2011.pdf
+17,P_0000000733,Journal of the Association for Information,"Setia, Pankaj and Setia, Monika and Krishnan, Ranjani and Sambamurthy, Vallabh and Payton, Fay Cobb and Paré, Guy and Lerouge, Cynthia and Reddy, Madhu",,data/pdfs/12_3/SetiaSetiaKrishnanEtAl2011.pdf
+18,P_0000000063,Journal of the Association for Information,"Crowston, Kevin and Wade, Michael",,data/pdfs/11_11/CrowstonWade2010.pdf
+18,P_0000000094,Journal of the Association for Information,"Alspaugh, Thomas A and Scacchi, Walt and Asuncion, Hazeline U and Wade, Michael and Crowston, Kevin",,data/pdfs/11_11/AlspaughScacchiAsuncion2010.pdf
+18,P_0000000255,Journal of the Association for Information,"Maldonado, Edgar",,data/pdfs/11_11/Maldonado2010.pdf
+18,P_0000000375,Journal of the Association for Information,"Nevo, Saggi and Demertzoglou, Pindaro and Wade, Michael and Crowston, Kevin and Chengalur-Smith, Indushobha",,data/pdfs/11_11/ChengalurSmithNevoDemertzoglou2010.pdf
+18,P_0000000440,Journal of the Association for Information,"Sidorova, Anna and Daniel, Sherae and Chengalur-Smith, Indushobha",,data/pdfs/11_11/ChengalurSmithSidorovaDaniel2010.pdf
+18,P_0000000542,Journal of the Association for Information,"Aksulu, Altay and Wade, Michael R",,data/pdfs/11_11/AksuluWade2010.pdf
+18,P_0000000630,Journal of the Association for Information,"Colazo, Jorge A and Fang, Yulin",,data/pdfs/11_11/ColazoFang2010.pdf
+19,P_0000000177,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Hariharan, Anuja and Thomas, Marc and Adam, Philipp and Dorner, Verena and Lux, Ewa and Müller, Marius B and Pfeiffer, Jella and Weinhardt, Christof and Adam, Marc T P",,data/pdfs/18_4/HariharanAdamDornerEtAl2017.pdf
+19,P_0000000637,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Chatla, Suneel Babu and Shmueli, Galit",,data/pdfs/18_4/ChatlaShmueli2017.pdf
+19,P_0000000715,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Lukyanenko, Roman and Parsons, Jeffrey and Wiersma, Yolanda and Wachinger, Gisela and Huber, Benjamin and Meldt, Robert",,data/pdfs/18_4/LukyanenkoParsonsWiersmaEtAl2017.pdf
+20,P_0000000027,Journal of the Association for Information Special Issue,"Boughzala, Imed and De Vreede, Gert-Jan and Limayem, Moez",,data/pdfs/13_10/BoughzaladeVreedeLimayem2012.pdf
+20,P_0000000533,Journal of the Association for Information,"Venkatesh, Viswanath and Windeler, Jaime B",,data/pdfs/13_10/VenkateshWindeler2012.pdf
+21,P_0000000508,Journal of the Association for Information,"Alter, Steven",,data/pdfs/14_2/Alter2013.pdf
+21,P_0000000693,Journal of the Association for Information,"Sun, Yongqiang and Lim, Kai H and Peng, Jerry Zeyu and Kong, Hong and He",,data/pdfs/14_2/SunLimPeng2013.pdf
+22,P_0000000078,Journal of the Association for Information,"Wu, Ing-Long and Hu, Ya-Ping",,data/pdfs/13_12/WuHu2012.pdf
+22,P_0000000384,Journal of the Association for Information,"Browne, Glenn J and Parsons, Jeffrey and Gregor, Shirley",,data/pdfs/13_12/BrowneParsons2012.pdf
+22,P_0000000668,Journal of the Association for Information,"Liu, Liping and Li, Chan and Zhu, Dan and Liu, / and Nomological and Trust",,data/pdfs/13_12/LiuLiZhu2012.pdf
+23,P_0000000198,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Goel, Sanjay and Williams, Kevin and Dincelli, Ersin",,data/pdfs/18_1/GoelWilliamsDincelli2017.pdf
+23,P_0000000377,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Machado, Fernando S and Sainam, Preethika and Raghu, T. S and Sinha, Rajiv",,data/pdfs/18_1/MachadoRaghuSainamEtAl2017.pdf
+23,P_0000000449,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Kordzadeh, Nima and Warren, John",,data/pdfs/18_1/KordzadehWarren2017.pdf
+24,P_0000000038,J ournal of the A I S ssociation for nformation ystems,"Perspective, Research and Gefen, David and Larsen, Kai",,data/pdfs/18_10/GefenLarsen2017.pdf
+24,P_0000000136,J ournal of the A I S ssociation for nformation ystems,"Seo, Dongback",,data/pdfs/18_10/Seo2017.pdf
+24,P_0000000258,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Fehrenbacher, Dennis D",,data/pdfs/18_10/Fehrenbacher2017.pdf
+25,P_0000000086,Journal of the Association for Information,"Staehr, Lorraine and Shanks, Graeme and Seddon, Peter B",,data/pdfs/13_6/StaehrShanksSeddon2012.pdf
+25,P_0000000605,Journal of the Association for Information,"Dibbern, Jens and Chin, Wynne W and Heinzl, Armin",,data/pdfs/13_6/DibbernChinHeinzl2012.pdf
+25,P_0000000669,Journal of the Association for Information,"Kuechler, William and Vaishnavi, Vijay",,data/pdfs/13_6/KuechlerJrVaishnavi2012.pdf
+26,P_0000000020,Journal of the Association for Information,"Kirsch, Laurie J and Slaughter, Sandra A",,data/pdfs/14_4/KirschSlaughter2013.pdf
+26,P_0000000071,Journal of the Association for Information,"King, John Leslie and Nicholas, *.",,data/pdfs/14_4/King2013.pdf
+26,P_0000000534,Journal of the Association for Information Special Issue,"Beath, Cynthia and Berente, Nicholas and Gallivan, Michael J and Lyytinen, Kalle",,data/pdfs/14_4/BeathBerenteGallivanEtAl2013.pdf
+26,P_0000000619,Journal of the Association for Information,"Nambisan, Satish",,data/pdfs/14_4/Nambisan2013.pdf
+27,P_0000000276,Journal of the Association for Information,"Chakraborty, Suranjan and Sarker, Saonee and Sarker, Suprateek",,data/pdfs/11_4/ChakrabortySarkerSarker2010.pdf
+27,P_0000000516,Journal of the Association for Information,"Sun, Heshan",,data/pdfs/11_4/Sun2010.pdf
+28,P_0000000268,Journal of the Association for Information,"Ridings, Catherine and Wasko, Molly",,data/pdfs/11_2/RidingsWasko2010.pdf
+28,P_0000000437,Journal of the Association for Information,"Oinas-Kukkonen, Harri and Lyytinen, Kalle and Yoo, Youngjin",,data/pdfs/11_2/OinasKukkonenLyytinenYoo2010.pdf
+28,P_0000000579,Journal of the Association for Information,"Putzke, Johannes and Fischbach, Kai and Schoder, Detlef and Oinas-Kukkonen, Harri and Lyytinen, Kalle and Yoo, Youngjin and Gloor, Peter A",,data/pdfs/11_2/PutzkeFischbachSchoderEtAl2010.pdf
+29,P_0000000007,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Gleasure, Rob and Feller, Joseph",,data/pdfs/17_10/GleasureFeller2016.pdf
+29,P_0000000462,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Deng, Nancy and Joshi, K. D and Nancy, Annual Meeting",,data/pdfs/17_10/DengJoshi2016.pdf
+29,P_0000000526,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Vijayasarathy, Leo and Casterella, Gretchen Irwin",,data/pdfs/17_10/VijayasarathyCasterella2016.pdf
+30,P_0000000185,Journal of the Association for Information,"Tan, Barney and Pan, Shan L and Lu, Xianghua and Huang, Lihua and Quarterly, Mis",,data/pdfs/16_4/TanPanLuEtAl2015.pdf
+30,P_0000000472,Journal of the Association for Information Research Article,"Dinger, Michael and Thatcher, Jason B and Treadway, Darren and Stepina, Lee and Breland, Jacob",,data/pdfs/16_4/DingerThatcherTreadwayEtAl2015.pdf
+30,P_0000000723,Journal of the Association for Information,"Cranefield, Jocelyn and Yoong, Pak and Huff, Sid L",,data/pdfs/16_4/CranefieldYoongHuff2015.pdf
+31,P_0000000205,Journal of the Association for Information,"Wu, Shin-Yi and Banker, Rajiv D",,data/pdfs/11_6/WuBanker2010.pdf
+31,P_0000000342,Journal of the Association for Information,"Kauffman, Robert J and Carey, W. P and Lee, Dongwon",,data/pdfs/11_6/KauffmanLee2010.pdf
+31,P_0000000412,Journal of the Association for Information Research Article,"Kauffman, Robert J and Carey, W. P",,data/pdfs/11_6/Kauffman2010.pdf
+32,P_0000000029,Journal of the Association for Information,"Hirschheim, Rudy and Klein, Heinz K",,data/pdfs/13_4/HirschheimKlein2012.pdf
+32,P_0000000218,Journal of the Association for Information,"Grover, Varun",,data/pdfs/13_4/Grover2012.pdf
+32,P_0000000307,Journal of the Association for Information,"Buhl, Hans Ulrich and Müller, Günter and Fridgen, Gilbert and Röglinger, Maximilian",,data/pdfs/13_4/BuhlMullerFridgenEtAl2012.pdf
+32,P_0000000315,Journal of the Association for Information Special Issue,"Hirschheim, Rudy and Saunders, Carol and Straub, Detmar",,data/pdfs/13_4/HirschheimSaundersStraub2012.pdf
+32,P_0000000591,Journal of the Association for Information,"Davern, Michael J and Shaft, Teresa M and Te'eni, Dov",,data/pdfs/13_4/DavernShaftTeeni2012a.pdf
+33,P_0000000488,Journal of the Association for Information,"Goldstein, James and Chernobai, Anna and Benaroch, Michel and Whitman, M. J",,data/pdfs/12_9/GoldsteinChernobaiBenaroch2011.pdf
+33,P_0000000644,Journal of the Association for Information,"Evermann, Joerg and Tate, Mary",,data/pdfs/12_9/EvermannTate2011.pdf
+34,P_0000000301,Journal of the Association for Information,"Levermore, David M and Babin, Gilbert and Hsu, Cheng and March, Sal and Raghu, T. S and Vinze, Ajay",,data/pdfs/11_7/LevermoreBabinHsu2010.pdf
+34,P_0000000417,Journal of the Association for Information,"Liang, Huigang and Xue, Yajiong",,data/pdfs/11_7/LiangXue2010.pdf
+35,P_0000000370,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Bernardi, Roberta",,data/pdfs/18_12/Bernardi2017.pdf
+35,P_0000000395,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Holeman, Isaac and Barrett, Michael",,data/pdfs/18_12/HolemanBarrett2017.pdf
+35,P_0000000788,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Kelly, Séamas and Noonan, Camilla",,data/pdfs/18_12/KellyNoonan2017.pdf
+35,P_000789,J ournal of the A I S ssociation for nformation ystems,"Sahay, Sundeep and Kyaw, Maung and Urquhart, Cathy",,data/pdfs/18_12/SahaySeinUrquhart2017.pdf
+36,P_0000000232,Journal of the Association for Information,"Thorén, Claes and Ågerfalk, Pär J and Edenius, Mats",,data/pdfs/15_11/ThorenAgerfalkEdenius2014.pdf
+36,P_0000000321,Journal of the Association for Information Special Issue,"Yeliz Eseryel, U. and Morgan, Lorraine",,data/pdfs/15_11/Eseryel2014.pdf
+36,P_0000000349,Journal of the Association for Information Special Issue,"Schlagwein, Daniel and Bjørn-Andersen, Niels",,data/pdfs/15_11/SchlagweinBjornAndersen2014.pdf
+36,P_0000000428,Journal of the Association for Information Special Issue,"Crowston, Kevin and Whelan, Eoin and Conboy, Kieran and Lero, Lorraine Morgan and Rossi, Matti",,data/pdfs/15_11/WhelanConboyCrowstonEtAl2014.pdf
+36,P_0000000646,Journal of the Association for Information Editorial Note,"Gregor, Shirley and Klein, Gary",,data/pdfs/15_11/GregorKlein2014.pdf
+37,P_0000000216,Journal of the Association for Information Systems Abstract Special Issue,"Mittleman, Daniel D and Briggs, Robert O and De Vreede, Gert-Jan and Massey, Anne",,data/pdfs/10_3/Mittleman2009.pdf
+37,P_0000000596,Journal of the Association for Information Systems Special Issue,"Briggs, Robert O and De Vreede, Gert-Jan and Massey, Anne P",,data/pdfs/10_3/BriggsdeVreedeMassey2009.pdf
+37,P_0000000640,Journal of the Association for Information Systems Abstract Special Issue,"Nan, Ning and Johnston, Erik W and Briggs, Robert O and De Vreede, Gert-Jan and Massey, Anne",,data/pdfs/10_3/NanJohnston2009.pdf
+38,P_0000000005,Journal of the Association for Information,"Cheng, Jiesi and Sun, Aaron and Hu, Daning and Zeng, Daniel",,data/pdfs/12_7/ChengSunHuEtAl2011.pdf
+38,P_0000000160,Journal of the Association for Information,"Kim, Gimun and Shin, Bongsik and Kim, Kyung Kyu and Lee, Ho Geun",,data/pdfs/12_7/KimShinKimEtAl2011.pdf
+39,P_0000000228,Journal of the Association for Information Special Issue,"Léger, Pierre-Majorique and Montréal, Hec and Sénecal, Sylvain and Ortiz De Guinea, Ana and Titah, Ryad and Fredette, Marc and Research, Systems",,data/pdfs/15_10/LegerSenecalCourtemancheEtAl2014.pdf
+39,P_0000000585,Journal of the Association for Information,"Riedl, René and Davis, Fred D and Hevner, Alan R and Barki, Henri and Chatterjee, Samir and Dennis, Alan and Gefen, David and Léger, Pierre-Majorique and Randolph, Adriane and Walden, Eric and Walton, Sam M",,data/pdfs/15_10/RiedlDavisHevner2014.pdf
+40,P_0000000116,Journal of the Association for Information,"Baker, Jeff and Jones, Donald R and Cao, Qing and Song, Jaeki",,data/pdfs/12_4/BakerJonesCaoEtAl2011.pdf
+40,P_0000000222,Journal of the Association for Information,"Price, Rosanne and Shanks, Graeme",,data/pdfs/12_4/PriceShanks2011.pdf
+41,P_0000000388,Journal of the Association for Information,"Rivard, Suzanne and Montreal, Hec and Lapointe, Liette and Kappos, Antonio and Payton, Fay Cobb and Paré, Guy and Lerouge, Cynthia and Reddy, Madhu",,data/pdfs/12_2/RivardLapointeKappos2011.pdf
+41,P_0000000588,Journal of the Association for Information,"Feldman, Sue S and Horan, Thomas A and Payton, Fay Cobb and Paré, Guy and Lerouge, Cynthia and Reddy, Madhu",,data/pdfs/12_2/FeldmanHoran2011.pdf
+42,P_0000000320,J ournal of the A I S ssociation for nformation ystems,"Abbasi, Ahmed and Sarker, Suprateek and Chiang, Roger H L and Lindner, Carl H",,data/pdfs/17_2/AbbasiSarkerChiang2016.pdf
+42,P_0000000339,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Pouloudi, Nancy and Currie, Wendy and Whitley, Edgar A",,data/pdfs/17_2/PouloudiCurrieWhitley2016.pdf
+42,P_0000000361,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Dawson, Greg and Carey, W. P and Watson, Richard T and Boudreau, Marie-Claude and Pitt, Leyland F",,data/pdfs/17_2/DawsonWatsonBoudreauEtAl2016.pdf
+43,P_0000000024,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Nishant, Rohit and Teo, Thompson S H and Goh, Mark and Goh, Competition Mark",,data/pdfs/18_8/NishantTeoGoh2017.pdf
+43,P_0000000616,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Muller, Y. M and Cheung and Hong, Weiyin and Thong, James Y L",,data/pdfs/18_8/CheungHongThong2017.pdf
+43,P_0000000671,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Rehm, Sven-Volker and Goel, Lakshmi and Junglas, Iris and Management",,data/pdfs/18_8/RehmGoelJunglas2017.pdf
+44,P_0000000352,Journal of the Association for Information Research Article,"Meth, Hendrik and Mueller, Benjamin and Maedche, Alexander",,data/pdfs/16_9/MethMullerMaedche2015.pdf
+44,P_0000000364,Journal of the Association for Information Research Article,"Goh, Khim-Yong and Tan, Chuan-Hoo and Teo, Hock-Hai",,data/pdfs/16_9/GohTanTeo2015.pdf
+44,P_0000000489,Journal of the Association for Information Research Article,"Lang, Karl and Shang, Richard and Vragov, Roumen",,data/pdfs/16_9/LangShangVragov2015.pdf
+45,P_0000000161,Journal of the Association for Information,"Soper, Daniel S and Demirkan, Haluk and Goul, Michael and St, Robert and Louis",,data/pdfs/13_3/SoperDemirkanGoulEtAl2012.pdf
+45,P_0000000233,Journal of the Association for Information,"Wu, Philip Fei",,data/pdfs/13_3/Wu2012.pdf
+45,P_0000000710,Journal of the Association for Information,"Nazir, Salman and Pinsonneault, Alain",,data/pdfs/13_3/NazirPinsonneault2012.pdf
+46,P_0000000438,Journal of the Association for Information,"Arbore, Alessandro and Bocconi, Sda and Soscia, Isabella and Bagozzi, Richard P",,data/pdfs/15_2/ArboreSosciaBagozzi2014.pdf
+46,P_0000000521,Journal of the Association for Information,"Strong, Diane M and Johnson, Sharon A and Tulu, Bengisu and Trudel, John and Volkoff, Olga and Pelletier, Lori R and Garber, Lawrence",,data/pdfs/15_2/StrongVolkoffJohnsonEtAl2014.pdf
+47,P_0000000331,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Cuellar, Michael J and Takeda, Hirotoshi and Vidgen, Richard and Truex, Duane",,data/pdfs/17_1/CuellarTakedaVidgenEtAl2016.pdf
+47,P_0000000409,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Wall, Jeffrey D and Lowry, Paul Benjamin and Barlow, Jordan B",,data/pdfs/17_1/WallLowryBarlow2016.pdf
+47,P_0000000709,J ournal of the A I S ssociation for nformation ystems,"Crowston, Kevin",,data/pdfs/17_1/Crowston2016.pdf
+47,P_0000000712,J ournal of the A I S ssociation for nformation ystems,"Cuellar, Michael J and Takeda, Hirotoshi and Vidgen, Richard and Truex, Duane",,data/pdfs/17_1/CuellarTakedaVidgenEtAl2016a.pdf
+48,P_0000000143,Journal of the Association for Information,"Kelley, Helen and Chiasson, Mike and Downey, Angela and Pacaud, Danièle and Payton, Fay Cobb and Paré, Guy and Lerouge, Cynthia and Reddy, Madhu",,data/pdfs/12_3/KelleyChiassonDowneyEtAl2011.pdf
+48,P_0000000299,Journal of the Association for Information,"Parmet, Yisrael and Pliskin, Nava and Payton, Fay Cobb and Paré, Guy and Lerouge, Cynthia and Reddy, Madhu and Zuker, Allon and Pliskin, Joseph S",,data/pdfs/12_3/HeartZuckerParmetEtAl2011.pdf
+49,P_0000000295,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Young, Brett W and Mathiassen, Lars and Davidson, Elizabeth",,data/pdfs/17_7/YoungMathiassenDavidson2016.pdf
+49,P_0000000661,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Venkatesh, Viswanath and Brown, Susan A and Sullivan, Yulia W",,data/pdfs/17_7/VenkateshBrownSullivan2016.pdf
+50,P_0000000026,Journal of the Association for Information Research Article,"Sandberg, Johan and Mathiassen, Lars and Napier, Nannette",,data/pdfs/15_7/SandbergMathiassenNapier2014.pdf
+50,P_0000000059,Journal of the Association for Information Research Article,"Farima Bagayogo, Fatou and Lapointe, Liette and Bassellier, Geneviève and Barrett, Michael",,data/pdfs/15_7/BagayogoLapointeBassellier2014.pdf
+51,P_0000000017,Journal of the Association for Information,"Chan, Frank K Y and Thong, James Y L and Venkatesh, Viswanath and Brown, Susan A and Paul, Jen-Hwa and Hu and Kar, Yan and Tam and Bernard, *.",,data/pdfs/11_10/ChanThongVenkateshEtAl2010.pdf
+51,P_0000000490,Journal of the Association for Information,"Loo, Geok and Pee and Kankanhalli, Atreyi and Kim, Hee-Woong and Grover, Varun and Niederman, Fred and Bush, Ashley and Bateman, Patrick",,data/pdfs/11_10/PeeKankanhalliKim2010.pdf
+52,P_0000000476,Journal of the Association for Information,"Montealegre, Ramiro and Hovorka, Dirk and Germonprez, Matt",,data/pdfs/15_9/MontealegreHovorkaGermonprez2014.pdf
+52,P_0000000628,Journal of the Association for Information Research Perspective,"Porra, Jaana and Hirschheim, Rudy and Parks, Michael S",,data/pdfs/15_9/PorraHirschheimParks2014.pdf
+53,P_0000000334,Journal of the Association for Information Systems Abstract Special Issue,"Legner, Christine and Schemm, Jan and March, Sal and Raghu, T. S and Vinze, Ajay",,data/pdfs/9_4/SchemmLegner2008.pdf
+53,P_0000000450,Journal of the Association for Information Systems Special Issue,"March, Sal and Raghu, T. S and Carey, W. P and Vinze, Ajay",,data/pdfs/9_4/VinzeMarchRaghu2008.pdf
+54,P_0000000260,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Lee, Younghwa and Chen, Andrew N K and Hess, Traci J and Quarterly, Mis",,data/pdfs/18_3/LeeChenHess2017.pdf
+54,P_0000000442,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Müller, Sune Dueholm and Mathiassen, Lars and Saunders, Carol S and Franke, W. A and Kraemmergaard, Pernille",,data/pdfs/18_3/MullerMathiassenSaundersEtAl2017.pdf
+54,P_0000000604,J ournal of the A I S ssociation for nformation ystems,"Lyytinen, Kalle and Grover, Varun",,data/pdfs/18_3/LyytinenGrover2017.pdf
+55,P_0000000512,Journal of the Association for Information,"Shuraida, Shadi and Barki, Henri and Bernard, *.",,data/pdfs/14_9/ShuraidaBarki2013.pdf
+55,P_0000000623,Journal of the Association for Information,"Hansen, Jared and Walden, Eric and Paul, *.",,data/pdfs/14_9/HansenWalden2013.pdf
+56,P_0000000448,Journal of the Association for Information,"Wang, Chingning and Kaarst-Brown, Michelle L",,data/pdfs/15_3/WangKaarstBrown2014.pdf
+56,P_0000000728,Journal of the Association for Information,"Klecun, Ela and Lichtner, Valentina and Cornford, Tony and Petrakaki, Dimitra",,data/pdfs/15_3/KlecunLichtnerCornfordEtAl2014.pdf
+57,P_0000000162,Journal of the Association for Information,"Stahl, Bernd Carsten",,data/pdfs/13_8/Stahl2012.pdf
+57,P_0000000223,Journal of the Association for Information,"Man, Cindy and Cheung, Yee and Sia, Choon-Ling and Kuan, Kevin K Y and Choon, Ling and Sia",,data/pdfs/13_8/CheungSiaKuan2012.pdf
+58,P_0000000073,Journal of the Association for Information,"Xu, David and Benbasat, Izak and Cenfetelli, Ronald T and Srinivasan, Ananth",,data/pdfs/12_11/XuBenbasatCenfetelli2011.pdf
+58,P_0000000169,Journal of the Association for Information,"Müller-Wienbergen, Felix and Müller, Oliver and Seidel, Stefan and Becker, Jörg",,data/pdfs/12_11/MullerWienbergenMullerSeidelEtAl2011.pdf
+59,P_0000000040,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Kulkarni, Uday R and Robles-Flores, José Antonio and Popovič, Aleš and Antonio, José",,data/pdfs/18_7/KulkarniRoblesFloresPopovic2017.pdf
+59,P_0000000391,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Crossler, Robert E and Posey, Clay",,data/pdfs/18_7/CrosslerPosey2017.pdf
+60,P_0000000308,Journal of the Association for Information,"Galluch, Pamela S and Grover, Varun and Thatcher, Jason Bennett",,data/pdfs/16_1/GalluchGroverThatcher2015.pdf
+60,P_0000000684,Journal of the Association for Information,"Kuan, Kevin K Y and Hui, Kai-Lung and Paul, *. and Prasarnphanich, Pattarawan and Lai, Hok-Yin",,data/pdfs/16_1/KuanHuiPrasarnphanichEtAl2015.pdf
+61,P_0000000023,Journal of the Association for Information,"Torkar, Richard and Minoves, Pau and Garrigós, Janina and Wade, Michael and Crowston, Kevin",,data/pdfs/12_1/TorkarMinovesGarrigos2011.pdf
+61,P_0000000085,Journal of the Association for Information Abstract Research Article,"Santos, Brian L Dos and Patel, Pankaj C and D'souza, Rodney R",,data/pdfs/12_1/DosSantosPatelDSouza2011.pdf
+61,P_0000000530,Journal of the Association for Information Abstract Research Article,"Li, Xiaolin and Troutt, Marvin D and Brandyberry, Alan and Wang, Tuo and Katz, Joseph M",,data/pdfs/12_1/LiTrouttBrandyberryEtAl2011.pdf
+61,P_0000000566,Journal of the Association for Information Abstract Research Article,"Wells, John D and Parboteeah, Veena and Valacich, Joseph S",,data/pdfs/12_1/WellsParboteeahValacich2011.pdf
+62,P_0000000065,Journal of the Association for Information,"Germonprez, Matt and Hovorka, Dirk and Gal, Uri",,data/pdfs/12_10/GermonprezHovorkaGal2011.pdf
+62,P_0000000356,Journal of the Association for Information,"Kock, Ned and Chatelain-Jardón, Ruth",,data/pdfs/12_10/KockChatelainJardon2011.pdf
+63,P_0000000023,Journal of the Association for Information,"Torkar, Richard and Minoves, Pau and Garrigós, Janina and Wade, Michael and Crowston, Kevin",,data/pdfs/12_1/TorkarMinovesGarrigos2011.pdf
+63,P_0000000085,Journal of the Association for Information Abstract Research Article,"Santos, Brian L Dos and Patel, Pankaj C and D'souza, Rodney R",,data/pdfs/12_1/DosSantosPatelDSouza2011.pdf
+64,P_0000000021,Journal of the Association for Information,"Al-Natour, Sameh and Benbasat, Izak and Cenfetelli, Ron",,data/pdfs/12_5/AlNatourBenbasatCenfetelli2011.pdf
+64,P_0000000359,Journal of the Association for Information Abstract Research Article,"Balijepally, Venugopal and Mangalaraj, George and Iyengar, Kishen",,data/pdfs/12_5/BalijepallyMangalarajIyengar2011.pdf
+65,P_0000000016,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Khatri, Vijay and Vessey, Iris",,data/pdfs/17_12/KhatriVessey2016.pdf
+65,P_0000000612,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Vitharana, Padmal and Zahedi, Fatemeh Mariam and Jain, Hemant K",,data/pdfs/17_12/VitharanaZahediJain2016.pdf
+66,P_0000000509,Journal of the Association for Information,"Lankton, Nancy K and Mcknight, Harrison D and Bernard, *. and Harrison, D.",,data/pdfs/13_2/LanktonMcKnight2012.pdf
+66,P_0000000730,Journal of the Association for Information,"Li, Linjing and Zeng, Daniel and Zhao, Huimin",,data/pdfs/13_2/LiZengZhao2012.pdf
+67,P_0000000084,Journal of the Association for Information,"Richardson, Sandra and Kettinger, William J and Banks, Michael Shane and Quintana, Yuri",,data/pdfs/15_1/RichardsonKettingerBanksEtAl2014.pdf
+67,P_0000000379,Journal of the Association for Information,"Legoux, Renaud and Montreal, Hec and Leger, Pierre-Majorique and Robert, Jacques and Boyer, Martin and Gregor, Shirley",,data/pdfs/15_1/LegouxLegerRobertEtAl2014.pdf
+68,P_0000000203,Journa I of the Association for Information Systems,"Social, A. and View, Constructionist and Kie, Siew and Sia and Yeow, Adrian",,data/pdfs/12_6/LimSiaYeow2011.pdf
+68,P_0000000713,Journa I of the Association for Information Systems,"Parsons, Jeffrey",,data/pdfs/12_6/Parsons2011.pdf
+69,P_0000000230,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Mohan, Blooma and Yeow, Alton and Chua, Kuan and Hoe, Dion and Goh, Lian and Wickramasinghe, Nilmini and Chua, Alton Y K and Goh, Dion",,data/pdfs/17_9/JohnChuaGohEtAl2016.pdf
+69,P_0000000319,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Tallon, Paul P and Huntsman, Jon M and Coltman, Tim and Sharma, Rajeev and Queiroz, Magno and South, Wales and Rajeev",,data/pdfs/17_9/TallonQueirozColtmanEtAl2016.pdf
+69,P_0000000415,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Brown, Susan A and Fuller, Robert M and Thatcher, Sherry M B",,data/pdfs/17_9/BrownFullerThatcher2016.pdf
+70,P_0000000328,Journal of the Association for Information Research Article,"Parsons, Jeffrey and Ralph, Paul",,data/pdfs/15_8/ParsonsRalph2014.pdf
+70,P_0000000573,Journal of the Association for Information Research Article,"Watson, Richard T",,data/pdfs/15_8/Watson2014.pdf
+70,P_0000000594,Journal of the Association for Information Research Article,"Wang, Weiquan and Zhao, Yi and Qiu, Lingyun and Fui-Hoon, Fiona and Zhu, Yan",,data/pdfs/15_8/WangZhaoQiuEtAl2014.pdf
+71,P_0000000309,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Hong, Yili and Huang, Ni and Burtch, Gord and Li, Chunxiao",,data/pdfs/17_11/HongHuangBurtchEtAl2016.pdf
+71,P_0000000584,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Wang, Jingguo and Li, Yuan and Rao, H. Raghav",,data/pdfs/17_11/WangLiRao2016.pdf
+72,P_0000000256,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Van Looy, Amy and Poels, Geert and Snoeck, Monique and Leuven, K. U",,data/pdfs/18_6/VanLooyPoelsSnoeck2017.pdf
+72,P_0000000487,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Liang, Huigang and Xue, Yajiong and Zhang, Zhiruo",,data/pdfs/18_6/LiangXueZhang2017.pdf
+73,P_0000000370,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Bernardi, Roberta",,data/pdfs/18_12/Bernardi2017.pdf
+73,P_0000000395,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Holeman, Isaac and Barrett, Michael",,data/pdfs/18_12/HolemanBarrett2017.pdf
+74,P_0000000106,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Park, Youngki and Sawy, Omar A El and Fiss, Peer C",,data/pdfs/18_9/ParkSawyFiss2017.pdf
+74,P_0000000434,J ournal of the A I S ssociation for nformation ystems,"Saunders, Carol and Brown, Susan A and Bygstad, Bendik and Dennis, Alan R and Ferran, Carlos and Galletta, Dennis and Katz, Joseph M and Liang, Ting-Peng and Lowry, Paul Benjamin and Recker, Jan and Sarker, Suprateek",,data/pdfs/18_9/SaundersBrownBygstadEtAl2017.pdf
+75,P_0000000281,Journal of the Association for Information Abstract Research Perspective,"Niederman, Fred and March, Salvatore and Gregor, Shirley",,data/pdfs/15_6/NiedermanMarch2014.pdf
+75,P_0000000677,Journal of the Association for Information,"Rosenkranz, Christoph and Vranešić, Helena and Holten, Roland",,data/pdfs/15_6/RosenkranzVranesicHolten2014.pdf
+76,P_0000000272,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Sun, Heshan and Fang, Yulin and Zou, Melody",,data/pdfs/17_6/SunFangZou2016.pdf
+76,P_0000000703,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Gaskin, James Eric and Lowry, Paul Benjamin and Hull, David M",,data/pdfs/17_6/GaskinLowryHull2016.pdf
+77,P_0000000171,Journal of the Association for Information,"Javadi, Elahe and Gebauer, Judith and Mahoney, Joseph",,data/pdfs/14_1/JavadiGebauerMahoney2013.pdf
+77,P_0000000515,Journal of the Association for Information,"Eryilmaz, Evren and Ryan, Terry and Van Der Pol, Jakko and Kasemvilas, Sumonta and Mary, Justin",,data/pdfs/14_1/EryilmazRyanvanderPolEtAl2013.pdf
+78,P_0000000212,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Venkatesh, Viswanath and Thong, James Y L and Xu, Xin",,data/pdfs/17_5/VenkateshThongXu2016.pdf
+78,P_0000000702,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Luo, Jifeng and Fan, Ming and Zhang, Han",,data/pdfs/17_5/LuoFanZhang2016.pdf
+79,P_0000000447,Journal of the Association for Information Abstract Research Perspective,"Arnott, David and Pervan, Graham",,data/pdfs/13_11/ArnottPervan2012.pdf
+79,P_0000000575,Journal of the Association for Information,"Koh, Tat Koon and Fichman, Mark and Kraut, Robert E",,data/pdfs/13_11/KohFichmanKraut2012.pdf
+80,P_0000000227,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Warkentin, Merrill and Walden, Eric and Johnston, Allen C and William, Detmar and Mis, Straub",,data/pdfs/17_3/WarkentinWaldenJohnstonEtAl2016.pdf
+80,P_0000000241,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Dennis, Alan R and Minas, Randall K and Lockwood, Nicholas S",,data/pdfs/17_3/DennisMinasLockwood2016.pdf
+81,P_0000000517,Journal of the Association for Information,"Chou, Chen-Huei and Sinha, Atish P and Zhao, Huimin",,data/pdfs/11_9/ChouSinhaZhao2010.pdf
+81,P_0000000614,Journal of the Association for Information,"Arazy, Ofer and Kumar, Nanda and Shapira, Bracha",,data/pdfs/11_9/ArazyKumarShapira2010.pdf
+82,P_0000000582,Journal of the Association for Information Abstract Research Perspective,"Vuorinen, Jukka and Tetri, Pekka",,data/pdfs/13_9/VuorinenTetri2012.pdf
+82,P_0000000686,Journal of the Association for Information,"Milton, Simon K and Rajapakse, Jayantha and Weber, Ron",,data/pdfs/13_9/MiltonRajapakseWeber2012.pdf
+83,P_0000000298,Journal of the Association for Information,"Choi, Namjoo and Nevo, Saggi",,data/pdfs/16_8/ChoiChengalurSmithNevo2015.pdf
+83,P_0000000458,Journal of the Association for Information,"Liu, Gloria H W and Wang, Eric and Eng, Cecil and Chua, Huang",,data/pdfs/16_8/LiuWangChua2015.pdf
+84,P_0000000229,Journal of the Association for Information,"Yang, Xue and Tong, Yu and Hock, Hai and Teo",,data/pdfs/16_11/YangTongTeo2015.pdf
+84,P_0000000460,Journal of the Association for Information,"Chiu, Chao-Min and Fang, Yu-Hui and Wang, Eric T G and Simon, William E",,data/pdfs/16_11/ChiuFangWang2015.pdf
+85,P_0000000092,Journal of the Association for Information Systems Special Issue,"Poole, Marshall Scott and Cummings, Jonathon N",,data/pdfs/9_10/PooleCummings2008.pdf
+85,P_0000000657,Journal of the Association for Information Systems Abstract Special Issue,"Markus, M. Lynne and Silver, Mark S and Desanctis, Gerardine and Poole, Marshall Scott and Cummings, Jonathon",,data/pdfs/9_10/MarkusSilver2008.pdf
+86,P_0000000587,Journal of the Association for Information,"Junglas, Iris and Goel, Lakshmi and Abraham, Chon and Ives, Blake",,data/pdfs/14_10/JunglasGoelAbrahamEtAl2013.pdf
+86,P_0000000648,Journal of the Association for Information,"Rowe, Frantz",,data/pdfs/14_10/deCorbiereRowe2013.pdf
+87,P_0000000147,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Tripp, John F and Riemenschneider, Cindy and Thatcher, Jason B and Riemenschneider, Cynthia K",,data/pdfs/17_4/TrippRiemenschneiderThatcher2016.pdf
+87,P_0000000257,J ournal of the A I S ssociation for nformation ystems,"Paper, Research and Cram, W. Alec and Brohman, Kathryn and Gallupe, R. Brent and Brohman, M. Kathryn",,data/pdfs/17_4/CramBrohmanGallupe2016.pdf

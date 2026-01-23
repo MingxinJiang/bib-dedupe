@@ -21,19 +21,25 @@ def percent_upper_chars(input_string: str) -> float:
 def default_merge_function_title(titles: list) -> str:
     """Default merge function for title field"""
 
-    if len([title for title in titles if not (pd.isnull(title) or title == "")]) <= 1:
+    non_empty_titles = [
+        str(title)
+        for title in titles
+        if not (pd.isnull(title) or title == "")
+    ]
+
+    if len(non_empty_titles) <= 1:
         return titles[0]
 
-    best_title = titles[0]
+    best_title = non_empty_titles[0]
 
     # Note : avoid switching titles
-    for title in titles[1:]:
+    for title in non_empty_titles[1:]:
         if best_title.replace(" - ", ": ") == title.replace(" - ", ": "):
             return best_title
 
     best_title_upper = percent_upper_chars(best_title)
 
-    for title in titles[1:]:
+    for title in non_empty_titles[1:]:
         title_upper = percent_upper_chars(title)
 
         if title[-1] not in ["*", "1", "2"]:
