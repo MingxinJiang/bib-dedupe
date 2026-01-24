@@ -47,6 +47,10 @@ NON_DUPLICATE_CONDITIONS = bib_dedupe.match_conditions.non_duplicate_conditions
 DUPLICATE_CONDITIONS = bib_dedupe.match_conditions.duplicate_conditions
 
 
+def _truthy(series: pd.Series) -> pd.Series:
+    return series.astype(str).str.lower().isin({"true", "1", "yes"})
+
+
 def __print_details(pairs: pd.DataFrame) -> None:
     if verbose_print.verbosity_level < 2:
         return
@@ -157,6 +161,13 @@ def match(pairs: pd.DataFrame, cpu: int = -1) -> pd.DataFrame:
         )
 
         return pd.DataFrame(columns=[f"{ID}_1", f"{ID}_2", DUPLICATE_LABEL])
+
+    if "title_is_journal_name_1" in pairs.columns:
+        mask = _truthy(pairs["title_is_journal_name_1"]) | _truthy(
+            pairs.get("title_is_journal_name_2", pd.Series(False, index=pairs.index))
+        )
+        if mask.any():
+            pairs.loc[mask, TITLE] = pairs.loc[mask, TITLE].astype(float) * 0.1
 
     for field in SIM_FIELDS_FLOAT:
         pairs[field] = pairs[field].astype(float)

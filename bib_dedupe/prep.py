@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 """Module for preparing bibliographic data for deduplication."""
 import concurrent.futures
+import functools
 import os
 import time
 from datetime import datetime
@@ -34,6 +35,7 @@ from bib_dedupe.prep_doi import prep_doi
 from bib_dedupe.prep_number import prep_number
 from bib_dedupe.prep_pages import prep_pages
 from bib_dedupe.prep_title import prep_title
+from bib_dedupe.prep_title import mark_title_equals_journal
 from bib_dedupe.prep_title import strip_template_title
 from bib_dedupe.prep_volume import prep_volume
 from bib_dedupe.prep_year import prep_year
@@ -67,7 +69,9 @@ function_mapping = {
 }
 
 
-def prepare_df_split(split_df: pd.DataFrame) -> pd.DataFrame:
+def prepare_df_split(
+    split_df: pd.DataFrame, *, pdf_only_dataset: bool = False
+) -> pd.DataFrame:
     """
     Prepare a split dataframe for deduplication.
 
@@ -91,6 +95,14 @@ def prepare_df_split(split_df: pd.DataFrame) -> pd.DataFrame:
     )
 
     set_container_title(split_df)
+
+    title_journal_match, title_journal_name = mark_title_equals_journal(
+        split_df[TITLE].values,
+        split_df[DOI].values,
+        pdf_only_dataset=pdf_only_dataset,
+    )
+    split_df["title_is_journal_name"] = title_journal_match
+    split_df["title_journal_canonical"] = title_journal_name
 
     split_df["author_full"] = split_df[AUTHOR]
 
@@ -203,6 +215,21 @@ def determine_cpu_count(requested_cpu: int, record_count: int) -> int:
     return cpu_count
 
 
+def _is_pdf_only_dataset(records_df: pd.DataFrame) -> bool:
+    pdf_only_values = {"pdf_only", "pdf-only", "pdf", "pdfs"}
+    for col in ["orig_source", SEARCH_SET, "source", "origin"]:
+        if col in records_df.columns:
+            series = records_df[col].astype(str).str.lower().str.strip()
+            series = series[~series.isin(["", "nan", "none"])]
+            if series.empty:
+                continue
+            return series.isin(pdf_only_values).all()
+    if ID in records_df.columns:
+        ids = records_df[ID].astype(str)
+        return ids.str.startswith("P_").all()
+    return False
+
+
 def prep(records_df: pd.DataFrame, *, cpu: int = -1) -> pd.DataFrame:
     """
     Prepare records for deduplication.
@@ -224,15 +251,19 @@ def prep(records_df: pd.DataFrame, *, cpu: int = -1) -> pd.DataFrame:
         verbose_print.print("No records to prepare")
         return {}
 
+    pdf_only_dataset = _is_pdf_only_dataset(records_df)
     records_df = __general_prep(records_df)
     cpu = determine_cpu_count(cpu, records_df.shape[0])
     if cpu == 1:
-        records_df = prepare_df_split(records_df)
+        records_df = prepare_df_split(records_df, pdf_only_dataset=pdf_only_dataset)
     else:
         index_chunks = np.array_split(records_df.index, cpu)
         df_split = [records_df.loc[idx] for idx in index_chunks]
         with concurrent.futures.ProcessPoolExecutor(max_workers=cpu) as executor:
-            results = executor.map(prepare_df_split, df_split)
+            worker = functools.partial(
+                prepare_df_split, pdf_only_dataset=pdf_only_dataset
+            )
+            results = executor.map(worker, df_split)
         records_df = pd.concat(list(results))
     records_df = records_df.assign(
         author_first=records_df[AUTHOR].str.split().str[0],
@@ -241,6 +272,23 @@ def prep(records_df: pd.DataFrame, *, cpu: int = -1) -> pd.DataFrame:
             records_df[CONTAINER_TITLE].values
         ),
     )
+
+    if "title_journal_canonical" in records_df.columns:
+        flagged = records_df[records_df["title_is_journal_name"]]
+        if not flagged.empty:
+            counts = (
+                flagged.groupby("title_journal_canonical")
+                .size()
+                .sort_values(ascending=False)
+            )
+            for journal_name, count in counts.items():
+                if journal_name and count >= 20:
+                    verbose_print.print(
+                        f'[bib-dedupe][warning] Detected {count} records in "{journal_name}" '
+                        "where title is approx journal name and DOI is missing; "
+                        "title similarity was downweighted for these records."
+                    )
+        records_df = records_df.drop(columns=["title_journal_canonical"])
 
     for column in records_df.columns:
         records_df.loc[records_df[column] == "nan", column] = ""

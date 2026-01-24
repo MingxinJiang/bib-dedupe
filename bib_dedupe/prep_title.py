@@ -31,6 +31,104 @@ TITLE_STOPWORDS = [
     "the",
 ]
 
+JOURNAL_WHITELIST = {
+    # key is normalized, value retained for logs
+    "journaloftheassociationforinformationsystems": "Journal of the Association for Information Systems",
+    "journaloftheassociationforinformation": "Journal of the Association for Information Systems",
+}
+
+
+def normalize_for_journal_match(s: str) -> str:
+    if not s:
+        return ""
+    s = s.lower()
+    # Keep only letters; remove spaces, punctuation, digits
+    s = re.sub(r"[^a-z]", "", s)
+    return s
+
+
+def _levenshtein_distance(a: str, b: str) -> int:
+    if a == b:
+        return 0
+    if not a:
+        return len(b)
+    if not b:
+        return len(a)
+    if len(a) < len(b):
+        a, b = b, a
+    previous = list(range(len(b) + 1))
+    for i, ca in enumerate(a, 1):
+        current = [i]
+        for j, cb in enumerate(b, 1):
+            insert_cost = current[j - 1] + 1
+            delete_cost = previous[j] + 1
+            replace_cost = previous[j - 1] + (ca != cb)
+            current.append(min(insert_cost, delete_cost, replace_cost))
+        previous = current
+    return previous[-1]
+
+
+def _normalized_similarity(a: str, b: str) -> float:
+    if not a or not b:
+        return 0.0
+    if a == b:
+        return 1.0
+    dist = _levenshtein_distance(a, b)
+    return 1.0 - dist / max(len(a), len(b))
+
+
+def _has_doi(value: object) -> bool:
+    if value is None:
+        return False
+    if isinstance(value, float) and np.isnan(value):
+        return False
+    text = str(value).strip()
+    return text != "" and text.lower() not in {"nan", "none"}
+
+
+def mark_title_equals_journal(
+    title_array: np.array,
+    doi_array: np.array,
+    *,
+    pdf_only_dataset: bool,
+    min_title_sim: float = 0.9,
+    min_len_ratio: float = 0.7,
+    max_len_ratio: float = 1.5,
+) -> tuple[np.array, np.array]:
+    """Detect titles that are actually journal names (whitelist-based)."""
+    matches = np.zeros(len(title_array), dtype=bool)
+    canonical_names = np.array([""] * len(title_array), dtype=object)
+    if not pdf_only_dataset:
+        return matches, canonical_names
+
+    whitelist_keys = list(JOURNAL_WHITELIST.keys())
+
+    for idx, (title, doi) in enumerate(zip(title_array, doi_array)):
+        if _has_doi(doi):
+            continue
+
+        title_norm = normalize_for_journal_match(str(title or ""))
+        if not title_norm:
+            continue
+
+        for key in whitelist_keys:
+            if not key:
+                continue
+            len_ratio = len(title_norm) / len(key)
+            if len_ratio < min_len_ratio or len_ratio > max_len_ratio:
+                continue
+            if title_norm.startswith(key) or key.startswith(title_norm):
+                matches[idx] = True
+                canonical_names[idx] = JOURNAL_WHITELIST[key]
+                break
+            sim = _normalized_similarity(title_norm, key)
+            if sim >= min_title_sim:
+                matches[idx] = True
+                canonical_names[idx] = JOURNAL_WHITELIST[key]
+                break
+
+    return matches, canonical_names
+
 
 TEMPLATE_PREFIX_RE = re.compile(
     r"^\s*(?P<lead>.*?)(?P<template>(?:guest\s+)?editorial|editor'?s?\s+comments?)\b(?P<suffix>.*)$",
