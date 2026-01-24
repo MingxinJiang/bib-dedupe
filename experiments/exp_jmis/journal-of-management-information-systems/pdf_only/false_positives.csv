@@ -1,33 +1,36 @@
 cluster_id,id,title,author,doi,file
-0,P_0000000147,Special Section: Strategic Information Systems,"Clemons, Eric K and Weber, Bruce W",,data/pdfs/15_2/ClemonsWeber1998a.pdf
-0,P_0000000148,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",,data/pdfs/16_2/ClemonsWeber1999.pdf
-0,P_0000000255,"Special Section: Competitive Strategy, Economics, and Information Systems","Clemons, Eric K and Kauffman, Robert J and Weber",10.2753/MIS0742-1222270301,data/pdfs/27_3/ClemonsKauffmanWeber2010.pdf
-0,P_0000000514,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",,data/pdfs/9_2/ClemonsRow1992a.pdf
-0,P_0000000533,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",,data/pdfs/14_2/ClemonsWeber1997.pdf
-0,P_0000000835,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",,data/pdfs/10_2/ClemonsRow1993a.pdf
-0,P_0000000892,"Special Issue: Competitive Strategy, Economics, and Information Systems","Clemons, Eric K and Dewan, Rajiv M and Kaufeman, Robert J and Kauffman, Robert J",,data/pdfs/21_2/ClemonsDewanKauffman2004.pdf
-0,P_0000000902,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K",,data/pdfs/8_2/Clemons1991.pdf
-0,P_0000001351,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",,data/pdfs/12_2/ClemonsRow1995.pdf
-0,P_0000001458,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",,data/pdfs/13_2/ClemonsWeber1996.pdf
-0,P_0000001493,"Special Section: Competitive Strategy, Economics, and Information Systems","Clemons, Eric K and Kauffman, Robert J and Weber",10.2753/MIS0742-1222260201,data/pdfs/26_2/ClemonsKauffmanWeber2009.pdf
-0,P_0000001549,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",,data/pdfs/11_2/ClemonsRow1994.pdf
+0,P_0000000675,A Video-Based Screening System for Automated Risk Assessment Using Nuanced Facial Features,"Pentland, Steven J and Twyman, Nathan W and Burgoon, Judee K and Nunamaker, Jay F and Diller, Christopher B R",10.1080/07421222.2017.1393304,data/pdfs/34_4/PentlandTwymanBurgoonEtAl2017.pdf
+0,P_001604,"""A Video-Based Screening System for Automated Risk Assessment Using Nuanced Facial Features""","Pentland, Steven J and Twyman, Nathan W and Burgoon, Judee K and Nunamaker, Jay F and Diller, Christopher B R",10.1080/07421222.2017.1393304,data/pdfs/35_3/PentlandTwymanBurgoonEtAl2018.pdf
 1,P_0000000147,Special Section: Strategic Information Systems,"Clemons, Eric K and Weber, Bruce W",,data/pdfs/15_2/ClemonsWeber1998a.pdf
 1,P_0000000148,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",,data/pdfs/16_2/ClemonsWeber1999.pdf
+1,P_0000000255,"Special Section: Competitive Strategy, Economics, and Information Systems","Clemons, Eric K and Kauffman, Robert J and Weber",10.2753/MIS0742-1222270301,data/pdfs/27_3/ClemonsKauffmanWeber2010.pdf
 1,P_0000000514,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",,data/pdfs/9_2/ClemonsRow1992a.pdf
+1,P_0000000533,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",,data/pdfs/14_2/ClemonsWeber1997.pdf
+1,P_0000000835,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",,data/pdfs/10_2/ClemonsRow1993a.pdf
 1,P_0000000892,"Special Issue: Competitive Strategy, Economics, and Information Systems","Clemons, Eric K and Dewan, Rajiv M and Kaufeman, Robert J and Kauffman, Robert J",,data/pdfs/21_2/ClemonsDewanKauffman2004.pdf
+1,P_0000000902,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K",,data/pdfs/8_2/Clemons1991.pdf
+1,P_0000001351,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",,data/pdfs/12_2/ClemonsRow1995.pdf
+1,P_0000001458,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",,data/pdfs/13_2/ClemonsWeber1996.pdf
+1,P_0000001493,"Special Section: Competitive Strategy, Economics, and Information Systems","Clemons, Eric K and Kauffman, Robert J and Weber",10.2753/MIS0742-1222260201,data/pdfs/26_2/ClemonsKauffmanWeber2009.pdf
 1,P_0000001549,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",,data/pdfs/11_2/ClemonsRow1994.pdf
-2,P_0000000857,Special Section: Information Technology and IT Organizational Impact,"Nunamaker, Jay F and Sprague, Ralph H",,data/pdfs/11_3/NunamakerJrSpragueJr1995.pdf
-2,P_0000001510,Special Issue: Information Technology and Its Organizational Impact,"Nunamaker, Jay F and Sprague, Ralph H",,data/pdfs/12_3/NunamakerJrSpragueJr1996.pdf
-3,P_0000000719,Managing the Risks Associated with End-User Computing,"Alavi, Maryam and Weiss, Ira R",,data/pdfs/2_3/AlaviWeiss1985.pdf
-3,P_0000001354,EN,,,data/pdfs/2_3/Zwass1985c.pdf
-3,P_0000001526,Effect of Organizational Maturity on End-Users' Satisfaction with Information Systems,"Mahmood, Mo A and Becker, Jack D",,data/pdfs/2_3/MahmoodBecker1985.pdf
+2,P_0000000147,Special Section: Strategic Information Systems,"Clemons, Eric K and Weber, Bruce W",,data/pdfs/15_2/ClemonsWeber1998a.pdf
+2,P_0000000148,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",,data/pdfs/16_2/ClemonsWeber1999.pdf
+2,P_0000000514,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",,data/pdfs/9_2/ClemonsRow1992a.pdf
+2,P_0000000533,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",,data/pdfs/14_2/ClemonsWeber1997.pdf
+2,P_0000000835,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",,data/pdfs/10_2/ClemonsRow1993a.pdf
+2,P_0000000902,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K",,data/pdfs/8_2/Clemons1991.pdf
+2,P_0000001351,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",,data/pdfs/12_2/ClemonsRow1995.pdf
+2,P_0000001458,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",,data/pdfs/13_2/ClemonsWeber1996.pdf
+3,P_0000000148,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",,data/pdfs/16_2/ClemonsWeber1999.pdf
+3,P_0000000835,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Row, Michael C",,data/pdfs/10_2/ClemonsRow1993a.pdf
 4,P_0000000107,Special Issue: Crossing Boundaries in Information Systems Research,"Briggs, Robert O and Nunamaker, Jay F and Sprague, Ralph H",,data/pdfs/22_4/BriggsNunamakerJrSpragueJr2006.pdf
 4,P_0000000276,Special Issue: Designing Tools to Answer Great Information Systems Research Questions,"Briggs, Robert O",10.1080/07421222.2016.1267512,data/pdfs/33_4/GiboneyBriggsNunamaker2016.pdf
-5,P_0000000902,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K",,data/pdfs/8_2/Clemons1991.pdf
-5,P_0000001458,Special Section: Strategic and Competitive Information Systems,"Clemons, Eric K and Weber, Bruce W",,data/pdfs/13_2/ClemonsWeber1996.pdf
+5,P_0000000857,Special Section: Information Technology and IT Organizational Impact,"Nunamaker, Jay F and Sprague, Ralph H",,data/pdfs/11_3/NunamakerJrSpragueJr1995.pdf
+5,P_0000001510,Special Issue: Information Technology and Its Organizational Impact,"Nunamaker, Jay F and Sprague, Ralph H",,data/pdfs/12_3/NunamakerJrSpragueJr1996.pdf
 6,P_0000000702,Special Section: Information Technology and Organization Design,"Baroudi, Jack and Lucas, Henry C",,data/pdfs/10_4/BaroudiLucas1994.pdf
 6,P_0000001559,The Role of Information Technology in Organization Design,"Lucas, Henry C and Baroudi, Jack",,data/pdfs/10_4/LucasJrBaroudi1994.pdf
 7,P_0000000506,Decision Support and Knowledge-Based Systems: A Special Issue,"Stohr, Edward A",,data/pdfs/2_4/Stohr1986.pdf
 7,P_0000000954,special Issue: Decision Support and Knowledge-Based Systems,"Stohr, Edward A",,data/pdfs/3_4/Stohr1987.pdf
-8,P_0000000675,A Video-Based Screening System for Automated Risk Assessment Using Nuanced Facial Features,"Pentland, Steven J and Twyman, Nathan W and Burgoon, Judee K and Nunamaker, Jay F and Diller, Christopher B R",10.1080/07421222.2017.1393304,data/pdfs/34_4/PentlandTwymanBurgoonEtAl2017.pdf
-8,P_001604,"""A Video-Based Screening System for Automated Risk Assessment Using Nuanced Facial Features""","Pentland, Steven J and Twyman, Nathan W and Burgoon, Judee K and Nunamaker, Jay F and Diller, Christopher B R",10.1080/07421222.2017.1393304,data/pdfs/35_3/PentlandTwymanBurgoonEtAl2018.pdf
+8,P_0000000719,Managing the Risks Associated with End-User Computing,"Alavi, Maryam and Weiss, Ira R",,data/pdfs/2_3/AlaviWeiss1985.pdf
+8,P_0000001354,EN,,,data/pdfs/2_3/Zwass1985c.pdf
+8,P_0000001526,Effect of Organizational Maturity on End-Users' Satisfaction with Information Systems,"Mahmood, Mo A and Becker, Jack D",,data/pdfs/2_3/MahmoodBecker1985.pdf

@@ -130,8 +130,14 @@ def mark_title_equals_journal(
     return matches, canonical_names
 
 
+TEMPLATE_PHRASES = (
+    r"(?:guest\s+)?editorial",
+    r"editor'?s?\s+comments?",
+    r"book\s+review",
+)
+
 TEMPLATE_PREFIX_RE = re.compile(
-    r"^\s*(?P<lead>.*?)(?P<template>(?:guest\s+)?editorial|editor'?s?\s+comments?)\b(?P<suffix>.*)$",
+    rf"^\s*(?P<lead>.*?)(?P<template>{'|'.join(TEMPLATE_PHRASES)})\b(?P<suffix>.*)$",
     flags=re.IGNORECASE,
 )
 
@@ -152,7 +158,11 @@ def _is_template_prefix(prefix: str) -> bool:
         return False
     if "editorial" in normalized:
         return True
-    return "editor" in normalized and "comment" in normalized
+    if "editor" in normalized and "comment" in normalized:
+        return True
+    if "book" in normalized and "review" in normalized:
+        return True
+    return False
 
 
 def _is_template_leadin(lead: str) -> bool:
