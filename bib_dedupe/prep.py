@@ -98,6 +98,7 @@ def prepare_df_split(
 
     title_journal_match, title_journal_name = mark_title_equals_journal(
         split_df[TITLE].values,
+        split_df[CONTAINER_TITLE].values,
         split_df[DOI].values,
         pdf_only_dataset=pdf_only_dataset,
     )

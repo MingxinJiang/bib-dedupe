@@ -2,3 +2,5 @@ cluster_id,id,title,author,doi,file
 0,P_0000000085,Journal of the Association for Information Abstract Research Article,"Santos, Brian L Dos and Patel, Pankaj C and D'souza, Rodney R",,data/pdfs/12_1/DosSantosPatelDSouza2011.pdf
 0,P_0000000530,Journal of the Association for Information Abstract Research Article,"Li, Xiaolin and Troutt, Marvin D and Brandyberry, Alan and Wang, Tuo and Katz, Joseph M",,data/pdfs/12_1/LiTrouttBrandyberryEtAl2011.pdf
 0,P_0000000566,Journal of the Association for Information Abstract Research Article,"Wells, John D and Parboteeah, Veena and Valacich, Joseph S",,data/pdfs/12_1/WellsParboteeahValacich2011.pdf
+
+false_positives.csv 是在评估脚本里只有当 fp_pairs 非空时才写出的；现在 FP=0，所以脚本不会覆盖旧文件，文件时间戳还停在 1/24。你现在看到的内容是上一次的残留。

@@ -6,6 +6,7 @@ from typing import Optional, Tuple
 
 import numpy as np
 from number_parser import parse
+from rapidfuzz import fuzz
 
 
 TITLE_STOPWORDS = [
@@ -30,13 +31,6 @@ TITLE_STOPWORDS = [
     "their",
     "the",
 ]
-
-JOURNAL_WHITELIST = {
-    # key is normalized, value retained for logs
-    "journaloftheassociationforinformationsystems": "Journal of the Association for Information Systems",
-    "journaloftheassociationforinformation": "Journal of the Association for Information Systems",
-}
-
 
 def normalize_for_journal_match(s: str) -> str:
     if not s:
@@ -88,44 +82,32 @@ def _has_doi(value: object) -> bool:
 
 def mark_title_equals_journal(
     title_array: np.array,
+    container_array: np.array,
     doi_array: np.array,
     *,
     pdf_only_dataset: bool,
     min_title_sim: float = 0.9,
-    min_len_ratio: float = 0.7,
-    max_len_ratio: float = 1.5,
 ) -> tuple[np.array, np.array]:
-    """Detect titles that are actually journal names (whitelist-based)."""
+    """Detect titles that are actually journal names (title vs container_title)."""
     matches = np.zeros(len(title_array), dtype=bool)
     canonical_names = np.array([""] * len(title_array), dtype=object)
     if not pdf_only_dataset:
         return matches, canonical_names
-
-    whitelist_keys = list(JOURNAL_WHITELIST.keys())
-
-    for idx, (title, doi) in enumerate(zip(title_array, doi_array)):
+    for idx, (title, container, doi) in enumerate(
+        zip(title_array, container_array, doi_array)
+    ):
         if _has_doi(doi):
             continue
 
         title_norm = normalize_for_journal_match(str(title or ""))
-        if not title_norm:
+        container_norm = normalize_for_journal_match(str(container or ""))
+        if not title_norm or not container_norm:
             continue
 
-        for key in whitelist_keys:
-            if not key:
-                continue
-            len_ratio = len(title_norm) / len(key)
-            if len_ratio < min_len_ratio or len_ratio > max_len_ratio:
-                continue
-            if title_norm.startswith(key) or key.startswith(title_norm):
-                matches[idx] = True
-                canonical_names[idx] = JOURNAL_WHITELIST[key]
-                break
-            sim = _normalized_similarity(title_norm, key)
-            if sim >= min_title_sim:
-                matches[idx] = True
-                canonical_names[idx] = JOURNAL_WHITELIST[key]
-                break
+        sim = fuzz.partial_ratio(title_norm, container_norm) / 100
+        if sim >= min_title_sim:
+            matches[idx] = True
+            canonical_names[idx] = str(container or "")
 
     return matches, canonical_names
 

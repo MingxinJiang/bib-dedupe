@@ -1,15 +1,15 @@
 ## exp_jais/journal-of-the-association-for-information-systems Evaluation Report
 
-Generated: 2026-01-24 15:47:51
+Generated: 2026-01-25 10:21:26
 
 ## Summary
 
 | dataset   |   FP |   TP |   FN |   TN |   false_positive_rate |   sensitivity |   precision |     f1 |
 |:----------|-----:|-----:|-----:|-----:|----------------------:|--------------:|------------:|-------:|
-| pdf_only  |    2 |    6 |    7 |  913 |                0.0022 |        0.4615 |        0.75 | 0.5714 |
+| pdf_only  |    0 |    6 |    7 |  915 |                     0 |        0.4615 |           1 | 0.6316 |
 
 ## Detailed Results
 
 | dataset   |   TP |   FP |   FN |   TN | runtime   |   false_positive_rate |   specificity |   sensitivity |   precision |       f1 | tool       |
 |:----------|-----:|-----:|-----:|-----:|:----------|----------------------:|--------------:|--------------:|------------:|---------:|:-----------|
-| pdf_only  |    6 |    2 |    7 |  913 | 0:00:05   |              0.002186 |      0.997814 |      0.461538 |        0.75 | 0.571429 | bib-dedupe |
+| pdf_only  |    6 |    0 |    7 |  915 | 0:00:06   |                     0 |             1 |      0.461538 |           1 | 0.631579 | bib-dedupe |
