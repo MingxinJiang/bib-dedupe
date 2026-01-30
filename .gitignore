@@ -20,3 +20,4 @@ notebooks/.local/
 notebooks/.config/
 experiments/exp_jmis/other_test/
 experiments/other_ds/
+experiments_output/data_thesis/table_*.csv

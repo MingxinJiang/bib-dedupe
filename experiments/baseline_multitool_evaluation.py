@@ -3,15 +3,15 @@
 Baseline dataset multi-tool evaluation (ASReview vs Bib_dedupe vs Buhos)
 
 Usage:
-    python baseline_multitool_evaluation_buhos.py <dataset_root>
+    python baseline_multitool_evaluation.py <dataset_root>
 
 Example:
-    python baseline_multitool_evaluation_buhos.py exp_mis/mis-quarterly
-    python baseline_multitool_evaluation_buhos.py exp_jmis/journal-of-information-technology
+    python baseline_multitool_evaluation.py exp_mis/mis-quarterly
+    python baseline_multitool_evaluation.py exp_jmis/journal-of-information-technology
 
 Output:
 - evaluation.csv, current_results.md, false_positive_multitools.csv
-- Output dir: /Users/jiangmingxin/Desktop/bib-dedupe/experiments_output/output_<dataset>_multiTool/baseline/
+- Output dir: experiments_output/output_<dataset>_multiTool/baseline/
 """
 
 import sys
@@ -29,7 +29,7 @@ import bibtexparser
 warnings.filterwarnings("ignore")
 
 # Project root directory
-REPO_ROOT = Path("/Users/jiangmingxin/Desktop/bib-dedupe").resolve()
+REPO_ROOT = Path(__file__).resolve().parents[1]
 BASE = REPO_ROOT / "experiments"
 
 if str(REPO_ROOT) not in sys.path:
@@ -357,8 +357,8 @@ def _write_current_results(out_dir: Path, dataset_label: str, bib_result: dict, 
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python baseline_multitool_evaluation_buhos.py <dataset_root>")
-        print("Example: python baseline_multitool_evaluation_buhos.py exp_mis/mis-quarterly")
+        print("Usage: python baseline_multitool_evaluation.py <dataset_root>")
+        print("Example: python baseline_multitool_evaluation.py exp_mis/mis-quarterly")
         sys.exit(1)
     dataset_root = sys.argv[1]
     out_dir = _ensure_output_dir(dataset_root)

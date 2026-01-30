@@ -1,20 +1,24 @@
 #!/usr/bin/env python3
 """
-Mixed dataset dual-tool evaluation (ASReview vs Bib_dedupe)
+Mixed dataset multi-tool evaluation (ASReview vs Bib_dedupe vs Buhos)
 
 Usage:
-    python mixed_multitool_evaluation.py [dataset_root]
-    
+    python mixed_multitool_evaluation.py <dataset_root>
+
 Example:
-    python mixed_multitool_evaluation.py            # default exp_mis
-    python mixed_multitool_evaluation.py exp_jmis   # specify exp_jmis
+    python mixed_multitool_evaluation.py exp_mis/mis-quarterly
+    python mixed_multitool_evaluation.py exp_jmis/journal-of-information-technology
 
 Output:
 - evaluation.csv, current_results.md, false_positive_multitools.csv
-- Output dir: /Users/jiangmingxin/Desktop/bib-dedupe/experiments_output/output_<dataset>_multiTool/mixed/
+- Output dir: experiments_output/output_<dataset>_multiTool/mixed/
 """
 
 import sys
+import json
+import subprocess
+import shutil
+import os
 from pathlib import Path
 from datetime import datetime
 import warnings
@@ -25,22 +29,23 @@ import bibtexparser
 warnings.filterwarnings("ignore")
 
 # Project root directory
-REPO_ROOT = Path("/Users/jiangmingxin/Desktop/bib-dedupe").resolve()
+REPO_ROOT = Path(__file__).resolve().parents[1]
 BASE = REPO_ROOT / "experiments"
 
-sys.path.append(str(REPO_ROOT))
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 from bib_dedupe.bib_dedupe import prep, block, match, cluster, merge
 from bib_dedupe.dedupe_benchmark import DedupeBenchmarker
-from bib_dedupe.constants.fields import ID
-from bib_dedupe.constants.fields import TITLE, AUTHOR, YEAR, DOI, PAGES, NUMBER, VOLUME, CONTAINER_TITLE
-from bib_dedupe.constants.fields import ABSTRACT
+from bib_dedupe.constants.fields import ID, DUPLICATE, DUPLICATE_LABEL
+from bib_dedupe.constants.fields import TITLE, AUTHOR, YEAR, DOI, PAGES, NUMBER, VOLUME, CONTAINER_TITLE, ABSTRACT
 
 
 def _ensure_output_dir(dataset_root: str) -> Path:
     out_root = REPO_ROOT / "experiments_output"
     out_root.mkdir(exist_ok=True)
-    ds_name = dataset_root.replace("exp_", "") if dataset_root.startswith("exp_") else dataset_root
+    ds_token = Path(dataset_root).parts[0] if Path(dataset_root).parts else dataset_root
+    ds_name = ds_token.replace("exp_", "") if ds_token.startswith("exp_") else ds_token
     out_parent = out_root / f"output_{ds_name}_multiTool"
     out_parent.mkdir(exist_ok=True)
     out_dir = out_parent / "mixed"
@@ -180,6 +185,76 @@ def _evaluate_asreview(records_df: pd.DataFrame, ds_dir: Path) -> dict:
     return result
 
 
+def _evaluate_buhos(records_df: pd.DataFrame, ds_dir: Path) -> dict:
+    records_df = _coerce_text_fields(records_df.copy())
+    buhos_df = records_df.copy()
+    if "id" not in buhos_df.columns:
+        buhos_df.insert(0, "id", range(len(buhos_df)))
+    buhos_csv_path = REPO_ROOT / "notebooks/buhos/records.csv"
+    buhos_csv_path.parent.mkdir(parents=True, exist_ok=True)
+    buhos_df.to_csv(buhos_csv_path, index=False)
+    timestamp = datetime.now()
+    method_name = "by_metadata"
+    ruby_script_path = REPO_ROOT / "notebooks/buhos/handle_cli.rb"
+
+    ruby_cmd = ["ruby", str(ruby_script_path), method_name, "records.csv"]
+    if shutil.which("rbenv"):
+        ruby_cmd = ["rbenv", "exec", "ruby", str(ruby_script_path), method_name, "records.csv"]
+    env = dict(os.environ)
+    env["PATH"] = f"{Path.home()}/.rbenv/bin:{Path.home()}/.rbenv/shims:" + env.get("PATH", "")
+    try:
+        result = subprocess.run(
+            ruby_cmd,
+            cwd=str(REPO_ROOT),
+            env=env,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+        )
+    except FileNotFoundError:
+        return {"error": "Ruby not installed"}
+
+    if result.returncode != 0:
+        return {"error": f"Ruby script error: {result.stderr.strip()}"}
+
+    try:
+        duplicates = json.loads(result.stdout)
+    except json.JSONDecodeError:
+        return {"error": "Buhos output not valid JSON"}
+
+    matched_df = pd.DataFrame(columns=[f"{ID}_1", f"{ID}_2", DUPLICATE_LABEL])
+    rows_to_add = []
+    id_map = dict(zip(buhos_df["id"].astype(int), buhos_df[ID]))
+    for pair in duplicates:
+        if not isinstance(pair, (list, tuple)) or len(pair) < 2:
+            continue
+        try:
+            id_1 = id_map.get(int(pair[0]))
+            id_2 = id_map.get(int(pair[1]))
+        except Exception:
+            continue
+        if id_1 is None or id_2 is None:
+            continue
+        rows_to_add.append(
+            {
+                f"{ID}_1": id_1,
+                f"{ID}_2": id_2,
+                "search_set_1": "",
+                "search_set_2": "",
+                DUPLICATE_LABEL: DUPLICATE,
+            }
+        )
+
+    if rows_to_add:
+        matched_df = pd.concat([matched_df, pd.DataFrame(rows_to_add)], ignore_index=True)
+
+    duplicate_id_sets = cluster(matched_df)
+    merged_df = merge(records_df, duplicate_id_sets=duplicate_id_sets)
+    bench = DedupeBenchmarker(benchmark_path=ds_dir)
+    result = bench.compare_dedupe_id(records_df=records_df, merged_df=merged_df, timestamp=timestamp)
+    return result
+
+
 def _append_evaluation_csv(out_dir: Path, package: str, dataset: str, result: dict):
     row = {
         "package": package,
@@ -205,7 +280,7 @@ def _append_evaluation_csv(out_dir: Path, package: str, dataset: str, result: di
     df.to_csv(eval_csv, index=False)
 
 
-def _write_current_results(out_dir: Path, dataset_label: str, bib_result: dict, asr_result: dict):
+def _write_current_results(out_dir: Path, dataset_label: str, bib_result: dict, asr_result: dict, buhos_result: dict):
     def row_of(tool: str, r: dict) -> dict:
         if not r or "error" in r:
             return {"tool": tool, "FP": "-", "TP": "-", "FN": "-", "TN": "-", "false_positive_rate": "-", "sensitivity": "-", "precision": "-", "f1": "-"}
@@ -224,6 +299,7 @@ def _write_current_results(out_dir: Path, dataset_label: str, bib_result: dict, 
     summary_df = pd.DataFrame([
         row_of("bib-dedupe", bib_result),
         row_of("asreview", asr_result),
+        row_of("buhos", buhos_result),
     ], columns=["tool", "FP", "TP", "FN", "TN", "false_positive_rate", "sensitivity", "precision", "f1"])
 
     def detail_row(tool: str, r: dict) -> dict:
@@ -247,6 +323,7 @@ def _write_current_results(out_dir: Path, dataset_label: str, bib_result: dict, 
     detail_df = pd.DataFrame([
         detail_row("bib-dedupe", bib_result),
         detail_row("asreview", asr_result),
+        detail_row("buhos", buhos_result),
     ], columns=["TP", "FP", "FN", "TN", "runtime", "false_positive_rate", "specificity", "sensitivity", "precision", "f1", "dataset", "tool"])
 
     md_lines = []
@@ -266,7 +343,11 @@ def _write_current_results(out_dir: Path, dataset_label: str, bib_result: dict, 
 
 
 def main():
-    dataset_root = sys.argv[1] if len(sys.argv) > 1 else "exp_mis"
+    if len(sys.argv) < 2:
+        print("Usage: python mixed_multitool_evaluation.py <dataset_root>")
+        print("Example: python mixed_multitool_evaluation.py exp_mis/mis-quarterly")
+        sys.exit(1)
+    dataset_root = sys.argv[1]
     out_dir = _ensure_output_dir(dataset_root)
     ds_dir = _resolve_subset_dir(dataset_root)
 
@@ -278,8 +359,16 @@ def main():
     asr_result = _evaluate_asreview(records_df, ds_dir)
     if "error" not in asr_result:
         _append_evaluation_csv(out_dir, "asreview", "mixed", asr_result)
+    else:
+        print(f"ASReview skipped: {asr_result.get('error')}")
 
-    _write_current_results(out_dir, f"{dataset_root}/mixed", bib_result, asr_result)
+    buhos_result = _evaluate_buhos(records_df, ds_dir)
+    if "error" not in buhos_result:
+        _append_evaluation_csv(out_dir, "buhos", "mixed", buhos_result)
+    else:
+        print(f"Buhos skipped: {buhos_result.get('error')}")
+
+    _write_current_results(out_dir, f"{dataset_root}/mixed", bib_result, asr_result, buhos_result)
 
     print(f"Complete. Results written to: {out_dir}")
 
