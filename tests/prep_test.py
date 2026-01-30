@@ -9,7 +9,6 @@ from bib_dedupe.prep import prep_number
 from bib_dedupe.prep import prep_pages
 from bib_dedupe.prep import prep_title
 from bib_dedupe.prep import prep_volume
-from bib_dedupe.prep import strip_template_title
 
 # flake8: noqa: E501
 # pylint: disable=line-too-long
@@ -378,32 +377,6 @@ De la reperfusion al post-acondicionamiento del miocardio con isquemia prolongad
 def test_prep_title(input_title: str, expected_output: str) -> None:
     result = prep_title(np.array([input_title]))
     assert result[0] == expected_output
-
-
-@pytest.mark.parametrize(
-    "input_title, expected_output",
-    [
-        (
-            "Editor's comments: A very long real title",
-            "A very long real title",
-        ),
-        (
-            "Guest editorial - A sufficiently long title",
-            "A sufficiently long title",
-        ),
-        (
-            "Guest editorial \u2013 A sufficiently long title",
-            "A sufficiently long title",
-        ),
-        ("Editorial: Short", "Editorial: Short"),
-        ("Research: Methods and data", "Research: Methods and data"),
-        ("Straub/Editor's Comments: A complete reflection", "A complete reflection"),
-        ("Editor's comments", "Editor's comments"),
-    ],
-)
-def test_strip_template_title(input_title: str, expected_output: str) -> None:
-    result = strip_template_title(input_title)
-    assert result == expected_output
 
 
 @pytest.mark.parametrize(

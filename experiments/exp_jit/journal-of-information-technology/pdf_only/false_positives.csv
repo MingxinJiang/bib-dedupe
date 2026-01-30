@@ -1,22 +1,25 @@
 cluster_id,id,title,author,doi,file
-0,P_001186,AIT annual report 1991,"Leeming, Anne",,data/pdfs/6_3-4/Leeming1991d.pdf
-0,P_001252,AIT annual report 1991,"Leeming, Anne",,data/pdfs/6_3/LeemingAnne1991.pdf
-1,P_0000000377,IS research methods: inclusive or exclusive?,"Lee, Allen S",10.1057/JIT.2012.2,data/pdfs/27_2/Lee2012a.pdf
-1,P_0000000529,IS research methods: inclusive or exclusive?,"Lee, Allen S",10.1057/JIT.2011.24,data/pdfs/26_4/Lee2011.pdf
-2,P_0000000009,"Maybe not the king, but an invaluable subordinate: a commentary on Avison and Malaurent's advocacy of 'theory light' IS research","Markus, M. Lynne",10.1057/JIT.2015.4,data/pdfs/30_1/Markus2015.pdf
-2,P_0000000729,"Maybe not the king, but an invaluable subordinate: a commentary on Avison and Malaurent's advocacy of 'theory light' IS research","Markus, M. Lynne",10.1057/JIT.2014.19,data/pdfs/29_4/Markus2014.pdf
-3,P_0000000476,and the Organization,"Holtham, Clive and Harvard, Richard Walton",,data/pdfs/6_3-4/HolthamHarvard1991.pdf
-3,P_0000000694,The evolution of interorganizational systems,"Meier, Johannes and Spraguejr, Ralph H",,data/pdfs/6_3-4/MeierSprague1991.pdf
-4,P_001157,Author(s)' Response to Commentaries on Debates and Perspectives,"Grover, Varun and Lyytinen, Kalle",10.1177/02683962231156622,data/pdfs/38_1/02683962231156622.pdf
-4,P_001159,Author(s)' Response to Commentaries on Debates and Perspectives,"Grover, Varun and Lyytinen, Kalle",10.1177/02683962221126729,data/pdfs/38_1/02683962221126729.pdf
-5,P_0000000218,The formulation and implementation of strategic information systems -case studies,"Remenyi, D. S ]",,data/pdfs/5_1/UnknownUNKNOWNl.pdf
-5,P_001202,The formulation and implementation of strategic information systems -case studies,"Remenyi, D. S ]",,data/pdfs/5_1/Harris1990b.pdf
-6,P_0000000164,Sponsorship and IT vendor management of projects,"Liu, Li and Yetton, Philip",10.1057/JIT.2009.2,data/pdfs/24_1/LiuYetton2009.pdf
-6,P_0000000673,Sponsorship and IT vendor management of projects,"Liu, Li and Yetton, Philip",10.1057/JIT.2008.23,data/pdfs/25_1/LiuYetton2010.pdf
-7,P_0000000720,Book reviews,"Griffiths, Catherine",,data/pdfs/11_4/Griffiths1996.pdf
-7,P_0000000752,Book reviews,"Subrata, Das K.",,data/pdfs/11_4/Das1996.pdf
-7,P_0000000770,Book reviews,"Anderton, Matthew",,data/pdfs/11_4/Anderton1996.pdf
-8,P_0000000070,On being 'systematic' in literature reviews in IS,"Boell, Sebastian K and Cecez-Kecmanovic, Dubravka",10.1057/JIT.2014.26,data/pdfs/30_2/BoellCecezKecmanovic2015.pdf
-8,P_0000000194,"Debating systematic literature reviews (SLR) and their ramifications for IS: a rejoinder to Mike Chiasson, Briony Oates, Ulrike Schultze, and Richard Watson","Boell, Sebastian K and Cecez-Kecmanovic, Dubravka",10.1057/JIT.2015.15,data/pdfs/30_2/BoellCecezKecmanovic2015a.pdf
-9,P_001189,Shorter notices Computer Systems Development,"Friedman, Andrew L and John, Dominic S Cornford",,data/pdfs/6_2/Leeming1991b.pdf
-9,P_001192,Shorter notices Computer Systems Development,"Friedman, Andrew L and John, Dominic S Cornford",,data/pdfs/6_2/Leeming1991a.pdf
+0,P_0000000377,IS research methods: inclusive or exclusive?,"Lee, Allen S",10.1057/JIT.2012.2,data/pdfs/27_2/Lee2012a.pdf
+0,P_0000000529,IS research methods: inclusive or exclusive?,"Lee, Allen S",10.1057/JIT.2011.24,data/pdfs/26_4/Lee2011.pdf
+1,P_001186,AIT annual report 1991,"Leeming, Anne",,data/pdfs/6_3-4/Leeming1991d.pdf
+1,P_001252,AIT annual report 1991,"Leeming, Anne",,data/pdfs/6_3/LeemingAnne1991.pdf
+2,P_0000000720,Book reviews,"Griffiths, Catherine",,data/pdfs/11_4/Griffiths1996.pdf
+2,P_0000000752,Book reviews,"Subrata, Das K.",,data/pdfs/11_4/Das1996.pdf
+2,P_0000000770,Book reviews,"Anderton, Matthew",,data/pdfs/11_4/Anderton1996.pdf
+3,P_001157,Author(s)' Response to Commentaries on Debates and Perspectives,"Grover, Varun and Lyytinen, Kalle",10.1177/02683962231156622,data/pdfs/38_1/02683962231156622.pdf
+3,P_001159,Author(s)' Response to Commentaries on Debates and Perspectives,"Grover, Varun and Lyytinen, Kalle",10.1177/02683962221126729,data/pdfs/38_1/02683962221126729.pdf
+4,P_001189,Shorter notices Computer Systems Development,"Friedman, Andrew L and John, Dominic S Cornford",,data/pdfs/6_2/Leeming1991b.pdf
+4,P_001192,Shorter notices Computer Systems Development,"Friedman, Andrew L and John, Dominic S Cornford",,data/pdfs/6_2/Leeming1991a.pdf
+5,P_0000000147,Book review Object-oriented analysis,"Coad, Peter and Yourdon, Edward",,data/pdfs/8_3/Smith1993a.pdf
+5,P_0000000875,Book review Information Strategies in Public Administration,"Frissen, P. H A and Th, I. M and Snellen",,data/pdfs/8_3/Davies1993.pdf
+5,P_0000000961,Book review,,,data/pdfs/8_3/Margetts1993a.pdf
+6,P_0000000070,On being 'systematic' in literature reviews in IS,"Boell, Sebastian K and Cecez-Kecmanovic, Dubravka",10.1057/JIT.2014.26,data/pdfs/30_2/BoellCecezKecmanovic2015.pdf
+6,P_0000000194,"Debating systematic literature reviews (SLR) and their ramifications for IS: a rejoinder to Mike Chiasson, Briony Oates, Ulrike Schultze, and Richard Watson","Boell, Sebastian K and Cecez-Kecmanovic, Dubravka",10.1057/JIT.2015.15,data/pdfs/30_2/BoellCecezKecmanovic2015a.pdf
+7,P_0000000476,and the Organization,"Holtham, Clive and Harvard, Richard Walton",,data/pdfs/6_3-4/HolthamHarvard1991.pdf
+7,P_0000000694,The evolution of interorganizational systems,"Meier, Johannes and Spraguejr, Ralph H",,data/pdfs/6_3-4/MeierSprague1991.pdf
+8,P_0000000218,The formulation and implementation of strategic information systems -case studies,"Remenyi, D. S ]",,data/pdfs/5_1/UnknownUNKNOWNl.pdf
+8,P_001202,The formulation and implementation of strategic information systems -case studies,"Remenyi, D. S ]",,data/pdfs/5_1/Harris1990b.pdf
+9,P_0000000009,"Maybe not the king, but an invaluable subordinate: a commentary on Avison and Malaurent's advocacy of 'theory light' IS research","Markus, M. Lynne",10.1057/JIT.2015.4,data/pdfs/30_1/Markus2015.pdf
+9,P_0000000729,"Maybe not the king, but an invaluable subordinate: a commentary on Avison and Malaurent's advocacy of 'theory light' IS research","Markus, M. Lynne",10.1057/JIT.2014.19,data/pdfs/29_4/Markus2014.pdf
+10,P_0000000164,Sponsorship and IT vendor management of projects,"Liu, Li and Yetton, Philip",10.1057/JIT.2009.2,data/pdfs/24_1/LiuYetton2009.pdf
+10,P_0000000673,Sponsorship and IT vendor management of projects,"Liu, Li and Yetton, Philip",10.1057/JIT.2008.23,data/pdfs/25_1/LiuYetton2010.pdf
