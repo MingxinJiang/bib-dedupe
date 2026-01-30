@@ -35,7 +35,6 @@ from bib_dedupe.prep_doi import prep_doi
 from bib_dedupe.prep_number import prep_number
 from bib_dedupe.prep_pages import prep_pages
 from bib_dedupe.prep_title import prep_title
-from bib_dedupe.prep_title import mark_title_equals_journal
 from bib_dedupe.prep_title import strip_template_title
 from bib_dedupe.prep_volume import prep_volume
 from bib_dedupe.prep_year import prep_year
@@ -95,15 +94,6 @@ def prepare_df_split(
     )
 
     set_container_title(split_df)
-
-    title_journal_match, title_journal_name = mark_title_equals_journal(
-        split_df[TITLE].values,
-        split_df[CONTAINER_TITLE].values,
-        split_df[DOI].values,
-        pdf_only_dataset=pdf_only_dataset,
-    )
-    split_df["title_is_journal_name"] = title_journal_match
-    split_df["title_journal_canonical"] = title_journal_name
 
     split_df["author_full"] = split_df[AUTHOR]
 
@@ -273,23 +263,6 @@ def prep(records_df: pd.DataFrame, *, cpu: int = -1) -> pd.DataFrame:
             records_df[CONTAINER_TITLE].values
         ),
     )
-
-    if "title_journal_canonical" in records_df.columns:
-        flagged = records_df[records_df["title_is_journal_name"]]
-        if not flagged.empty:
-            counts = (
-                flagged.groupby("title_journal_canonical")
-                .size()
-                .sort_values(ascending=False)
-            )
-            for journal_name, count in counts.items():
-                if journal_name and count >= 20:
-                    verbose_print.print(
-                        f'[bib-dedupe][warning] Detected {count} records in "{journal_name}" '
-                        "where title is approx journal name and DOI is missing; "
-                        "title similarity was downweighted for these records."
-                    )
-        records_df = records_df.drop(columns=["title_journal_canonical"])
 
     for column in records_df.columns:
         records_df.loc[records_df[column] == "nan", column] = ""

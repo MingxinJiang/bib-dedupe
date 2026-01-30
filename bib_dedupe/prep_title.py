@@ -6,7 +6,6 @@ from typing import Optional, Tuple
 
 import numpy as np
 from number_parser import parse
-from rapidfuzz import fuzz
 
 
 TITLE_STOPWORDS = [
@@ -31,15 +30,6 @@ TITLE_STOPWORDS = [
     "their",
     "the",
 ]
-
-def normalize_for_journal_match(s: str) -> str:
-    if not s:
-        return ""
-    s = s.lower()
-    # Keep only letters; remove spaces, punctuation, digits
-    s = re.sub(r"[^a-z]", "", s)
-    return s
-
 
 def _levenshtein_distance(a: str, b: str) -> int:
     if a == b:
@@ -69,47 +59,6 @@ def _normalized_similarity(a: str, b: str) -> float:
         return 1.0
     dist = _levenshtein_distance(a, b)
     return 1.0 - dist / max(len(a), len(b))
-
-
-def _has_doi(value: object) -> bool:
-    if value is None:
-        return False
-    if isinstance(value, float) and np.isnan(value):
-        return False
-    text = str(value).strip()
-    return text != "" and text.lower() not in {"nan", "none"}
-
-
-def mark_title_equals_journal(
-    title_array: np.array,
-    container_array: np.array,
-    doi_array: np.array,
-    *,
-    pdf_only_dataset: bool,
-    min_title_sim: float = 0.9,
-) -> tuple[np.array, np.array]:
-    """Detect titles that are actually journal names (title vs container_title)."""
-    matches = np.zeros(len(title_array), dtype=bool)
-    canonical_names = np.array([""] * len(title_array), dtype=object)
-    if not pdf_only_dataset:
-        return matches, canonical_names
-    for idx, (title, container, doi) in enumerate(
-        zip(title_array, container_array, doi_array)
-    ):
-        if _has_doi(doi):
-            continue
-
-        title_norm = normalize_for_journal_match(str(title or ""))
-        container_norm = normalize_for_journal_match(str(container or ""))
-        if not title_norm or not container_norm:
-            continue
-
-        sim = fuzz.partial_ratio(title_norm, container_norm) / 100
-        if sim >= min_title_sim:
-            matches[idx] = True
-            canonical_names[idx] = str(container or "")
-
-    return matches, canonical_names
 
 
 TEMPLATE_PHRASES = (
