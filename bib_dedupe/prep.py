@@ -8,6 +8,7 @@ from datetime import datetime
 import numpy as np
 import pandas as pd
 
+import bib_dedupe.exception as bib_dedupe_exception
 from bib_dedupe import verbose_print
 from bib_dedupe.constants.fields import ABSTRACT
 from bib_dedupe.constants.fields import AUTHOR
@@ -36,9 +37,11 @@ from bib_dedupe.prep_container_title import set_container_title
 from bib_dedupe.prep_doi import prep_doi
 from bib_dedupe.prep_number import prep_number
 from bib_dedupe.prep_pages import prep_pages
+from bib_dedupe.prep_schema import fix_schema_misalignments
 from bib_dedupe.prep_title import prep_title
 from bib_dedupe.prep_volume import prep_volume
 from bib_dedupe.prep_year import prep_year
+
 
 pd.set_option("future.no_silent_downcasting", True)
 
@@ -96,6 +99,8 @@ def prepare_df_split(split_df: pd.DataFrame) -> pd.DataFrame:
 
     split_df["author_full"] = split_df[AUTHOR]
 
+    fix_schema_misalignments(split_df)
+
     for field, function in function_mapping.items():
         split_df[field] = function(split_df[field].values)  # type: ignore
 
@@ -135,7 +140,8 @@ def __general_prep(records_df: pd.DataFrame) -> pd.DataFrame:
         records_df[ENTRYTYPE] = "article"
 
     missing_fields = [f for f in REQUIRED_FIELDS if f not in records_df.columns]
-    assert len(missing_fields) == 0, f"Missing required fields: {missing_fields}"
+    if len(missing_fields) != 0:
+        raise bib_dedupe_exception.MissingRequiredFieldsError(missing_fields)
 
     for column in records_df.columns:
         records_df[column] = records_df[column].replace(
@@ -155,12 +161,20 @@ def __general_prep(records_df: pd.DataFrame) -> pd.DataFrame:
         if optional_field not in records_df.columns:
             records_df = records_df.assign(**{optional_field: ""})
 
-    records_df = records_df.drop(
-        labels=list(records_df.columns.difference(ALL_FIELDS)),
-        axis=1,
-    )
-    records_df.loc[:, CONTAINER_TITLE] = ""
-    records_df.loc[:, ALL_FIELDS] = records_df[ALL_FIELDS].astype(str)
+    # ensure the container title exists and is string-typed
+    if CONTAINER_TITLE not in records_df.columns:
+        records_df[CONTAINER_TITLE] = pd.Series(
+            "", index=records_df.index, dtype="string"
+        )
+
+    # keep only the fields of interest
+    records_df = records_df.loc[:, ALL_FIELDS].copy()
+
+    # cast the target columns to pandas StringDtype
+    records_df = records_df.astype({col: "string" for col in ALL_FIELDS}, copy=False)
+
+    # replace pd.NA with empty strings so regex/string ops don't see NAType
+    records_df.loc[:, ALL_FIELDS] = records_df.loc[:, ALL_FIELDS].fillna("")
 
     return records_df
 

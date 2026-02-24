@@ -23,9 +23,21 @@ def mismatch(*keys: str) -> str:
 
 
 def match(*args: str, threshold: float = 1.0) -> str:
+    """
+    Build a pandas-query expression requiring:
+      1) similarity meets the threshold, and
+      2) BOTH raw fields (<arg>_1 and <arg>_2) are non-empty.
+
+    Assumes columns like: doi + doi_1 + doi_2, title + title_1 + title_2, ...
+    """
     if threshold == 1.0:
-        return "&".join(f" ({arg} == {threshold}) " for arg in args)
-    return "&".join(f" ({arg} > {threshold}) " for arg in args)
+        sim_expr = " & ".join(f" ({arg} == 1.0) " for arg in args)
+    else:
+        sim_expr = " & ".join(f" ({arg} > {threshold}) " for arg in args)
+
+    non_empty_expr = " & ".join(f" ({arg}_1 != '' & {arg}_2 != '') " for arg in args)
+
+    return f"({sim_expr}) & ({non_empty_expr})"
 
 
 def non_contradicting(*keys: str) -> str:
@@ -82,13 +94,23 @@ duplicate_conditions = [
     f"({auXX_ti095_ct095} & {match(VOLUME, NUMBER, PAGES, YEAR)} & {non_contradicting(DOI, ABSTRACT)})",
     # no CONTAINER_TITLE
     f"({au10_ti10_ctNC} & {match(VOLUME, YEAR)} & {non_contradicting(NUMBER, PAGES, DOI, ABSTRACT)})",
-    f"({au10_ti10_ctNC} & {match(YEAR, DOI)} & {non_contradicting(VOLUME, NUMBER, PAGES, ABSTRACT)})", # GROBID
+    f"({au10_ti10_ctNC} & {match(YEAR, DOI)} & {non_contradicting(VOLUME, NUMBER, PAGES, ABSTRACT)})",  # GROBID
+    f"({au10_ti10_ctNC} & {match(YEAR)} & {non_contradicting(VOLUME, NUMBER, PAGES, DOI, ABSTRACT)})",  # Missing fields
     f"({au09_ti09_ctXX} & {match(PAGES, DOI)} & {non_contradicting(VOLUME, NUMBER, ABSTRACT)} & {YEAR} > 0.9)",
     f"({au09_ti09_ctXX} & ({match(NUMBER)} & {non_contradicting(PAGES)} | {non_contradicting(NUMBER)} & {match(PAGES)}) & {non_contradicting(VOLUME, YEAR, DOI, ABSTRACT)})",
     f"({au09_ti09_ctXX} & {match(VOLUME, PAGES)})",
     f"({au09_ti09_ctXX} & {match(PAGES, YEAR)} & {non_contradicting(VOLUME, NUMBER, DOI)})",
+    # DOI-exact match; when container-titles are non-contradicting (may be missing)
+    f"(({match(DOI)} & ~(doi_1 == '' | doi_2 == '')) & ({TITLE} > 0.95) & ({AUTHOR} > 0.9) & ({YEAR} > 0.9)) & {non_contradicting(CONTAINER_TITLE)} ",
     # no TITLE
     f"({au10_tiXX_ct10} & {match(VOLUME, NUMBER, PAGES, YEAR)} & {non_contradicting(DOI)} & ({ABSTRACT} > 0.95 | {non_contradicting(ABSTRACT)}))",  # typically for number-mismatches in title
+    # early_view_vs_final
+    f"({au095_ti09_ct075}"
+    f" & {non_contradicting(DOI)}"
+    f" & ((volume_1 != '' & volume_2 == '') | (volume_2 != '' & volume_1 == ''))"
+    f" & ((number_1 != '' & number_2 == '') | (number_2 != '' & number_1 == '') | {non_contradicting(NUMBER)})"
+    f" & (pages_1.str.match('^1[-–]') | pages_2.str.match('^1[-–]'))"
+    f")",
 ]
 
 non_duplicate_conditions = [
@@ -98,4 +120,15 @@ non_duplicate_conditions = [
     f"({mismatch(VOLUME, NUMBER, PAGES)})",
     # Editorials: minor differences in volume/number/pages can be meaningful
     f'(title_1.str.contains("editor") & title_1.str.len() < 60 & ( {mismatch(VOLUME)} | {mismatch(NUMBER)} | {mismatch(PAGES)}))',
+    # Journal vs. conference/workshop
+    f'(({CONTAINER_TITLE}_1.str.contains("j") & '
+    f' ~({CONTAINER_TITLE}_1.str.contains("conf") | {CONTAINER_TITLE}_1.str.contains("work") | {CONTAINER_TITLE}_1.str.contains("proc")) ) & '
+    f' ( ({CONTAINER_TITLE}_2.str.contains("conf") | {CONTAINER_TITLE}_2.str.contains("work") | {CONTAINER_TITLE}_2.str.contains("proc")) & '
+    f'  ~{CONTAINER_TITLE}_2.str.contains("j") ))',
+    f'(({CONTAINER_TITLE}_2.str.contains("j") & '
+    f' ~({CONTAINER_TITLE}_2.str.contains("conf") | {CONTAINER_TITLE}_2.str.contains("work") | {CONTAINER_TITLE}_2.str.contains("proc")) ) & '
+    f' ( ({CONTAINER_TITLE}_1.str.contains("conf") | {CONTAINER_TITLE}_1.str.contains("work") | {CONTAINER_TITLE}_1.str.contains("proc")) & '
+    f'  ~{CONTAINER_TITLE}_1.str.contains("j") ))',
+    # Inproceedings: more sensitive to year mismatches
+    f'({both_entrytypes("inproceedings")} & {mismatch(YEAR)})',
 ]

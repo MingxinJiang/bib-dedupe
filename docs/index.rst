@@ -17,8 +17,6 @@
              onclick="window.open('https://github.com/CoLRev-Environment/bib-dedupe/actions/workflows/tests.yml')">
         <img src="https://img.shields.io/github/actions/workflow/status/CoLRev-Environment/bib-dedupe/.github%2Fworkflows%2Fdocs.yml?label=docs" alt="Docs build"
              onclick="window.open('https://github.com/CoLRev-Environment/bib-dedupe/actions/workflows/docs.yml')">
-        <img src="https://img.shields.io/github/actions/workflow/status/CoLRev-Environment/literature-deduplication-benchmarks/actions/workflows/ldd-full.yml?label=continuous%20evaluation" alt="Continuous evaluation"
-             onclick="window.open('https://github.com/CoLRev-Environment/literature-deduplication-benchmarks/actions/workflows/ldd-full.yml')">
     </div><br>
 
 BibDedupe is an open-source **Python library for deduplication of bibliographic records**, tailored for literature reviews.
@@ -35,6 +33,7 @@ Features
 * **Continuous Benchmarking**: Continuous integration tests running on GitHub Actions ensure ongoing benchmarking, maintaining the library's reliability and performance across datasets.
 * **Efficient and Parallel Computation**: BibDedupe implements computations efficiently and in parallel, using appropriate data structures and functions for optimal performance.
 
+Regular benchmarks are available `here <https://github.com/CoLRev-Environment/literature-deduplication-benchmarks>`_.
 
 Installation
 ------------
