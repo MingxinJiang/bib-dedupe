@@ -150,7 +150,7 @@ def sim_title(title_1: str, title_2: str, debug: bool = False) -> float:
         return 0
 
     # In long titles, secondary titles may not be added in all cases
-    if len(t1) > 60 and len(t2) > 60 and t1.startswith(t2) or t2.startswith(t1):
+    if len(t1) > 60 and len(t2) > 60 and (t1.startswith(t2) or t2.startswith(t1)):
         return 1.0
 
     # Remove chemical formulae
